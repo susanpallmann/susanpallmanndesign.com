@@ -6,7 +6,7 @@ window.onload = function() {
     var mouse_y = e.clientY;
     var mouse_x = e.clientX;
     // example code: sets padding to the x and y position of mouse, pushing the title towards wherever the mouse is
-     title.style.paddingTop = String(mouse_y) + "px";
-     title.style.paddingLeft = String(mouse_x) + "px";
+    // title.style.paddingTop = String(mouse_y) + "px";
+    // title.style.paddingLeft = String(mouse_x) + "px";
   });
 };
