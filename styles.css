@@ -38,5 +38,5 @@ div.gallery_text {
 div.gallery_img:hover div.gallery_text {
     opacity: 100;
     -webkit-animation:fade-in 1s;
-    background-color: skyblue;
+    background-color: dodgerblue;
 }
