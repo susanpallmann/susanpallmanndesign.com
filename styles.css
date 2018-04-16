@@ -5,7 +5,7 @@ p {
 }
 table {
     margin: auto;
-    display: inline-block;
+    display: inline;
 }
 #gallery tr td{
     width: 300px;
