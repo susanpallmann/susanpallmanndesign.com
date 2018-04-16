@@ -34,6 +34,7 @@ div.gallery_text {
     height: 300px;
     margin: 0;
     padding: 0;
+    display: table-cell;
     background-color: transparent;
     -webkit-transition: opacity 0.5s ease-in;
        -moz-transition: opacity 0.5s ease-in;
