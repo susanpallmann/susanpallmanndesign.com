@@ -35,6 +35,7 @@ div.gallery_text {
     margin: 0;
     padding: 0;
     display: table-cell;
+    vertical-align: middle;
     background-color: transparent;
     -webkit-transition: all 0.5s ease-in;
        -moz-transition: all 0.5s ease-in;
