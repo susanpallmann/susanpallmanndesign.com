@@ -13,4 +13,5 @@ div.gallery_img {
     height: 300px;
     margin: 12px;
     display: inline-block;
+    background-color: orange;
 }
