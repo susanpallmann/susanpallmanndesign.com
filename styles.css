@@ -3,9 +3,6 @@ body {
 p {
     font-family: verdana;
 }
-table {
-    margin: auto;
-}
 div#gallery {
     width: 900px;
     display: block;
