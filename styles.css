@@ -16,6 +16,10 @@ div.gallery_img {
     display: inline-block;
     background-color: orange;
 }
+div.gallery_img p {
+    display: table-cell;
+    vetical-align: middle;
+}
 div#cellB {
     background-color: tomato;
 }
