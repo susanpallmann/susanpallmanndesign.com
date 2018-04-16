@@ -2,7 +2,6 @@ body {
 }
 p {
     font-family: verdana;
-    margin: auto;
 }
 div#gallery {
     max-width: 1000px;
@@ -31,7 +30,6 @@ li {
 }
 h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin: auto;
 }
 div.gallery_text {
     opacity: 0;
