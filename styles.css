@@ -34,6 +34,8 @@ div.gallery_text {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: table-cell;
+    vertical-align: middle;
     -webkit-transition: opacity 0.5s ease-in;
        -moz-transition: opacity 0.5s ease-in;
         -ms-transition: opacity 0.5s ease-in;
