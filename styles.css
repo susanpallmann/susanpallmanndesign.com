@@ -9,3 +9,6 @@ table {
 #gallery tr td{
     width: 300px;
 }
+#gallery tr td p{
+    margin: auto;
+}
