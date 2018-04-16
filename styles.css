@@ -33,7 +33,7 @@ div.gallery_text {
     width: 300px;
     height: 300px;
     margin: 0;
-    padding: 0;
+    padding: 30px;
     display: table-cell;
     vertical-align: middle;
     background-color: transparent;
