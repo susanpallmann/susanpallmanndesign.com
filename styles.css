@@ -20,7 +20,11 @@ div#cellB, div#cellD, div#cellF, div#cellH {
     background-color: tomato;
 }
 ul {
-    display: block;   
+    display: block;
+    list-style-type: none;
+    position: absolute;
+    top: 25px;
+    margin-right: 25px;
 }
 li {
     display: inline-block;
