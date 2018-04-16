@@ -47,3 +47,7 @@ div.gallery_img:hover div.gallery_text {
     opacity: 100;
     background-color: dodgerblue;
 }
+div.gallery_text h2 {
+    color: white;
+    font-family: "Futura MT";
+}
