@@ -5,4 +5,5 @@ p {
 }
 table {
     margin: auto;
+    display: inline-block;
 }
