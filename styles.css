@@ -16,6 +16,6 @@ div.gallery_img {
     display: inline-block;
     background-color: orange;
 }
-div#cellB {
+div#cellB, div#cellD, div#cellF, div#cellH {
     background-color: tomato;
 }
