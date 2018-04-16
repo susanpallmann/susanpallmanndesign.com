@@ -19,3 +19,9 @@ div.gallery_img {
 div#cellB, div#cellD, div#cellF, div#cellH {
     background-color: tomato;
 }
+ul {
+    display: block;   
+}
+li {
+    display: inline-block;
+}
