@@ -7,6 +7,7 @@ div#gallery {
     max-width: 1000px;
     display: block;
     margin: auto;
+    text-align: center;
 }
 div.gallery_img {
     width: 300px;
