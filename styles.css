@@ -7,3 +7,6 @@ table {
     margin: auto;
     display: inline-block;
 }
+#gallery tr td{
+    width: 300px;
+}
