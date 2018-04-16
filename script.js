@@ -3,8 +3,7 @@ window.onload = function() {
   title.addEventListener("mousemove", function(e) {
     var mouse_y = e.clientY;
     var mouse_x = e.clientX;
-    alert(mouse_y);
-    title.style.marginTop = mouse_y;
-    title.style.marginLeft = mouse_x;
+    title.style.paddingTop = String(mouse_y) + "px";
+    title.style.paddingLeft = String(mouse_y) + "px";
   });
 };
