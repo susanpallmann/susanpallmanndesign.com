@@ -6,11 +6,11 @@ p {
 table {
     margin: auto;
 }
-#gallery {
+div#gallery {
     width: 900px;
     display: block;
 }
-.gallery_img {
+div.gallery_img {
     width: 300px;
     height: 300px;
     display: inline-block;
