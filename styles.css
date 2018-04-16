@@ -34,6 +34,11 @@ div.gallery_text {
     height: 100%;
     margin: 0;
     padding: 0;
+    -webkit-transition: opacity 0.5s ease-in;
+       -moz-transition: opacity 0.5s ease-in;
+        -ms-transition: opacity 0.5s ease-in;
+         -o-transition: opacity 0.5s ease-in;
+            transition: opacity 0.5s ease-in;
 }
 div.gallery_img:hover div.gallery_text {
     opacity: 100;
