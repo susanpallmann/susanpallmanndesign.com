@@ -5,6 +5,8 @@ window.onload = function() {
   var body = document.getElementById("body");
   var i;
   
+  body.style.positionLeft = 0.5*window.scrollY;
+  
   // function declarations
   // adds link to cells based on ID.
   var addLink = function() {
