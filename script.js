@@ -9,4 +9,42 @@ window.onload = function() {
     // title.style.paddingTop = String(mouse_y) + "px";
     // title.style.paddingLeft = String(mouse_x) + "px";
   });
+  var cells = document.getElementsByClassName("gallery_img");
+
+  var myFunction = function() {
+      var thisId = this.getAttribute("id");
+      switch (thisId) {
+        case "cellA":
+          window.location="http://www.susanpallmanndesign.com/best-foot-forward.html";
+          break;
+        case "cellB":
+          window.location="http://www.susanpallmanndesign.com/goodwill.html";
+          break;
+        case "cellC":
+          window.location="http://www.susanpallmanndesign.com/2-truths-and-a-lie.html";
+          break;
+        case "cellD":
+          window.location="http://www.susanpallmanndesign.com/mrs-eaves.html";
+          break;
+        case "cellE":
+          window.location="http://www.susanpallmanndesign.com/futura.html";
+          break;
+        case "cellF":
+          window.location="http://www.susanpallmanndesign.com/cardboard-ukulele.html";
+          break;
+        case "cellG":
+          window.location="http://www.susanpallmanndesign.com/4th-symphony.html";
+          break;
+        case "cellH":
+          window.location="http://www.susanpallmanndesign.com/paciterra.html";
+          break;
+        default:
+          window.location="http://www.susanpallmanndesign.com/process-journal.html";
+      }
+  };
+
+for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('click', myFunction, false);
+}
+  
 };
