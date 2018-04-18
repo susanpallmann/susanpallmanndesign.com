@@ -1,3 +1,4 @@
+
 body {
 }
 p {
@@ -13,6 +14,11 @@ div#gallery {
     div.gallery_img {
         width: 600px;
         height: 600px;
+    }
+    div.gallery_text {
+        width: 600px;
+        height: 480px;
+        padding: 60px;
     }
 }
 div.gallery_img {
