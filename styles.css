@@ -58,6 +58,7 @@ div.gallery_text h2 {
     div.gallery_img {
         max-width: 60%;
         height: auto;
+        padding: auto;
     }
     div.gallery_text {
         width: 100%;
