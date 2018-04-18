@@ -18,7 +18,7 @@ div.background {
   transform: translateZ(0);
 }
 .parallax_back {
-  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
 }
 p {
     font-family: verdana;
