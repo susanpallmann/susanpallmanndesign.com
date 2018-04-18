@@ -1,6 +1,6 @@
-body {
+.background {
     background-image: url("https://free-background-images.com/ja-highresolution/184-background-images-free.png");
-    height: 120%;
+    height: 100%
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
