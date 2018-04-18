@@ -11,11 +11,13 @@ window.onload = function() {
     var thisId = this.getAttribute("id");
     switch (thisId) {
       case "cellA":
-        var root = document.documentElement;
-        var body = document.body;
-        var scrollTop = 'scrollTop';
-        var scrollHeight = 'scrollHeight';
-        alert((root[scrollTop]||body[scrollTop]) / ((root[scrollHeight]||body[scrollHeight]) - root.clientHeight));
+        var h = document.documentElement, 
+        b = document.body,
+        st = 'scrollTop',
+        sh = 'scrollHeight';
+
+        var percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+        alert(percent);
         //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
         break;
       case "cellB":
