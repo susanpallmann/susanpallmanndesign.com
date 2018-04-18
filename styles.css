@@ -31,8 +31,8 @@ div#gallery {
     display: block;
     margin: auto;
     text-align: center;
-    -webkit-transform: translateZ(999px) scale(.7);
-    transform: translateZ(999px) scale(.7);
+    -webkit-transform: translateZ(999px) scale(1);
+    transform: translateZ(999px) scale(1);
     z-index: 1;
 }
 div.gallery_img {
