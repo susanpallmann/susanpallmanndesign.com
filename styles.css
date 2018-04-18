@@ -9,7 +9,7 @@ div#gallery {
     margin: auto;
     text-align: center;
 }
-@media (max-resolution: 1dppx) {
+@media (min-width: 320px) and (max-width: 480px) {
     div.gallery_img {
         width: 600px;
         height: 600px;
