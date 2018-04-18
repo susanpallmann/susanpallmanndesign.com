@@ -7,6 +7,7 @@ body {
     background-size: cover;
     -webkit-transform: translateZ(-999px) scale(2);
     transform: translateZ(-999px) scale(2);
+    z-index: 0;
 }
 p {
     font-family: verdana;
@@ -16,6 +17,7 @@ div#gallery {
     display: block;
     margin: auto;
     text-align: center;
+    z-index: 1;
 }
 div.gallery_img {
     width: 300px;
