@@ -7,15 +7,15 @@ window.onload = function() {
   
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    document.getElementById("cellA").style.backgroundPosition = "0px " + (-20+0.3*(window.scrollY-document.getElementById("cellA").getBoundingClientRect().top)) + "px";
-    document.getElementById("cellB").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellC").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellD").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellE").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellF").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellG").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellH").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
-    document.getElementById("cellI").style.backgroundPosition = "0px " + (-20+0.3*window.scrollY) + "px";
+    document.getElementById("cellA").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellA").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellB").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellB").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellC").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellC").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellD").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellD").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellE").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellE").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellF").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellF").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellG").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellG").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellH").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellH").getBoundingClientRect().top)) + "px";
+    document.getElementById("cellI").style.backgroundPosition = "0px " + (-50+0.3*(window.scrollY-document.getElementById("cellI").getBoundingClientRect().top)) + "px";
   });
   
   // function declarations
