@@ -1,5 +1,7 @@
 window.onload = function() {
   var title = document.getElementById("username");
+  var i;
+  
   title.addEventListener("mousemove", function(e) {
     // mouse_y is the y-value within the title element; ranges from 0 (top) to height of title (left)
     // mouse_x is the x-value within the title element; ranges from 0 (left) to width of title (right)
@@ -11,7 +13,7 @@ window.onload = function() {
   });
   var cells = document.getElementsByClassName("gallery_img");
 
-  var myFunction = function() {
+  var addLink = function() {
       var thisId = this.getAttribute("id");
       switch (thisId) {
         case "cellA":
@@ -43,8 +45,8 @@ window.onload = function() {
       }
   };
 
-for (var i = 0; i < classname.length; i++) {
-    classname[i].addEventListener('click', myFunction, false);
-}
+  for (i = 0; i < cells.length; i++) {
+    cells[i].addEventListener("click", addLink, false);
+  }
   
 };
