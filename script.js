@@ -2,6 +2,7 @@ window.onload = function() {
   // variable declarations
   var title = document.getElementById("username");
   var cells = document.getElementsByClassName("gallery_img");
+  var body = document.getElementById("body");
   var i;
   
   // function declarations
@@ -10,7 +11,8 @@ window.onload = function() {
     var thisId = this.getAttribute("id");
     switch (thisId) {
       case "cellA":
-        window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
+        alert(body.scrollTop/body.height);
+        //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
         break;
       case "cellB":
         window.location="http://www.susanpallmanndesign.com/goodwill.html";
