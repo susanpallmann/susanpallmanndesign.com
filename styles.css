@@ -1,4 +1,3 @@
-
 body {
 }
 p {
@@ -9,17 +8,6 @@ div#gallery {
     display: block;
     margin: auto;
     text-align: center;
-}
-@media (min-width: 320px) and (max-width: 480px) {
-    div.gallery_img {
-        width: 600px;
-        height: 600px;
-    }
-    div.gallery_text {
-        width: 600px;
-        height: 480px;
-        padding: 60px;
-    }
 }
 div.gallery_img {
     width: 300px;
@@ -65,4 +53,15 @@ div.gallery_img:hover div.gallery_text {
 div.gallery_text h2 {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    div.gallery_img {
+        width: 600px;
+        height: 600px;
+    }
+    div.gallery_text {
+        width: 600px;
+        height: 480px;
+        padding: 60px;
+    }
 }
