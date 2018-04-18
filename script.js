@@ -11,9 +11,9 @@ window.onload = function() {
     var thisId = this.getAttribute("id");
     switch (thisId) {
       case "cellA":
-        var document = document.documentElement, 
-        var body = document.body,
-        var scrollTop = 'scrollTop',
+        var document = document.documentElement;
+        var body = document.body;
+        var scrollTop = 'scrollTop';
         var scrollHeight = 'scrollHeight';
         alert((document[scrollTop]||body[scrollTop]) / ((document[scrollHeight]||body[scrollHeight]) - document.clientHeight));
         //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
