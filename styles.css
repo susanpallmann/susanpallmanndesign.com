@@ -40,10 +40,7 @@ div.gallery_img {
     height: 300px;
     margin: 12px;
     display: inline-block;
-    background-image: url(https://ak8.picdn.net/shutterstock/videos/1290388/thumb/1.jpg);
-}
-div#cellB, div#cellD, div#cellF, div#cellH {
-    background-image: url(http://images.all-free-download.com/images/graphiclarge/blue_abstract_background_310971.jpg);
+    background-image: url(https://i.imgur.com/JxawU5B.png);
 }
 ul {
     float: right;
