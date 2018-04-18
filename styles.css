@@ -7,17 +7,17 @@ div.background {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.parallaxlayer {
+.parallax_layer {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.parallaxfront {
+.parallax_front {
   transform: translateZ(0);
 }
-.parallaxback {
+.parallax_back {
   transform: translateZ(-1px);
 }
 p {
