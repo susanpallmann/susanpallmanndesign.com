@@ -12,11 +12,10 @@ window.onload = function() {
     switch (thisId) {
       case "cellA":
         var h = document.documentElement, 
-        b = document.body,
         st = 'scrollTop',
         sh = 'scrollHeight';
 
-        var percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+        var percent = (h[st]) / ((h[sh]) - h.clientHeight) * 100;
         alert(percent);
         //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
         break;
