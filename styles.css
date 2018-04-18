@@ -9,8 +9,11 @@ div#gallery {
     margin: auto;
     text-align: center;
 }
-@media (max-resolution: 1dppx) div.gallery_img {
-    width: 600px;
+@media (max-resolution: 1dppx) {
+    div.gallery_img {
+        width: 600px;
+        height: 600px;
+    }
 }
 div.gallery_img {
     width: 300px;
