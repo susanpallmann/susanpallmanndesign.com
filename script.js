@@ -16,7 +16,6 @@ window.onload = function() {
     document.getElementById("cellG").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
     document.getElementById("cellH").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
     document.getElementById("cellI").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellJ").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
   });
   
   // function declarations
