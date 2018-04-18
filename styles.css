@@ -54,7 +54,7 @@ div.gallery_text h2 {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 640px) and (max-width: 900px) {
     div.gallery_img {
         width: 600px;
         height: 600px;
@@ -63,5 +63,17 @@ div.gallery_text h2 {
         width: 600px;
         height: 480px;
         padding: 60px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 640px) {
+    div.gallery_img {
+        width: 450px;
+        height: 450px;
+    }
+    div.gallery_text {
+        width: 450px;
+        height: 360px;
+        padding: 45px;
     }
 }
