@@ -7,7 +7,7 @@ window.onload = function() {
   
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    document.getElementById("cellA").style.backgroundPosition = "0px " - 0.1*window.scrollY + "px";
+    document.getElementById("cellA").style.backgroundPosition = "0px " + -0.1*window.scrollY + "px";
   });
   
   // function declarations
