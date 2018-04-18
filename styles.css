@@ -51,7 +51,7 @@ div.gallery_text {
 }
 div.gallery_img:hover div.gallery_text {
     opacity: 100;
-    background-color: rgba(50, 100, 200, 127);
+    background-color: rgba(50, 100, 200, 0.5);
 }
 div.gallery_text h2 {
     color: white;
