@@ -7,15 +7,15 @@ window.onload = function() {
   
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    document.getElementById("cellA").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellB").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellC").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellD").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellE").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellF").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellG").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellH").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
-    document.getElementById("cellI").style.backgroundPosition = "0px " + -0.3*window.scrollY + "px";
+    document.getElementById("cellA").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellB").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellC").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellD").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellE").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellF").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellG").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellH").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
+    document.getElementById("cellI").style.backgroundPosition = "0px " + -20+0.3*window.scrollY + "px";
   });
   
   // function declarations
