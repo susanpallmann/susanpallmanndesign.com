@@ -3,6 +3,7 @@ body {
 }
 div.background {
     background-image: url("https://free-background-images.com/ja-highresolution/184-background-images-free.png");
+    width: 110%;
 }
 .parallax {
   perspective: 1px;
