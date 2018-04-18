@@ -11,7 +11,7 @@ window.onload = function() {
     var thisId = this.getAttribute("id");
     switch (thisId) {
       case "cellA":
-        alert(body.scrollTop/body.height);
+        alert(body.scrollTop/body.offsetHeight);
         //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
         break;
       case "cellB":
