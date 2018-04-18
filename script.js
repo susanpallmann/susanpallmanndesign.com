@@ -6,7 +6,7 @@ window.onload = function() {
   var i;
   
   window.addEventListener('scroll', function(e) {
-    body.style.positionLeft = 0.5*window.scrollY;
+    body.style.background-position-y = 0.5*window.scrollY;
   });
   
   // function declarations
