@@ -1,9 +1,24 @@
-.background {
+div.background {
     background-image: url("https://free-background-images.com/ja-highresolution/184-background-images-free.png");
-    height: 120%;
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
-    z-index: 0;
+}
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallaxfront {
+  transform: translateZ(0);
+}
+.parallaxback {
+  transform: translateZ(-1px);
 }
 p {
     font-family: verdana;
