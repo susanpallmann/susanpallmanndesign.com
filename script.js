@@ -3,7 +3,7 @@ window.onload = function() {
   var title = document.getElementById("username");
   var cells = document.getElementsByClassName("gallery_img");
   var body = document.getElementById("body");
-  var cell_height = document.getElementById("cellA").height;
+  var cell_height = document.getElementById("cellA").offsetHeight;
   var i;
   body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
   document.getElementById("cellA").style.backgroundPosition = "0px " + (-50+(cell_height/screen.height)*(window.scrollY-document.getElementById("cellA").offsetTop)) + "px";
