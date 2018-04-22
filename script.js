@@ -36,9 +36,7 @@ window.onload = function() {
     var thisId = this.getAttribute("id");
     switch (thisId) {
       case "cellA":
-        var percent = (window.scrollY/document.documentElement.scrollHeight) * 100;
-        alert(percent);
-        //window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
+        window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
         break;
       case "cellB":
         window.location="http://www.susanpallmanndesign.com/goodwill.html";
