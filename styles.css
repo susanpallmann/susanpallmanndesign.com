@@ -56,15 +56,13 @@ div.gallery_img {
 ul {
     float: right;
     list-style-type: none;
-    margin-top: 25px;
-    margin-right: 25px;
+    margin: 25px;
 }
 li {
     display: inline-block;
 }
 header {
     position: fixed;
-    padding: 50px;
     background-color: tomato;
     z-index: 1;
     top: 0;
@@ -73,6 +71,7 @@ header {
 }
 h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 25px;
 }
 h2 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
