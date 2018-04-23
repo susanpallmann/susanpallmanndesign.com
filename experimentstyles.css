@@ -7,7 +7,7 @@ header {
   z-index: 1;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
 }
 ul {
@@ -39,6 +39,9 @@ img.downarrow {
   top: 20vh;
   display:block;
   margin: auto;
+}
+table #nav {
+  width: 100vw;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
