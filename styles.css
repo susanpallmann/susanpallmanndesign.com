@@ -5,7 +5,8 @@ body {
     position-y: 0;
 }
 .main {
-     margin-top: 200px;
+    margin-top: 200px;
+    z-index: 0;
 }
 /*
 .parallax {
