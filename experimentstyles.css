@@ -89,7 +89,7 @@ h3 {
 }
 /* gallery effects and such*/
 div#gallery {
-    max-width: 1000px;
+    max-width: 100%;
     display: block;
     margin: auto;
     text-align: center;
@@ -98,18 +98,18 @@ div#gallery {
     position: relative;
 }
 div.gallery_img {
-    width: 300px;
-    height: 300px;
-    margin: 12px;
+    width: 30vw;
+    height: 22.5vw;
+    margin: 1.5vw;
     display: inline-block;
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 div.gallery_text {
     opacity: 0;
-    width: 300px;
-    height: 240px;
+    width: 30vw;
+    height: 22.5vw;
     margin: 0;
-    padding: 30px;
+    padding: 3vw;
     display: table-cell;
     vertical-align: middle;
     background-color: transparent;
@@ -136,26 +136,13 @@ div.gallery_text h2 {
     font-size: 24px;
     letter-spacing: .05em;
 }
-@media (min-width: 640px) and (max-width: 900px) {
+@media (min-width: 640px) and (max-width: 1200px) {
     div.gallery_img {
-        width: 600px;
-        height: 600px;
+        width: 100vw;
+        height: 750vw;
     }
     div.gallery_text {
-        width: 600px;
-        height: 480px;
-        padding: 60px;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 640px) {
-    div.gallery_img {
-        width: 450px;
-        height: 450px;
-    }
-    div.gallery_text {
-        width: 450px;
-        height: 360px;
-        padding: 45px;
+        width: 100vw;
+        height: 750vw;
     }
 }
