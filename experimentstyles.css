@@ -31,7 +31,8 @@ div.gradient {
 }
 img.downarrow {
   max-width: 9vh;
-  margin: 9vh;
+  position: absolute;
+  top: 80vh;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
