@@ -6,7 +6,6 @@ header {
 div.gradient {
   height: 100vh;
   width: 100vh;
-  margin: auto;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -moz-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -o-linear-gradient(270deg, #FF6666, #FF9966);
