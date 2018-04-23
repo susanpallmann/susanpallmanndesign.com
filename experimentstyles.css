@@ -80,6 +80,7 @@ div#gallery {
     -webkit-transform: translateZ(999px) scale(1);
     transform: translateZ(999px) scale(1);
     z-index: 1;
+    position: relative;
 }
 div.gallery_img {
     width: 300px;
