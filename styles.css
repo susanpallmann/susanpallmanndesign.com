@@ -8,27 +8,6 @@ body {
     margin-top: 200px;
     z-index: 0;
 }
-/*
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax_layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax_front {
-  transform: translateZ(0);
-}
-.parallax_back {
-  transform: translateZ(-1px) scale(2);
-}
-*/
 p {
     font-family: verdana;
 }
@@ -54,8 +33,6 @@ div.gallery_img {
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 ul {
-    float: right;
-    list-style-type: none;
     margin: 25px;
 }
 li {
