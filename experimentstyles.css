@@ -1,3 +1,4 @@
+/**
 body {
   margin: 0px;
 }
@@ -31,7 +32,7 @@ a {
 a:hover {
   color: #FF6666;
 }
-/**
+
 header ul {
   list-style-type: none;
   margin: 25px;
