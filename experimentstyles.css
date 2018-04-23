@@ -131,7 +131,9 @@ div.gallery_img:hover div.gallery_text {
 }
 div.gallery_text h2 {
     color: white;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 5.5vh;
 }
 @media (min-width: 640px) and (max-width: 900px) {
     div.gallery_img {
