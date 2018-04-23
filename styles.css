@@ -4,6 +4,9 @@ body {
     background-color: #fffcf9;
     position-y: 0;
 }
+.header_cell {
+    width: 50%;
+}
 .main {
     margin-top: 200px;
     z-index: 0;
