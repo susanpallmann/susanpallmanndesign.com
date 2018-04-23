@@ -12,8 +12,16 @@ header {
   -webkit-transform: translateZ(999px) scale(1);
   transform: translateZ(999px) scale(1);
 }
+header table {
+    width: 100%;
+}
+header td {
+    width: 50%;
+}
+.right_align {
+    text-align: right;   
+}
 ul {
-    float: right;
     list-style-type: none;
     margin: 25px;
     font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
