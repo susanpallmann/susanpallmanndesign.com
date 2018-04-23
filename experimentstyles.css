@@ -105,7 +105,11 @@ div.gallery_img {
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 #cellA {
-    background-image: url(https://i.imgur.com/NWsPmrv.png);
+    background-image: url(https://i.imgur.com/tRg4NWX.png);
+    background-size: 100%;
+}
+#cellB {
+    background-image: url(https://i.imgur.com/z86sm3T.png);
     background-size: 100%;
 }
 div.gallery_text {
