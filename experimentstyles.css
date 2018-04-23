@@ -35,7 +35,7 @@ li {
 }
 img.downarrow {
   margin: auto;
-  max-width: 8vh;
+  width: 8vh;
   position: absolute;
   top: 80vh;
   left: 46vw;
