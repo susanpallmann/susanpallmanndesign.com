@@ -7,7 +7,7 @@ div.gradient {
   text-align: center;
   height: 60vh;
   width: 100vw;
-  padding: 30vh;
+  padding-top: 30vh;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -moz-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -o-linear-gradient(270deg, #FF6666, #FF9966);
