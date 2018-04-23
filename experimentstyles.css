@@ -98,16 +98,16 @@ div#gallery {
     position: relative;
 }
 div.gallery_img {
-    width: 30vw;
-    height: 22.5vw;
+    width: 24vw;
+    height: 18vw;
     margin: 1.5vw;
     display: inline-block;
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 div.gallery_text {
     opacity: 0;
-    width: 30vw;
-    height: 22.5vw;
+    width: 24vw;
+    height: 18vw;
     margin: 0;
     display: table-cell;
     vertical-align: middle;
