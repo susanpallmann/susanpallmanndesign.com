@@ -71,3 +71,69 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
+/* gallery effects and such*/
+div#gallery {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    -webkit-transform: translateZ(999px) scale(1);
+    transform: translateZ(999px) scale(1);
+    z-index: 1;
+}
+div.gallery_img {
+    width: 300px;
+    height: 300px;
+    margin: 12px;
+    display: inline-block;
+    background-image: url(https://i.imgur.com/aVfE9Ts.png);
+}
+div.gallery_text {
+    opacity: 0;
+    width: 300px;
+    height: 240px;
+    margin: 0;
+    padding: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: transparent;
+    -webkit-transition: all 0.5s ease-in;
+       -moz-transition: all 0.5s ease-in;
+        -ms-transition: all 0.5s ease-in;
+         -o-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
+}
+div.gallery_img:hover {
+    cursor: pointer;   
+}
+div.gallery_img:hover div.gallery_text {
+    opacity: 100;
+    background-color: rgba(50, 100, 200, 0.5);
+}
+div.gallery_text h2 {
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+@media (min-width: 640px) and (max-width: 900px) {
+    div.gallery_img {
+        width: 600px;
+        height: 600px;
+    }
+    div.gallery_text {
+        width: 600px;
+        height: 480px;
+        padding: 60px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 640px) {
+    div.gallery_img {
+        width: 450px;
+        height: 450px;
+    }
+    div.gallery_text {
+        width: 450px;
+        height: 360px;
+        padding: 45px;
+    }
+}
