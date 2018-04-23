@@ -44,7 +44,6 @@ header li {
   display: inline-block;
   margin-left: 2vw;
 }
-/**
 .gradient {
   text-align: center;
   height: 60vh;
@@ -63,7 +62,7 @@ img.downarrow {
   display:block;
   margin: auto;
 }
-**/
+/**
 table#nav {
   width: 100%;
   padding: 0px;
@@ -77,6 +76,7 @@ table#nav td {
 .navright {
   float: right;
 }
+**/
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 900;
