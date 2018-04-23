@@ -32,15 +32,17 @@ a:hover {
   color: #FF6666;
 }
 header ul {
-    list-style-type: none;
-    margin: 25px;
-    font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2.75vh;
-    color: #FF9966;
+  list-style-type: none;
+  margin: 25px;
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2.75vh;
+  color: #FF9966;
+  margin-right: 3vw;
 }
 header li {
-    display: inline-block;
+  display: inline-block;
+  margin-left: 2vw;
 }
 .gradient {
   text-align: center;
@@ -87,7 +89,7 @@ h2 {
   font-size: 7.5vh;
   color: #FF6666;
   margin: 0px;
-  margin-left: 2vh;
+  margin-left: 3vw;
 }
 h3 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
