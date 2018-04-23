@@ -4,6 +4,7 @@ body {
 header {
 }
 div.gradient {
+  text-align: center;
   height: 90vh;
   width: 100vw;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
