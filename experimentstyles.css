@@ -2,6 +2,13 @@ body {
   margin: 0px;
 }
 header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 10vh;
 }
 div.gradient {
   text-align: center;
