@@ -63,9 +63,11 @@ li {
 }
 header {
     position: fixed;
-    padding-bottom: 50px;
+    padding: 50px;
     background-color: tomato;
     z-index: 1;
+    margin: 0;
+    width: 100%;
 }
 h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
