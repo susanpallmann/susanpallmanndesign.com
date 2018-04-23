@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
 }
 header {
   position: fixed;
@@ -16,7 +16,7 @@ header table {
     width: 100%;
 }
 header tbody {
-    margin: 24px; 
+    margin: 0; 
 }
 header td {
     width: 50%;
@@ -34,16 +34,16 @@ a:hover {
 
 header ul {
   list-style-type: none;
-  margin: 25px;
+  margin: 2vh;
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 700;
   font-size: 2.75vh;
   color: #FF9966;
-  margin-right: 3vw;
+  margin-right: 2vh;
 }
 header li {
   display: inline-block;
-  margin-left: 2vw;
+  margin-left: 2vh;
 }
 .gradient {
   text-align: center;
@@ -69,14 +69,14 @@ h1 {
   font-size: 9vh;
   color: #fff;
   text-transform: uppercase;
-  margin: 0px;
+  margin: 0;
 }
 h2 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 900;
   font-size: 7.5vh;
   color: #FF6666;
-  margin: 0px;
+  margin: 0;
   margin-left: 2vh;
 }
 h3 {
