@@ -28,6 +28,9 @@ a {
   text-decoration: none;
   color: #FF9966;
 }
+a:hover {
+  color: #FF6666;
+}
 header ul {
     list-style-type: none;
     margin: 25px;
