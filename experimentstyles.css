@@ -23,7 +23,7 @@ ul {
 li {
     display: inline-block;
 }
-div.gradient {
+.gradient {
   text-align: center;
   height: 60vh;
   width: 100vw;
