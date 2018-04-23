@@ -81,7 +81,6 @@ div#gallery {
     text-align: center;
     -webkit-transform: translateZ(500px) scale(1);
     transform: translateZ(500px) scale(1);
-    z-index: -1;
     position: relative;
 }
 div.gallery_img {
