@@ -133,7 +133,7 @@ div.gallery_text h2 {
     color: white;
     font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 5.5vh;
+    font-size: 24px;
     letter-spacing: .05em;
 }
 @media (min-width: 640px) and (max-width: 900px) {
