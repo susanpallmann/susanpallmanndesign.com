@@ -4,7 +4,7 @@ body {
 header {
 }
 div.gradient {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -moz-linear-gradient(270deg, #FF6666, #FF9966);
