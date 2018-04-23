@@ -40,6 +40,7 @@ img.downarrow {
   top: 80vh;
   left: 46vw;
   right: 46vw;
+  display:block;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
