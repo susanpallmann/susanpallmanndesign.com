@@ -34,11 +34,7 @@ li {
   background-image: linear-gradient(180deg, #FF6666, #FF9966);
 }
 img.downarrow {
-  width: 9vh;
-}
-div.downarrow {
-  width 100vw;
-  overflow: hidden;
+  max-width: 9vh;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
