@@ -29,6 +29,13 @@ h1 {
   text-transform: uppercase;
   margin: 0px;
 }
+h2 {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 7.5vh;
+  color: #FF6666;
+  margin: 0px;
+}
 h3 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 300;
