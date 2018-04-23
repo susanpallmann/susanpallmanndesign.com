@@ -137,11 +137,13 @@ div.gallery_text h2 {
 }
 @media (min-width: 640px) and (max-width: 1200px) {
     div.gallery_img {
-        width: 100vw;
-        height: 750vw;
+      width: 100vw;
+      height: 750vw;
+      margin-left: 0;
+      margin-right: 0;
     }
     div.gallery_text {
-        width: 100vw;
-        height: 750vw;
+      width: 100vw;
+      height: 750vw;
     }
 }
