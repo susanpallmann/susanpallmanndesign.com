@@ -34,6 +34,7 @@ window.onload = function() {
   // adds link to cells based on ID.
   var addLink = function() {
     var thisId = this.getAttribute("id");
+    if($("#" + thisId).children().first().is(":visible")) {
     switch (thisId) {
       case "cellA":
         window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
@@ -61,6 +62,7 @@ window.onload = function() {
         break;
       default:
         window.location="http://www.susanpallmanndesign.com/process-journal.html";
+    }
     }
   };
   
