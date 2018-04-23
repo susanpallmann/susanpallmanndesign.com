@@ -36,6 +36,8 @@ li {
 img.downarrow {
   margin: auto;
   max-width: 8vh;
+  position: absolute;
+  top: 80vh;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
