@@ -81,7 +81,6 @@ h3 {
 }
 /* gallery effects and such*/
 div#gallery {
-    max-width: 1000px;
     display: block;
     margin: auto;
     text-align: center;
