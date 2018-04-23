@@ -4,8 +4,15 @@ body {
     background-color: #fffcf9;
     position-y: 0;
 }
-.header_cell {
+header table {
+    width: 100%;
+    margin: 24px;
+}
+header td {
     width: 50%;
+}
+.right_align {
+    text-align: right;   
 }
 .main {
     margin-top: 200px;
