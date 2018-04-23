@@ -13,7 +13,7 @@ header {
 ul {
     float: right;
     list-style-type: none;
-    margin: 25px;
+    margin: 0px;
 }
 li {
     display: inline-block;
