@@ -41,6 +41,9 @@ img.downarrow {
   left: 45.5vw;
   right: 45.5vw;
 }
+div.downarrow {
+  width 100vw;
+  overflow: hidden;
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 900;
