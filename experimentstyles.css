@@ -35,10 +35,6 @@ li {
 }
 img.downarrow {
   width: 9vh;
-  position: absolute;
-  top: 80vh;
-  left: 45.5vw;
-  right: 45.5vw;
 }
 div.downarrow {
   width 100vw;
