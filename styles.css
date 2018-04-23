@@ -54,13 +54,15 @@ ul {
     list-style-type: none;
     margin-top: 25px;
     margin-right: 25px;
-    margin-bottom: 50px;
 }
 li {
     display: inline-block;
 }
 header {
-    margin-bottom: 100px;
+    position: fixed;
+    padding-bottom: 50px;
+    background-color: tomato;
+    z-index: 1;
 }
 h1 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
