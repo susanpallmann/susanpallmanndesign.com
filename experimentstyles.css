@@ -105,15 +105,19 @@ div.gallery_img {
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 #cellA {
-    background-image: url(https://i.imgur.com/YqZg11f.jpg);
+    background-image: url(https://i.imgur.com/SE1To9C.jpg);
     background-size: 100%;
 }
 #cellB {
-    background-image: url(https://i.imgur.com/z86sm3T.png);
+    background-image: url(https://i.imgur.com/sRC0uAj.jpg);
     background-size: 100%;
 }
 #cellC {
-    background-image: url(https://i.imgur.com/wt30TIr.png);
+    background-image: url(https://i.imgur.com/4rIA3Wz.jpg);
+    background-size: 100%;
+}
+#cellE {
+    background-image: url(https://i.imgur.com/EfBrEMz.jpg);
     background-size: 100%;
 }
 div.gallery_text {
