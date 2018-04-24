@@ -16,10 +16,10 @@ window.onload = function() {
   document.getElementById("cellH").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellH").offsetTop)) + "px";
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
 
+  alert($("#cellA").scrollTop());
   
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    alert((100 * $("#cellA").scrollTop() / ($(window).height() - $("#cellA").height())));
     var x = (100 * $("#cellA").scrollTop() / ($(window).height() - $("#cellA").height()));
     $("#cellA").css("background-position", "0px " + x + "px");
     document.getElementById("cellB").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellB").offsetTop)) + "px";
