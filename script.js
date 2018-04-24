@@ -5,17 +5,8 @@ window.onload = function() {
   var body = document.getElementById("body");
   var cell_height = document.getElementById("cellA").offsetHeight;
   var i;
-  body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-  document.getElementById("cellA").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellA").offsetTop)) + "px";
-  document.getElementById("cellB").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellB").offsetTop)) + "px";
-  document.getElementById("cellC").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellC").offsetTop)) + "px";
-  document.getElementById("cellD").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellD").offsetTop)) + "px";
-  document.getElementById("cellE").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellE").offsetTop)) + "px";
-  document.getElementById("cellF").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellF").offsetTop)) + "px";
-  document.getElementById("cellG").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellG").offsetTop)) + "px";
-  document.getElementById("cellH").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellH").offsetTop)) + "px";
-  document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
-  
+  //body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
+    
   // function declarations
   // adds link to cells based on ID.
   var parallaxScroll = function() {
@@ -72,6 +63,7 @@ window.onload = function() {
   });
   
   window.addEventListener('scroll', parallaxScroll);
+  parallaxScroll;
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
