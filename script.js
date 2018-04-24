@@ -17,7 +17,10 @@ window.onload = function() {
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
   
   window.addEventListener('scroll', function(e) {
-    $(".gallery_img").css("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
+    $("div.gallery_img").each(function() {
+      alert("x");
+    });
+    //("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
   });
   
   // function declarations
