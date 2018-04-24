@@ -20,7 +20,7 @@ window.onload = function() {
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
     var cellA = $("#cellA");
-    $("#cellA").css("background-position", "0px " + 20 + "px");
+    $("#cellA").css("background-position", "0px " + (100 * $("#cellA").scrollTop() / ($("window").height() - $("#cellA").height())) + "px");
     document.getElementById("cellB").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellB").offsetTop)) + "px";
     document.getElementById("cellC").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellC").offsetTop)) + "px";
     document.getElementById("cellD").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellD").offsetTop)) + "px";
