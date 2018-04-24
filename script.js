@@ -16,17 +16,16 @@ window.onload = function() {
   document.getElementById("cellH").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellH").offsetTop)) + "px";
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
   
-  window.addEventListener('scroll', function(e) {
+  // function declarations
+  // adds link to cells based on ID.
+  var parallaxScroll = function() {
     var scroll_amount = 0;
     $("div.gallery_img").each(function() {
       var scrollAmount = ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height());
       $(this).css("background-position", "0px " + scrollAmount + "px");
     });
-    //("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
-  });
+  };
   
-  // function declarations
-  // adds link to cells based on ID.
   var addLink = function() {
     var thisId = this.getAttribute("id");
     if($("#" + thisId).children().first().is(":visible")) {
@@ -71,6 +70,8 @@ window.onload = function() {
     // title.style.paddingTop = String(mouse_y) + "px";
     // title.style.paddingLeft = String(mouse_x) + "px";
   });
+  
+  window.addEventListener('scroll', parallaxScroll);
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
