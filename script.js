@@ -15,12 +15,10 @@ window.onload = function() {
   document.getElementById("cellG").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellG").offsetTop)) + "px";
   document.getElementById("cellH").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellH").offsetTop)) + "px";
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
-
-  alert(($("#cellA").offset().top - $(window).scrollTop())/$(window).height());
   
   window.addEventListener('scroll', function(e) {
     body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    var x = (100 * ($("#cellA").offset().top - $(window).scrollTop())/$(window).height());
+    var x = ($("#cellA").height() * ($("#cellA").offset().top - $(window).scrollTop())/$(window).height());
     $("#cellA").css("background-position", "0px " + x + "px");
     document.getElementById("cellB").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellB").offsetTop)) + "px";
     document.getElementById("cellC").style.backgroundPosition = "0px " + (0.3333*cell_height + 0.5*(cell_height/window.innerHeight)*(window.scrollY+window.innerHeight-document.getElementById("cellC").offsetTop)) + "px";
