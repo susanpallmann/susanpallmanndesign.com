@@ -20,7 +20,8 @@ window.onload = function() {
     var scroll_amount = 0;
     $("div.gallery_img").each(function() {
       var scrollAmount = ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()));
-      $(this).css("background-position", "0px " + scrollAmount + "px");
+      alert(scrollAmount);
+      //$(this).css("background-position", "0px " + scrollAmount + "px");
     });
     //("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
   });
