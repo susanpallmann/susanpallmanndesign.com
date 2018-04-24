@@ -17,8 +17,9 @@ window.onload = function() {
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
   
   window.addEventListener('scroll', function(e) {
+    var scroll_amount = 0;
     $("div.gallery_img").each(function() {
-      alert("x");
+      alert(($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()));
     });
     //("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
   });
