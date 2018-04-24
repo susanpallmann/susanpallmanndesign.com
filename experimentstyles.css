@@ -105,18 +105,22 @@ div.gallery_img {
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
 #cellA {
+    background-color: #FE58BE;
     background-image: url(https://i.imgur.com/SE1To9C.jpg);
     background-size: 100%;
 }
 #cellB {
+    background-color: #003665;
     background-image: url(https://i.imgur.com/sRC0uAj.jpg);
     background-size: 100%;
 }
 #cellC {
+    background-color: #EDD23B;
     background-image: url(https://i.imgur.com/4rIA3Wz.jpg);
     background-size: 100%;
 }
 #cellE {
+    background-color: #C5DE9A;
     background-image: url(https://i.imgur.com/EfBrEMz.jpg);
     background-size: 100%;
 }
