@@ -16,6 +16,7 @@ window.onload = function() {
       $(this).css("background-position", "0px " + scrollAmount + "px");
     });
   };
+  parallaxScroll;
   
   var addLink = function() {
     var thisId = this.getAttribute("id");
@@ -63,7 +64,6 @@ window.onload = function() {
   });
   
   window.addEventListener('scroll', parallaxScroll);
-  parallaxScroll;
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
