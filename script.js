@@ -17,11 +17,7 @@ window.onload = function() {
   document.getElementById("cellI").style.backgroundPosition = "0px " + (0.3*(cell_height/screen.height)*(window.scrollY-document.getElementById("cellI").offsetTop)) + "px";
   
   window.addEventListener('scroll', function(e) {
-    body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    $(".gallery_img").each($(function() {
-      var scroll_amount = ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height());
-      $(this).css("background-position", "0px " + scroll_amount + "px");
-    });
+    $(".gallery_img").css("background-position", "0px " + ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height()) + "px");
   });
   
   // function declarations
