@@ -15,6 +15,11 @@ window.onload = function() {
   parallaxScroll();
   window.addEventListener("scroll", parallaxScroll);
   var upArrow = document.getElementsByClassName("uparrow")[0];
+  var title = document.getElementById("username");
+  
+  title.addEventListener("mousemove", function() {
+    scrollTo("body");
+  });
 
   upArrow.addEventListener("click", function() {
     scrollTo("body");
