@@ -117,6 +117,9 @@ div.gallery_img {
     display: inline-block;
     background-image: url(https://i.imgur.com/aVfE9Ts.png);
 }
+.downarrow {
+  cursor: pointer;
+}
 #cellA {
     background-color: #FE58BE;
     background-image: url(https://i.imgur.com/SE1To9C.jpg);
