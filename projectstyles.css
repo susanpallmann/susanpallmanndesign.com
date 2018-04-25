@@ -64,9 +64,9 @@ li {
 }
 #mainimage {
   text-align: center;
-  height: 50vw;
+  height: 40vw;
   width: 100%;
-  padding-top: 30vh;
+  padding-top: 10vh;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -moz-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -o-linear-gradient(270deg, #FF6666, #FF9966);
