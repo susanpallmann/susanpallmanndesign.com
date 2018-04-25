@@ -13,8 +13,12 @@ header {
   -webkit-transform: translateZ(999px) scale(1);
   transform: translateZ(999px) scale(1);
 }
-header table, footer table {
+header table {
   width: 100%;
+}
+footer table {
+  width: 80%;
+  margin: auto;
 }
 header tbody, footer tbody {
   margin: 0; 
