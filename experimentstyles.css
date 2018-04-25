@@ -12,17 +12,24 @@ header {
   -webkit-transform: translateZ(999px) scale(1);
   transform: translateZ(999px) scale(1);
 }
-header table {
-    width: 100%;
+header table, footer table {
+  width: 100%;
 }
-header tbody {
-    margin: 0; 
+header tbody, footer tbody {
+  margin: 0; 
 }
 header td {
-    width: 50%;
+  
+}
+footer {
+  width: 100%;
+  background-color: #FF6666;
+  height: 10vh;
+  font-size: 3vh;
+  
 }
 .right_align {
-    text-align: right;   
+  text-align: right;   
 }
 a {
   text-decoration: none;
