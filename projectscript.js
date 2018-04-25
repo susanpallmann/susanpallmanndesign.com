@@ -6,7 +6,17 @@ function parallaxScroll() {
   });
 }
 
+function scrollTo(element) {
+  var thisAnchor = $("#" + element + "");
+  $("html,body").animate({scrollTop: thisAnchor.offset().top - $("header").height()}, "slow");
+}
+
 window.onload = function() {
   parallaxScroll();
   window.addEventListener("scroll", parallaxScroll);
+  var upArrow = document.getElementsByClassName("uparrow")[0];
+
+  upArrow.addEventListener("click", function() {
+    scrollTo("body");
+  });
 };
