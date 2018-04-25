@@ -9,48 +9,48 @@ window.onload = function() {
     
   // function declarations
   // adds link to cells based on ID.
-  var parallaxScroll = function() {
+  function parallaxScroll() {
     var scroll_amount = 0;
     $("div.gallery_img").each(function() {
       var scrollAmount = ($(this).height()*-0.5 * ($(this).offset().top - $(window).scrollTop())/$(window).height());
       $(this).css("background-position", "0px " + scrollAmount + "px");
     });
-  };
-  parallaxScroll;
+  }
+  parallaxScroll();
   
-  var addLink = function() {
+  function addLink() {
     var thisId = this.getAttribute("id");
     if($("#" + thisId).children().first().is(":visible")) {
-    switch (thisId) {
-      case "cellA":
-        window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
-        break;
-      case "cellB":
-        window.location="http://www.susanpallmanndesign.com/goodwill.html";
-        break;
-      case "cellC":
-        window.location="http://www.susanpallmanndesign.com/2-truths-and-a-lie.html";
-        break;
-      case "cellD":
-        window.location="http://www.susanpallmanndesign.com/mrs-eaves.html";
-        break;
-      case "cellE":
-        window.location="http://www.susanpallmanndesign.com/futura.html";
-        break;
-      case "cellF":
-        window.location="http://www.susanpallmanndesign.com/cardboard-ukulele.html";
-        break;
-      case "cellG":
-        window.location="http://www.susanpallmanndesign.com/4th-symphony.html";
-        break;
-      case "cellH":
-        window.location="http://www.susanpallmanndesign.com/paciterra.html";
-        break;
-      default:
-        window.location="http://www.susanpallmanndesign.com/process-journal.html";
+      switch (thisId) {
+        case "cellA":
+          window.location="http://www.susanpallmanndesign.com/best-foot-forward.html"
+          break;
+        case "cellB":
+          window.location="http://www.susanpallmanndesign.com/goodwill.html";
+          break;
+        case "cellC":
+          window.location="http://www.susanpallmanndesign.com/2-truths-and-a-lie.html";
+          break;
+        case "cellD":
+          window.location="http://www.susanpallmanndesign.com/mrs-eaves.html";
+          break;
+        case "cellE":
+          window.location="http://www.susanpallmanndesign.com/futura.html";
+          break;
+        case "cellF":
+          window.location="http://www.susanpallmanndesign.com/cardboard-ukulele.html";
+          break;
+        case "cellG":
+          window.location="http://www.susanpallmanndesign.com/4th-symphony.html";
+          break;
+        case "cellH":
+          window.location="http://www.susanpallmanndesign.com/paciterra.html";
+          break;
+        default:
+          window.location="http://www.susanpallmanndesign.com/process-journal.html";
+      }
     }
-    }
-  };
+  }
   
   // Add event listener for title
   title.addEventListener("mousemove", function(e) {
@@ -63,7 +63,7 @@ window.onload = function() {
     // title.style.paddingLeft = String(mouse_x) + "px";
   });
   
-  window.addEventListener('scroll', parallaxScroll);
+  window.addEventListener('scroll', parallaxScroll());
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
