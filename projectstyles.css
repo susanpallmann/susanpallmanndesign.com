@@ -135,6 +135,12 @@ div.project_img {
     display: inline-block;
     background-size: 100%;
 }
+p.project_text {
+  font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 2vw;
+  color: #ff6666;
+  max-width: 40vw;
+}
 #mainimage {
   text-align: center;
   height: 40vw;
@@ -147,6 +153,9 @@ div.project_img {
       height: 50vw;
       margin-left: 0;
       margin-right: 0;
+    }
+    p.project_text {
+      max-width: 80vw;
     }
 }
 #footer {
