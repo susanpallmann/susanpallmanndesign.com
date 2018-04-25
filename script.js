@@ -54,6 +54,7 @@ window.onload = function() {
   var title = document.getElementById("username");
   var cells = document.getElementsByClassName("gallery_img");
   var downArrow = document.getElementsByClassName("downarrow")[0];
+  var upArrow = document.getElementsByClassName("uparrow")[0];
   var body = document.getElementById("body");
   var cell_height = document.getElementById("cellA").offsetHeight;
   var i;
@@ -75,6 +76,10 @@ window.onload = function() {
   
   downArrow.addEventListener("click", function() {
     scrollTo("gallery");
+  });
+  
+  upArrow.addEventListener("click", function() {
+    scrollTo("body");
   });
 
   // Add event listener for cells
