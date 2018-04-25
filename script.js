@@ -73,7 +73,7 @@ window.onload = function() {
   
   window.addEventListener("scroll", parallaxScroll);
   
-  downArrow.addEventListener("mouseclick", function() {
+  downArrow.addEventListener("click", function() {
     scrollTo("gallery");
   });
 
