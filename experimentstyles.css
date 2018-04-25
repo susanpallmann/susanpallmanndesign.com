@@ -77,8 +77,10 @@ img.downarrow {
   cursor: pointer;
 }
 img.uparrow {
+  width: 8vh;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
   display: block;
-  margin: auto;
   cursor: pointer;
 }
 h1 {
