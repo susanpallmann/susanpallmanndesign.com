@@ -137,7 +137,8 @@ div.project_img {
 }
 p.project_text {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 2vw;
+  font-size: 1vw;
+  margin: auto;
   color: #ff6666;
   max-width: 40vw;
 }
