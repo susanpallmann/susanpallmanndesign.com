@@ -141,6 +141,8 @@ p.project_text {
   margin: auto;
   color: #ff6666;
   max-width: 40vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 #mainimage {
   text-align: center;
