@@ -2,6 +2,7 @@ window.onload = function() {
   // variable declarations
   var title = document.getElementById("username");
   var cells = document.getElementsByClassName("gallery_img");
+  var downArrow = document.getElementsByClassName("downarrow")[0];
   var body = document.getElementById("body");
   var cell_height = document.getElementById("cellA").offsetHeight;
   var i;
@@ -17,6 +18,13 @@ window.onload = function() {
     });
   }
   parallaxScroll();
+  
+  function scrollTo(element) {
+    var thisAnchor = $("#" + element + "");
+    $("html,body").animate({
+      scrollTop: thisAnchor.offset().top
+    }, "slow");
+  }
   
   function addLink() {
     var thisId = this.getAttribute("id");
@@ -63,11 +71,15 @@ window.onload = function() {
     // title.style.paddingLeft = String(mouse_x) + "px";
   });
   
-  window.addEventListener('scroll', parallaxScroll());
+  window.addEventListener("scroll", parallaxScroll);
+  
+  downArrow.addEventListener("mousemove", function() {
+    scrollTo("gallery");
+  });
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
-    cells[i].addEventListener("click", addLink(), false);
+    cells[i].addEventListener("click", addLink, false);
   }
   
 };
