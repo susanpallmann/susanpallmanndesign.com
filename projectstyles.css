@@ -23,6 +23,9 @@ footer table {
 header tbody, footer tbody {
   margin: 0; 
 }
+div#fakeprototype {
+  overflow-y: scroll;
+}
 footer {
   width: 100%;
   background-color: #FF9966;
