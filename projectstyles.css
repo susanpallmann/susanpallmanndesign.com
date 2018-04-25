@@ -141,10 +141,9 @@ div#project {
   margin-top: 10vh;
 }
 div.project_img {
-    width: 24vw;
-    height: 18vw;
-    margin: 1.5vw;
-    display: inline-block;
+    width: 80vw;
+    height: 60vw;
+    display: block;
     background-size: 100%;
 }
 @media (max-width: 1200px) {
