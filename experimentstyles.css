@@ -39,7 +39,7 @@ a:hover {
   color: #FF6666;
 }
 
-header ul {
+header ul, footer ul {
   list-style-type: none;
   margin: 2vh;
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
@@ -48,7 +48,7 @@ header ul {
   color: #FF9966;
   margin-right: 2vh;
 }
-header li {
+header li, footer li {
   display: inline-block;
   margin-left: 2vh;
 }
