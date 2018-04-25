@@ -25,7 +25,7 @@
           window.location="http://www.susanpallmanndesign.com/goodwill.html";
           break;
         case "cellC":
-          window.location="http://www.susanpallmanndesign.com/2-truths-and-a-lie.html";
+          window.location="http://www.susanpallmanndesign.com/edison-folio.html";
           break;
         case "cellD":
           window.location="http://www.susanpallmanndesign.com/mrs-eaves.html";
@@ -34,16 +34,16 @@
           window.location="http://www.susanpallmanndesign.com/futura.html";
           break;
         case "cellF":
-          window.location="http://www.susanpallmanndesign.com/cardboard-ukulele.html";
-          break;
-        case "cellG":
           window.location="http://www.susanpallmanndesign.com/4th-symphony.html";
           break;
+        case "cellG":
+          window.location="http://www.susanpallmanndesign.com/cardboard-ukulele.html";
+          break;
         case "cellH":
-          window.location="http://www.susanpallmanndesign.com/paciterra.html";
+          window.location="http://www.susanpallmanndesign.com/letter-of-the-day.html";
           break;
         default:
-          window.location="http://www.susanpallmanndesign.com/process-journal.html";
+          window.location="http://www.susanpallmanndesign.com/2-truths-and-a-lie.html";
       }
     }
   }
