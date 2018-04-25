@@ -141,8 +141,8 @@ div#project {
   margin-top: 10vh;
 }
 div.project_img {
-    width: 80vw;
-    height: 60vw;
+    width: 48vw;
+    height: 36vw;
     display: block;
     background-size: 100%;
 }
