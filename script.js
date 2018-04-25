@@ -61,7 +61,7 @@ window.onload = function() {
   //body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
   
   // Add event listener for title
-  title.addEventListener("mousemove", function() {
+  title.addEventListener("click", function() {
     scrollTo("body");
   });
   
