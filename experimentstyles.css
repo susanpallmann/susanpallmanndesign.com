@@ -96,13 +96,15 @@ h3 {
 }
 /* gallery effects and such*/
 div#gallery {
-    max-width: 100%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    -webkit-transform: translateZ(500px) scale(1);
-    transform: translateZ(500px) scale(1);
-    position: relative;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  -webkit-transform: translateZ(500px) scale(1);
+  transform: translateZ(500px) scale(1);
+  position: relative;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 div.gallery_img {
     width: 24vw;
