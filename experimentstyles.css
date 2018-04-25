@@ -75,6 +75,14 @@ img.downarrow {
   display: block;
   margin: auto;
   cursor: pointer;
+  -webkit-transition: opacity 0.5s ease-in;
+     -moz-transition: opacity 0.5s ease-in;
+      -ms-transition: opacity 0.5s ease-in;
+       -o-transition: opacity 0.5s ease-in;
+          transition: opacity 0.5s ease-in;
+}
+img.downarrow:hover {
+  opacity: 0.5;
 }
 img.uparrow {
   margin: auto;
@@ -83,6 +91,14 @@ img.uparrow {
   margin-top: 10vh;
   display: block;
   cursor: pointer;
+  -webkit-transition: opacity 0.5s ease-in;
+     -moz-transition: opacity 0.5s ease-in;
+      -ms-transition: opacity 0.5s ease-in;
+       -o-transition: opacity 0.5s ease-in;
+          transition: opacity 0.5s ease-in;
+}
+img.uparrow:hover {
+  opacity: 0.5;
 }
 h1 {
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
