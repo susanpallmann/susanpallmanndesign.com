@@ -67,7 +67,7 @@ window.onload = function() {
 
   // Add event listener for cells
   for (i = 0; i < cells.length; i++) {
-    cells[i].addEventListener("click", addLink, false);
+    cells[i].addEventListener("click", addLink(), false);
   }
   
 };
