@@ -178,6 +178,26 @@ div.gallery_img {
     background-image: url(https://i.imgur.com/EfBrEMz.jpg);
     background-size: 100%;
 }
+#cellF {
+    background-color: #C5DE9A;
+    background-image: url(https://i.imgur.com/ihxvVam.jpg);
+    background-size: 100%;
+}
+#cellG {
+    background-color: #C5DE9A;
+    background-image: url(https://i.imgur.com/QBM5ayk.jpg);
+    background-size: 100%;
+}
+#cellH {
+    background-color: #C5DE9A;
+    background-image: url(https://imgur.com/a/1xqtdN0);
+    background-size: 100%;
+}
+#cellI {
+    background-color: #C5DE9A;
+    background-image: url(https://i.imgur.com/5yc18fS.jpg);
+    background-size: 100%;
+}
 div.gallery_text {
     opacity: 0;
     width: 24vw;
