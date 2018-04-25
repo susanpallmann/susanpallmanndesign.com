@@ -170,6 +170,7 @@ div.gallery_text h2 {
 #footer {
   text-align: center;
   height: 20vh;
+  padding: 0px;
   max-width: 100%;
   background-image: -webkit-linear-gradient(270deg, #FF6666, #FF9966);
   background-image: -moz-linear-gradient(270deg, #FF6666, #FF9966);
