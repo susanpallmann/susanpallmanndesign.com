@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Goodwill KY</title>
+  <link rel="stylesheet" type="text/css" href="projectstyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700,900" rel="stylesheet">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="projectscript.js"></script>
+  <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/9qGOhgE.png">
+</head>
+<body id="body" style="width: 100%!important">
+    <div class="background">
+    </div>
+      <header>
+        <table>
+          <tr>
+            <td>
+              <h2 id="username">SP</h2>
+            </td>
+            <td class="right_align">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://susanpallmannhitegd.tumblr.com/" target="_blank">Tumblr</a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </header>
+      <div class="main">
+        <div class="project_img" id="mainimage" style="background-image: url(https://i.imgur.com/5fbhQHa.jpg)"></div>
+        <div id="project">
+          <h2>Goodwill KY Website Redesign</h2>
+          <p class="project_text">
+            Given the tendency of non-profit organizations to not have a great level of budget for websites, this project’s objective was to redesign a local non-profit website to be more user-friendly and yes, pretty. For my redesign, I chose to do Goodwill Kentucky.
+          </p>
+          <img style="width: 78vw" src="https://i.imgur.com/BInrbwM.jpg"/>
+          <h4>Conceptualization</h4>
+          <p class="project_text">
+            The main issue with the original website was that navigating it was really difficult. There were links with the same title leading to different locations, and a great deal of circular structure. My first goal was to clean up the site map and make sure all paths make sense. 
+          </p>
+          <img style="width: 78vw" src="https://i.imgur.com/cuRzNsB.png"/>
+          <div style="height: 5vh"></div>
+          <img style="width: 78vw" src="https://i.imgur.com/wo25aWO.png"/>
+          <h4>Process</h4>
+          <p class="project_text">During my research, I also came across the brand standard manual for Goodwill, and was encouraged to utilize that in creating my redesign. The original website did not follow the brand standards at all, and while my design did have to deviate in some areas (such as Futura not being a very web-safe typeface), a point was made to follow what regulations I could, and the end result was a more navigable page that visually related more to the Goodwill stores around town.</p>
+          <img style="width: 78vw" src="https://i.imgur.com/QoYRJDj.jpg"/>
+          <div style="height: 5vh"></div>
+          <img style="width: 78vw" src="https://i.imgur.com/ozZASBz.jpg"/>
+          
+        </div>
+      </div>
+      <img class="uparrow" src="https://i.imgur.com/fpGTWWt.png" alt="up arrow"/>
+      <footer>
+        <table>
+          <tbody>
+            <tr>
+              <td style="text-align: left; width: 33%;">susanpdesign@gmail.com</td>
+              <td style="text-align: center; width: 34%;">© 2018 Susan Pallmann</td>
+              <td style="text-align: right; width: 33%;">
+                <ul>
+                  <li><a href="https://www.facebook.com/susanpallmann"><img src="https://i.imgur.com/fZyiRZ2.png"></a></li>
+                  <li><a href="https://twitter.com/susanpallmann"><img src="https://i.imgur.com/9dYUzke.png"></a></li>
+                  <li><a href="https://www.instagram.com/susanpallmann/"><img src="https://i.imgur.com/OKkTDbY.png"></a></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </footer>
+  <script type="text/javascript" src="gradienteffect.js"></script>
+</body>
+</html>
