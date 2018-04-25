@@ -11,8 +11,7 @@
   function scrollTo(element) {
     var thisAnchor = $("#" + element + "");
     $("html,body").animate({
-      scrollTop: thisAnchor.offset().top
-    }, "slow");
+      scrollTop: thisAnchor.offset().top - $("header").height()}, "slow");
   }
   
   function addLink() {
