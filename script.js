@@ -1,14 +1,4 @@
-window.onload = function() {
-  // variable declarations
-  var title = document.getElementById("username");
-  var cells = document.getElementsByClassName("gallery_img");
-  var downArrow = document.getElementsByClassName("downarrow")[0];
-  var body = document.getElementById("body");
-  var cell_height = document.getElementById("cellA").offsetHeight;
-  var i;
-  //body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
-    
-  // function declarations
+// function declarations
   // adds link to cells based on ID.
   function parallaxScroll() {
     var scroll_amount = 0;
@@ -17,7 +7,6 @@ window.onload = function() {
       $(this).css("background-position", "0px " + scrollAmount + "px");
     });
   }
-  parallaxScroll();
   
   function scrollTo(element) {
     var thisAnchor = $("#" + element + "");
@@ -59,6 +48,17 @@ window.onload = function() {
       }
     }
   }
+
+window.onload = function() {
+  // variable declarations
+  var title = document.getElementById("username");
+  var cells = document.getElementsByClassName("gallery_img");
+  var downArrow = document.getElementsByClassName("downarrow")[0];
+  var body = document.getElementById("body");
+  var cell_height = document.getElementById("cellA").offsetHeight;
+  var i;
+  parallaxScroll();
+  //body.style.backgroundPosition = "0px " + 0.5*window.scrollY + "px";
   
   // Add event listener for title
   title.addEventListener("mousemove", function(e) {
