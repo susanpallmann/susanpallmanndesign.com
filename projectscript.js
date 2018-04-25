@@ -17,8 +17,8 @@ window.onload = function() {
   var upArrow = document.getElementsByClassName("uparrow")[0];
   var title = document.getElementById("username");
   
-  title.addEventListener("mousemove", function() {
-    scrollTo("body");
+  title.addEventListener("click", function() {
+    window.location="http://www.susanpallmanndesign.com"
   });
 
   upArrow.addEventListener("click", function() {
