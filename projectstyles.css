@@ -132,6 +132,7 @@ h4 {
   font-size: 4vh;
   color: #FF9966;
   margin: 0;
+  margin-top: 5vh;
 }
 /* gallery effects and such*/
 div#project {
@@ -156,7 +157,7 @@ p.project_text {
   margin: auto;
   color: #333;
   max-width: 46.8vw;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-bottom: 5vh;
 }
 #mainimage {
