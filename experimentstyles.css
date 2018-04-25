@@ -19,14 +19,14 @@ header tbody, footer tbody {
   margin: 0; 
 }
 header td {
-  
+  width: 50%;
 }
 footer {
   width: 100%;
   background-color: #FF6666;
   height: 10vh;
-  font-size: 3vh;
-  
+  font-size: 1vh;
+  color: #fff;
 }
 .right_align {
   text-align: right;   
@@ -38,9 +38,10 @@ a {
 a:hover {
   color: #FF6666;
 }
-
-header ul, footer ul {
+ul {
   list-style-type: none;
+}
+header ul {
   margin: 2vh;
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 700;
@@ -48,7 +49,7 @@ header ul, footer ul {
   color: #FF9966;
   margin-right: 2vh;
 }
-header li, footer li {
+li {
   display: inline-block;
   margin-left: 2vh;
 }
