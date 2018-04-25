@@ -25,6 +25,7 @@ header tbody, footer tbody {
 }
 div#fakeprototype {
   overflow-y: scroll;
+  margin: auto;
 }
 footer {
   width: 100%;
