@@ -38,6 +38,11 @@ footer table {
 a {
   text-decoration: none;
   color: #FF9966;
+  -webkit-transition: color 0.5s ease-in;
+     -moz-transition: color 0.5s ease-in;
+      -ms-transition: color 0.5s ease-in;
+       -o-transition: color 0.5s ease-in;
+          transition: color 0.5s ease-in;
 }
 a:hover {
   color: #FF6666;
