@@ -141,15 +141,15 @@ div#project {
   margin-top: 10vh;
 }
 div.project_img {
-    width: 48vw;
-    height: 36vw;
+    width: 50vw;
+    height: 25vw;
     display: inline-block;
     background-size: 100%;
 }
 @media (max-width: 1200px) {
     div.project_img {
       width: 100vw;
-      height: 75vw;
+      height: 50vw;
       margin-left: 0;
       margin-right: 0;
     }
