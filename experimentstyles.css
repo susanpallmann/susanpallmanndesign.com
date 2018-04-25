@@ -141,6 +141,9 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
+div#fakeprototype {
+  overflow-y: scroll;
+}
 /* gallery effects and such*/
 div#gallery {
   max-width: 100%;
