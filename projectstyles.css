@@ -18,6 +18,7 @@ header table {
 }
 footer table {
   width: 80%;
+  margin: auto;
 }
 header tbody, footer tbody {
   margin: 0; 
