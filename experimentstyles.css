@@ -29,6 +29,9 @@ footer {
   color: #fff;
   font-family: 'Lato', "Trebuchet MS", Helvetica, sans-serif;
 }
+footer table {
+  height: 100%;
+}
 .right_align {
   text-align: right;   
 }
