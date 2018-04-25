@@ -23,9 +23,6 @@ footer table {
 header tbody, footer tbody {
   margin: 0; 
 }
-header td {
-  width: 50%;
-}
 footer {
   width: 100%;
   background-color: #FF9966;
