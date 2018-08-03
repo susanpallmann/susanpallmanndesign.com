@@ -3,7 +3,7 @@ body {
 }
 header {
   position: fixed;
-  box-shadow: 0 -3vh 7vh;
+  box-shadow: 0 -3vh 4vh;
   background-color: #fff;
   z-index: 2;
   top: 0;
