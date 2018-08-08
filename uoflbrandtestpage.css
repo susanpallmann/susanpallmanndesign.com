@@ -1,12 +1,16 @@
 .speciallink a:link{ 
     color:red; 
+    text-decoration:none;
 } 
 .speciallink a:visited{
-    color:red; 
+    color:red;
+    text-decoration:none;
     } 
 .speciallink a:hover{ 
     color:red; 
+    text-decoration:none;
     } 
 .speciallink a:active{ 
     color:red;
+    text-decoration:none;
     }
