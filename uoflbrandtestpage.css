@@ -14,3 +14,6 @@
     color:red;
     text-decoration:none;
     }
+.speciallink a:active{ 
+    margin: 0px;
+}
