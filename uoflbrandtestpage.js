@@ -6,7 +6,7 @@ function myFunction() {
         text += x.elements[i].value + "<br>";
     }
     document.getElementById("formatinfo").innerHTML = text;
-}
+
 function myFunction2() {
     var x = document.getElementById("firstname");
     var text = "";
