@@ -11,5 +11,5 @@ function myFunction() {
     document.getElementById("office").innerHTML = department;
     document.getElementById("ophone").innerHTML = officephone;
     document.getElementById("mphone").innerHTML = mobilephone;
-    document.getElementById("mail").innerHTML = [0].innerHTML += email.link("mailto:" + email);
+    document.getElementById("mail").innerHTML = email.link("mailto:" + email);
 }
