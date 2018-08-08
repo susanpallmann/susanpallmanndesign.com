@@ -1,4 +1,3 @@
-<script>
 function myFunction() {
     var x = document.getElementById("frm1");
     var text = "";
@@ -8,4 +7,3 @@ function myFunction() {
     }
     document.getElementById("formatinfo").innerHTML = text;
 }
-</script>
