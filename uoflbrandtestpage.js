@@ -7,3 +7,9 @@ function myFunction() {
     }
     document.getElementById("formatinfo").innerHTML = text;
 }
+function myFunction() {
+    var x = document.getElementById("firstname");
+    var text = "";
+    }
+    document.getElementById("firstn").innerHTML = text;
+}
