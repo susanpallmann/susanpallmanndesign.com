@@ -6,3 +6,4 @@ function myFunction2() {
         text += x.elements[i].value + "<br>";
     }
     document.getElementById("firstn").innerHTML = text;
+}
