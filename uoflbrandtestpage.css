@@ -1,0 +1,12 @@
+.speciallink a:link{ 
+    color:red; 
+} 
+.speciallink a:visited{
+    color:red; 
+    } 
+.speciallink a:hover{ 
+    color:red; 
+    } 
+.speciallink a:active{ 
+    color:red;
+    }
