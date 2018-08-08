@@ -5,5 +5,5 @@ function myFunction2() {
     for (i = 0; i < x.length ;i++) {
         text += x.elements[i].value;
     }
-    document.getElementById("firstn").innerHTML = text;
+    document.getElementById("firstn").innerHTML = "test";
 }
