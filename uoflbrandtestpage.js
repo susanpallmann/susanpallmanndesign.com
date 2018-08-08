@@ -1,5 +1,5 @@
 function myFunction2() {
-    var x = document.getElementById("firstname");
+    var x = document.getElementById("frm1");
     var text = "";
     var i;
     for (i = 0; i < x.length ;i++) {
