@@ -9,7 +9,7 @@ function myFunction() {
     var mobilephone = document.getElementById("mobilephone").value;
     document.getElementById("firstlastname").innerHTML = firstname + " " + lastname;
     document.getElementById("title2").innerHTML = title;
-    document.getElementById("office").innerHTML = department.link(departmenturl);
+    document.getElementById("office").innerHTML = department.link("https://" + departmenturl);
     document.getElementById("ophone").innerHTML = officephone.link("tel:1-" + officephone);
     document.getElementById("mphone").innerHTML = mobilephone.link("tel:1-" + mobilephone);
     document.getElementById("mail").innerHTML = email.link("mailto:" + email);
