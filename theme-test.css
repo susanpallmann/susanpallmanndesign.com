@@ -51,7 +51,9 @@ div.codesnip p {
   color: #52656f;
   font-size: 120%;
 }
-div.main {
+div.container {
+  max-width: 1024px;
+  margin: auto;
 }
 div.gradient-bar {
   height: 20px;
