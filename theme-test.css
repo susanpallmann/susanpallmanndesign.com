@@ -55,6 +55,7 @@ div.codesnip p {
 div.container {
   max-width: 1024px;
   margin: auto;
+  width: 100%;
 }
 div.gradient-bar {
   height: 20px;
