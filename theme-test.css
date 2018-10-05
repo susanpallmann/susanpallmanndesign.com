@@ -52,6 +52,9 @@ div.codesnip p {
   color: #52656f;
   font-size: 120%;
 }
+div.main {
+    width: 100%;
+}
 div.container {
   max-width: 1024px;
   margin: auto;
