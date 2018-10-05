@@ -19,7 +19,7 @@ h4 {
 }
 p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
-  font-size: 0.2in;
+  font-size: 100%;
 }
 div.blockquote {
   border-left: 5px solid #72b89c;
@@ -60,4 +60,5 @@ div.gradient-bar {
   height: 20px;
   background-color: #ff6666;
   background-image: linear-gradient(to right, #ff6666, #ff9966);
+  width: 100%;
 }
