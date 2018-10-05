@@ -51,3 +51,8 @@ div.codesnip p {
   color: #52656f;
   font-size: 120%;
 }
+div.main {
+}
+div.gradient {
+  height: 20px;
+}
