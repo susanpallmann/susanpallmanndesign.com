@@ -42,4 +42,5 @@ div.codesnip {
 }
 div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
+  margin: 0px;
 }
