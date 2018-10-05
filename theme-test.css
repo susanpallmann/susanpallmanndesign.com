@@ -27,6 +27,7 @@ div.blockquote p {
   font-weight: 700;
   font-style: italic;
   color: #72b89c;
+  margin-left: 10px;
 }
 div.process {
   background-color: rgba(82, 101, 111, 0.13);
