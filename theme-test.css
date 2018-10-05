@@ -35,6 +35,7 @@ div.process p {
 }
 div.codesnip {
   background-color: rgba(82, 101, 111, 0.13);
+  border-radius: 10px;
 }
 div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
