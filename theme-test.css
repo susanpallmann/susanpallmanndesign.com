@@ -1,6 +1,7 @@
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
+  font-size: 42px;
   color: #ff6666;
   text-transform: uppercase;
 }
@@ -18,7 +19,7 @@ h4 {
 }
 p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 div.blockquote {
   border-left: 5px solid #72b89c;
