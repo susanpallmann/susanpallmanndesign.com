@@ -1,0 +1,39 @@
+h1 {
+font-family: 'Oswald', sans-serif;
+font-weight: 500;
+color: #ff6666;
+}
+h3 {
+font-family: 'Oswald', sans-serif;
+font-weight: 500;
+color: #ff9966
+}
+h4 {
+font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #52656f;
+}
+p {
+font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+}
+div.blockquote {
+}
+div.blockquote p {
+font-family: 'Playfair Display', Georgia, serif;
+font-weight: 700;
+font-style: italic;
+color: #72b89c;
+}
+div.process {
+background-color: rgba(82, 101, 111, 0.13);
+}
+div.process p {
+font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+}
+div.codesnip {
+background-color: rgba(82, 101, 111, 0.13);
+}
+div.codesnip p {
+font-family: 'Courier New', 'Courier', monospace, sans-serif;
+}
