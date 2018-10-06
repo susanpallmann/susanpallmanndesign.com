@@ -49,6 +49,7 @@ div.blockquote p {
   font-style: italic;
   color: #72b89c;
   font-size: 120%;
+  line-height: normal;
 }
 div.process {
   background-color: rgba(82, 101, 111, 0.13);
