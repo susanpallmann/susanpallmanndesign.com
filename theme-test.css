@@ -15,7 +15,7 @@ h3 {
   color: #ff9966;
   text-transform: uppercase;
   font-size: 170%;
-  margin: 0px;
+  margin: 32pt 0px 0px 0px;
   line-height: 100%;
 }
 h4 {
@@ -98,5 +98,5 @@ img {
 }
 div.project-title {
   width: 100%;
-  padding-bottom: 39pt;
+  margin-bottom: 39pt;
 }
