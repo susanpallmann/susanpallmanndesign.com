@@ -124,17 +124,17 @@ div.process div.codesnip {
 }
 /*"Discount Bootstrap" Responsive Web Styles*/
 @media only screen and (max-width: 575px) {
-  #span12 {
-    width: 100%;
-  }
   #span3 {
     width: 100%;
   }
   #span3i {
     width: 100%;
   }
-  #span9 {
+  #span4 {
     width: 100%;
+  }
+  #span4t {
+    width: 33%;
   }
   #span6 {
     width: 100%;
@@ -142,25 +142,31 @@ div.process div.codesnip {
   #span6i {
     width: 100%;
   }
-  #span4 {
-    width: 100%;
+  #span6t {
+    width: 50%;
   }
   #span8 {
+    width: 100%;
+  }
+  #span9 {
+    width: 100%;
+  }
+  #span12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 576px) {
-  #span12 {
-    width: 100%;
-  }
   #span3 {
     width: 100%;
   }
   #span3i {
     width: 50%;
   }
-  #span9 {
+  #span4 {
     width: 100%;
+  }
+  #span4t {
+    width: 33%;
   }
   #span6 {
     width: 100%;
@@ -168,25 +174,31 @@ div.process div.codesnip {
   #span6i {
     width: 100%;
   }
-  #span4 {
-    width: 100%;
+  #span6t {
+    width: 50%;
   }
   #span8 {
+    width: 100%;
+  }
+  #span9 {
+    width: 100%;
+  }
+  #span12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) {
-  #span12 {
-    width: 100%;
-  }
   #span3 {
     width: 25%;
   }
   #span3i {
     width: 25%;
   }
-  #span9 {
-    width: 75%;
+  #span4 {
+    width: 33%;
+  }
+  #span4t {
+    width: 33%;
   }
   #span6 {
     width: 50%;
@@ -194,25 +206,31 @@ div.process div.codesnip {
   #span6i {
     width: 50%;
   }
-  #span4 {
-    width: 33%;
+  #span6t {
+    width: 50%;
   }
   #span8 {
     width: 67%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span12 {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 992px) {
-  #span12 {
-    width: 100%;
-  }
   #span3 {
     width: 25%;
   }
   #span3i {
     width: 25%;
   }
-  #span9 {
-    width: 75%;
+  #span4 {
+    width: 33%;
+  }
+  #span4t {
+    width: 33%;
   }
   #span6 {
     width: 50%;
@@ -220,25 +238,31 @@ div.process div.codesnip {
   #span6i {
     width: 50%;
   }
-  #span4 {
-    width: 33%;
+  #span6t {
+    width: 50%;
   }
   #span8 {
     width: 67%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span12 {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1024px) {
-  #span12 {
-    width: 100%;
-  }
   #span3 {
     width: 25%;
   }
   #span3i {
     width: 25%;
   }
-  #span9 {
-    width: 75%;
+  #span4 {
+    width: 33%;
+  }
+  #span4t {
+    width: 33%;
   }
   #span6 {
     width: 50%;
@@ -246,10 +270,16 @@ div.process div.codesnip {
   #span6i {
     width: 50%;
   }
-  #span4 {
-    width: 33%;
+  #span6t {
+    width: 50%;
   }
   #span8 {
     width: 67%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span12 {
+    width: 100%;
   }
 }
