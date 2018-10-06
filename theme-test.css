@@ -32,7 +32,7 @@ div.blockquote p {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 120%;
+  font-size: 1.2em;
   color: #72b89c;
 }
 div.process {
@@ -54,7 +54,7 @@ div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
   margin: 0px;
   color: #52656f;
-  font-size: 110%;
+  font-size: 1.1em;
 }
 div.main {
     width: 100%;
