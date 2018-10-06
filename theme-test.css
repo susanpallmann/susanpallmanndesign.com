@@ -4,8 +4,8 @@ h1 {
   font-size: 4.5em;
   color: #ff6666;
   text-transform: uppercase;
-  margin-bottom: 10pt;
-  margin-top: 10pt;
+  margin-bottom: 13pt;
+  margin-top: 13pt;
   line-height: 100%;
 }
 h3 {
@@ -84,4 +84,8 @@ img {
   display: block;
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
   font-weight: 300;
+}
+div.project-title {
+  width: 100%;
+  padding-bottom: 39pt;
 }
