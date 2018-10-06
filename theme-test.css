@@ -110,10 +110,15 @@ div.container {
   width: 100%;
   overflow: hidden;
   background-color: #f7f8f9;
+  padding: 0px 10px 0px 10px;
 }
 div.row {
   display:flex;
   flex-wrap: wrap;
+  margin: 0px -10px 0px -10px;
+}
+div.col {
+  margin: 0px 10px 0px 10px;
 }
 div.project-title {
   width: 100%;
