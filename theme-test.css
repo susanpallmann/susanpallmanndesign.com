@@ -140,9 +140,9 @@ div.process div.codesnip {
 }
 @media only screen and (min-width: 1024px) {
     div#span-1.col {
-      width: 341px;
+      width: 33%;
     }
     div#span-2.col {
-      width: 683px;
+      width: 67%;
     }
 }
