@@ -75,3 +75,6 @@ div.gradient-bar {
   width: 100%;
   overflow: hidden;
 }
+img {
+  background-color: #28353b;
+}
