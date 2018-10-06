@@ -72,7 +72,7 @@ div.container {
 div.gradient-bar {
   height: 10px;
   background-color: #ff6666;
-  background-image: linear-gradient(to right, #ff6666, #ff9966);
+  background-image: linear-gradient(to right, #ff9966, #ff6666);
   width: 100%;
   overflow: hidden;
 }
