@@ -98,6 +98,15 @@ div.gradient-bar {
 div.main {
     width: 100%;
 }
+div.wrap {
+  max-width: 1024px;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f7f8f9;
+  border-left: 10pt solid #f7f8f9;
+  border-right: 10pt solid #f7f8f9;
+}
 div.container {
   max-width: 1024px;
   margin: auto;
