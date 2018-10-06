@@ -104,7 +104,6 @@ div.container {
   width: 100%;
   overflow: hidden;
   background-color: #f7f8f9;
-  padding: 0px 10pt 0px 10pt;
 }
 div.row {
   display:flex;
@@ -220,9 +219,6 @@ div.process div.codesnip {
   }
   #span8 {
     width: 67%;
-  }
-  .container {
-    width: 100%;
   }
 }
 @media only screen and (min-width: 1024px) {
