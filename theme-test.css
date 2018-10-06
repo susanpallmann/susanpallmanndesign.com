@@ -63,6 +63,10 @@ div.process p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
   margin: 0px 0px 16pt 0px;
 }
+div.process h3 {
+  color: #ff6666;
+  margin: 16pt 0px 8pt 0px;
+}
 div.codesnip {
   background-color: rgba(82, 101, 111, 0.13);
   border-radius: 10px;
