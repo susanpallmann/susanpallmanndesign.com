@@ -98,3 +98,18 @@ div.project-title {
   width: 100%;
   margin-bottom: 50pt;
 }
+ul.project-title-h4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ul.project-title-h4 li {
+  float: left;
+}
+ul.project-title-h4 li h4 {
+  display: block;
+  text-align: center;
+  padding: 16pt;
+}
