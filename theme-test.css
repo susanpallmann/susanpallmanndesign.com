@@ -41,7 +41,6 @@ div.blockquote p {
 }
 div.process {
   background-color: rgba(82, 101, 111, 0.13);
-  width: 100%;
   overflow: hidden;
   padding: 10pt;
 }
