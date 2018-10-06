@@ -106,44 +106,134 @@ div.project-title {
 div.process div.codesnip {
   margin-bottom: 8pt;
 }
-/*Artificial "Bootstrap" Responsive Web Styles*/
+/*"Discount Bootstrap" Responsive Web Styles*/
 @media only screen and (max-width: 575px) {
-    div#span-1.col {
-      width: 100%;
-    }
-    div#span-2.col {
-      width: 100%;
-    }
+  #span12 {
+    width: 100%;
+  }
+  #span3 {
+    width: 100%;
+  }
+  #span3i {
+    width: 100%;
+  }
+  #span9 {
+    width: 100%;
+  }
+  #span6 {
+    width: 100%;
+  }
+  #span6i {
+    width: 50%;
+  }
+  #span4 {
+    width: 100%;
+  }
+  #span8 {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 576px) {
-    div#span-1.col {
-      width: 100%;
-    }
-    div#span-2.col {
-      width: 100%;
-    }
+  #span12 {
+    width: 100%;
+  }
+  #span3 {
+    width: 100%;
+  }
+  #span3i {
+    width: 50%;
+  }
+  #span9 {
+    width: 100%;
+  }
+  #span6 {
+    width: 100%;
+  }
+  #span6i {
+    width: 50%;
+  }
+  #span4 {
+    width: 100%;
+  }
+  #span8 {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) {
-    div#span-1.col {
-      width: 100%;
-    }
-    div#span-2.col {
-      width: 100%;
-    }
+  #span12 {
+    width: 100%;
+  }
+  #span3 {
+    width: 25%;
+  }
+  #span3i {
+    width: 25%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span6 {
+    width: 50%;
+  }
+  #span6i {
+    width: 50%;
+  }
+  #span4 {
+    width: 33%;
+  }
+  #span8 {
+    width: 67%;
+  }
 }
 @media only screen and (min-width: 992px) {
-    div#span-1.col {
-      width: 100%;
-    }
-    div#span-2.col {
-      width: 100%;
-    }
+  #span12 {
+    width: 100%;
+  }
+  #span3 {
+    width: 25%;
+  }
+  #span3i {
+    width: 25%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span6 {
+    width: 50%;
+  }
+  #span6i {
+    width: 50%;
+  }
+  #span4 {
+    width: 33%;
+  }
+  #span8 {
+    width: 67%;
+  }
 }
 @media only screen and (min-width: 1024px) {
-    div#span-1.col {
-      width: 33%;
-    }
-    div#span-2.col {
-      width: 67%;
-    }
+  #span12 {
+    width: 100%;
+  }
+  #span3 {
+    width: 25%;
+  }
+  #span3i {
+    width: 25%;
+  }
+  #span9 {
+    width: 75%;
+  }
+  #span6 {
+    width: 50%;
+  }
+  #span6i {
+    width: 50%;
+  }
+  #span4 {
+    width: 33%;
+  }
+  #span8 {
+    width: 67%;
+  }
 }
