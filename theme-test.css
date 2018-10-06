@@ -104,11 +104,9 @@ div.wrap {
   width: 100%;
   overflow: hidden;
   background-color: #f7f8f9;
-  border-left: 10pt solid #f7f8f9;
-  border-right: 10pt solid #f7f8f9;
+  padding: 0px 10pt 0px 10pt;
 }
 div.container {
-  max-width: 1024px;
   margin: auto;
   width: 100%;
   overflow: hidden;
