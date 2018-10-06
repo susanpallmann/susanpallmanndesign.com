@@ -32,6 +32,7 @@ div.blockquote p {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
   font-style: italic;
+  font-size: 120%;
   color: #72b89c;
 }
 div.process {
