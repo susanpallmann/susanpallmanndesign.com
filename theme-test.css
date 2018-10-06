@@ -101,3 +101,6 @@ div.project-title {
 div.process div.codesnip {
   margin-bottom: 8pt;
 }
+div.row {
+  display:flex;
+}
