@@ -96,6 +96,7 @@ div.container {
 }
 div.row {
   display:flex;
+  flex-wrap: wrap;
 }
 div.project-title {
   width: 100%;
