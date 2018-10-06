@@ -103,7 +103,6 @@ ul.project-title-h4 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
 }
 ul.project-title-h4 li {
   float: left;
@@ -111,5 +110,5 @@ ul.project-title-h4 li {
 ul.project-title-h4 li h4 {
   display: block;
   text-align: center;
-  padding: 16pt;
+  padding-right: 16pt;
 }
