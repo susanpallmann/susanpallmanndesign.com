@@ -31,6 +31,12 @@ p {
   margin: 8pt 0px 16pt 0px;
   line-height: 160%;
 }
+a:link {
+  color: #ff6666;
+}
+a:hover {
+  color: #72b89c;
+}
 div.blockquote {
   border-left: 5pt solid #72b89c;
   margin: auto;
