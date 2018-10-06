@@ -102,5 +102,6 @@ div.numbered-list p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
   font-weight: 700;
   color: #72b89c;
-  margin: 0px;
+  margin: auto;
+  width: 400pt;
 }
