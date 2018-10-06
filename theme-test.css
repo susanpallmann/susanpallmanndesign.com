@@ -107,42 +107,42 @@ div.process div.codesnip {
 }
 /*Artificial "Bootstrap" Responsive Web Styles*/
 @media only screen and (max-width: 575px) {
-    div.column img {
+    div.col img {
       width: 100%
     }
-    div.column p {
+    div.col p {
       width: 100%
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    div.column img {
+    div.col img {
       width: 100%
     }
-    div.column p {
+    div.col p {
       width: 100%
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    div.column img {
+    div.col img {
       width: 100%
     }
-    div.column p {
+    div.col p {
       width: 100%
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
-    div.column img {
+    div.col img {
       width: 100%
     }
-    div.column p {
+    div.col p {
       width: 100%
     }
 }
 @media only screen and (min-width: 1024px) {
-    div.column img {
+    div.col img {
       width: 341px
     }
-    div.column p {
+    div.col p {
       width: 683px
     }
 }
