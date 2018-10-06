@@ -26,7 +26,7 @@ div.blockquote {
   border-left: 5pt solid #72b89c;
   margin: auto;
   padding-left: 7pt;
-  max-width: 560pt;
+  max-width: 400pt;
 }
 div.blockquote p {
   font-family: 'Playfair Display', Georgia, serif;
@@ -48,7 +48,7 @@ div.codesnip {
   border-radius: 10px;
   padding: 5px;
   margin: auto;
-  max-width: 480pt;
+  max-width: 300pt;
 }
 div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
