@@ -15,7 +15,7 @@ h3 {
   color: #ff9966;
   text-transform: uppercase;
   font-size: 170%;
-  margin: 32pt 0px 0px 0px;
+  margin: 0pt 0px 0px 0px;
   line-height: 100%;
 }
 h4 {
@@ -23,7 +23,7 @@ h4 {
   font-weight: 700;
   font-style: italic;
   color: #52656f;
-  margin: 0px;
+  margin: 0px 0px 32pt 0px;
 }
 p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
