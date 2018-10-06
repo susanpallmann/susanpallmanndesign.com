@@ -47,7 +47,8 @@ div.codesnip {
   background-color: rgba(82, 101, 111, 0.13);
   border-radius: 10px;
   padding: 5px;
-  margin: 10px 30% 0px 30%;
+  margin: auto;
+  width: 27em;
 }
 div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
