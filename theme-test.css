@@ -27,6 +27,12 @@ p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
   font-size: 100%;
 }
+@media (max-width: 1200px) {
+    div.gallery_img {
+      margin-left: 20pt;
+      margin-right: 20pt;
+    }
+}
 div.blockquote {
   border-left: 5pt solid #72b89c;
   margin: auto;
