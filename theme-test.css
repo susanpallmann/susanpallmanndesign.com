@@ -43,6 +43,7 @@ div.process {
   background-color: rgba(82, 101, 111, 0.13);
   width: 100%;
   overflow: hidden;
+  padding: 10pt;
 }
 div.process p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
@@ -50,7 +51,7 @@ div.process p {
 div.codesnip {
   background-color: rgba(82, 101, 111, 0.13);
   border-radius: 10px;
-  padding: 5px;
+  padding: 5pt;
   margin: auto;
   max-width: 300pt;
 }
