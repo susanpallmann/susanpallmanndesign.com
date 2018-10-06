@@ -28,6 +28,7 @@ h4 {
 p {
   font-family: 'Lato', verdana, arial, helvetica, sans-serif;
   font-size: 100%;
+  margin: 20pt 0px 20pt 0px;
 }
 @media (max-width: 1200px) {
     div.gallery_img {
