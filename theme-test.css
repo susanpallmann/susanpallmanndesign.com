@@ -31,12 +31,6 @@ p {
   margin: 8pt 0px 16pt 0px;
   line-height: 160%;
 }
-@media (max-width: 1200px) {
-    div.gallery_img {
-      margin-left: 20pt;
-      margin-right: 20pt;
-    }
-}
 div.blockquote {
   border-left: 5pt solid #72b89c;
   margin: auto;
