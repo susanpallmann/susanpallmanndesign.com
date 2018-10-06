@@ -34,8 +34,11 @@ p {
 a {
   color: #ff6666;
 }
-a:hover {
+a:hover, a:active {
   color: #72b89c;
+}
+a:visited {
+  color: #a35d5d;
 }
 div.blockquote {
   border-left: 5pt solid #72b89c;
