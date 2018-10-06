@@ -33,6 +33,7 @@ div.blockquote p {
   font-weight: 700;
   font-style: italic;
   color: #72b89c;
+  font-size: 120%;
 }
 div.process {
   background-color: rgba(82, 101, 111, 0.13);
@@ -53,6 +54,7 @@ div.codesnip p {
   font-family: 'Courier New', 'Courier', monospace, sans-serif;
   margin: 0px;
   color: #52656f;
+  font-size: 100%
 }
 div.main {
     width: 100%;
