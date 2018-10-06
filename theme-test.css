@@ -79,4 +79,8 @@ img {
   background-color: #28353b;
   width: 100%;
   height: 200pt;
+  color: #ffffff;
+  display: block;
+  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
+  font-weight: 300;
 }
