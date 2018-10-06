@@ -94,14 +94,7 @@ img {
   box-sizing: border-box;
 }
 img.borderless {
-  background-color: #28353b;
-  width: 100%;
-  height: 200pt;
-  color: #ffffff;
-  display: block;
-  font-family: 'Lato', verdana, arial, helvetica, sans-serif;
-  font-weight: 300;
-  margin-bottom: 8pt;
+  border: none;
 }
 div.gradient-bar {
   height: 10px;
