@@ -40,7 +40,7 @@ window.onload = function() {
     initial3 = distance;
   }
   
-  // scrollInterval = setInterval(parallax2, 10);
+  scrollInterval = setInterval(parallax2, 10);
 };
 
 $(function() {
