@@ -40,19 +40,8 @@ window.onload = function() {
     initial3 = distance;
   }
   
-  //scrollInterval = setInterval(parallax2, 15);
+  scrollInterval = setInterval(parallax2, 15);
 };
-
-$(function() {
-  $(window).on('scrollstart', function() {
-    scrollInterval = setInterval(parallax2, 15);
-  })
-
-  $(window).on('scrollstop', function() {
-    clearInterval(scrollInterval);
-  })
-
-})
 
 //Parallax effect only runs when scrolling.
 
