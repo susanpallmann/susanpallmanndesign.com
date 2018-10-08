@@ -40,12 +40,12 @@ window.onload = function() {
     initial3 = distance;
   }
   
-  scrollInterval = setInterval(parallax2, 10);
+  scrollInterval = setInterval(parallax2, 15);
 };
 
 $(function() {
   $(document).on('scrollstart', function() {
-    scrollInterval = setInterval(parallax2, 10);
+    scrollInterval = setInterval(parallax2, 15);
   })
 
   $(document).on('scrollend', function() {
