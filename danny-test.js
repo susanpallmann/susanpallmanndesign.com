@@ -44,12 +44,11 @@ window.onload = function() {
 };
 
 $(function() {
-
-  $(window).on('scrollstart', function() {
+  $(document).on('scrollstart', function() {
     scrollInterval = setInterval(parallax2, 10);
   })
 
-  $(window).on('scrollend', function() {
+  $(document).on('scrollend', function() {
     clearInterval(scrollInterval);
   })
 
