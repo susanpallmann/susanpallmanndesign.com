@@ -60,14 +60,14 @@ function parallax2() {
     scrollTop = $(window).scrollTop();
     elementOffset = box.eq(i).offset().top;
     distance = (elementOffset - scrollTop);
-    movement = (distance - initial)/60;
+    movement = (distance - initial)/10;
     box.eq(i).css("top",movement + "px");
   }
   for (i=0; i<len2; i++) {
     scrollTop = $(window).scrollTop();
     elementOffset = box2.eq(i).offset().top;
     distance = (elementOffset - scrollTop);
-    movement = (distance - initial2)/80;
+    movement = (distance - initial2)/15;
     box2.eq(i).css("top",movement + "px");
   }
 }
