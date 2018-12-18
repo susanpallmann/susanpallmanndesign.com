@@ -51,6 +51,7 @@ p {
 /*Discount Bootstrap Responsive Grid (Mobile First)*/
 .colorblock {
   background-color: #B1CABF;
+  padding: 0.01px;
 }
 .container {
   max-width: 1000px;
