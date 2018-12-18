@@ -54,6 +54,7 @@ strong {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .colorblock .button {
   color: #fff;
