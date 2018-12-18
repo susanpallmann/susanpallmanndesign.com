@@ -151,6 +151,8 @@ header {
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+  z-index: 1;
+  position: relative;
 }
 .navContainer {
   max-width: 1200px;
@@ -207,6 +209,14 @@ nav#vertical li a {
   letter-spacing: 0.05em;
   font-size: 1.2em;
   line-height: 2em;
+}
+.dropdown {
+  transform: translateY(-300px);
+  -webkit-transform: translateY(-300px);
+  transition: transform 1s;
+  -webkit-transition: -webkit-transform 1s;
+  z-index: 0;
+  position: relative;
 }
 /*Page-Specific Hero Header*/
 #hero {
