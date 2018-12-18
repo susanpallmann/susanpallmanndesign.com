@@ -163,7 +163,7 @@ header {
   width: 50px;
 }
 nav#horizontal {
-  display:none;
+  display: none;
   float: right;
 }
 nav#horizontal ul {
