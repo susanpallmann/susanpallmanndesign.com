@@ -59,6 +59,8 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 83.33px;
+  margin-bottom: 83.33px;
 }
 .column {
   width: 100%;
