@@ -211,8 +211,8 @@ nav#vertical li a {
   line-height: 2em;
 }
 #dropdown {
-  transform: translateY(-300px);
-  -webkit-transform: translateY(-300px);
+  transform: translateY(-200px);
+  -webkit-transform: translateY(-200px);
   transition: transform 0.4s;
   -webkit-transition: -webkit-transform 0.4s;
   z-index: 0;
