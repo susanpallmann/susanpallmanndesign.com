@@ -10,7 +10,7 @@
 .hamburger:hover {
   cursor: pointer;
 }
-.hamburger-cell {
+#hamburger-cell {
   text-align: right;
   display: inline;
 }
