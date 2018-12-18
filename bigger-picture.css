@@ -16,11 +16,15 @@ h1 {
   text-transform: uppercase;
   font-weight: 900;
   margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 h2 {
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 h3 {
   text-transform: uppercase;
@@ -29,11 +33,15 @@ h3 {
   letter-spacing: 0.03em;
   margin: 0;
   margin-bottom: 1.2em;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 p {
   color: #666;
   line-height: 1.7em;
   margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 strong {
   color: #83AE9C;
@@ -189,5 +197,9 @@ strong {
   }
   .column.span4.static {
     width: 33.33%;
+  }
+  p, h3, h2, h1 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
