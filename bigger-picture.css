@@ -11,6 +11,8 @@
 }
 #hero img {
   max-width: 1000px;
+  position: absolute;
+  margin: auto;
 }
 /*Basic Appearance Styles*/
 body {
@@ -79,7 +81,10 @@ img {
   width: 100%;
 }
 .iconLarge {
-  width: 85%;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-top: 0.3em;
 }
 /*Discount Bootstrap Responsive Grid (Mobile First)*/
 .colorblock {
