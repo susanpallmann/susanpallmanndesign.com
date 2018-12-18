@@ -5,12 +5,15 @@ ul {
   padding: 0;
 }
 li {
-  float: left;
+  float: right;
+  margin-right: 20px;
 }
 li a {
+  color: #666;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 /*Page-Specific Hero Header*/
