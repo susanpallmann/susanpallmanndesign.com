@@ -36,25 +36,3 @@ window.onload = function() {
         }
     });
 };
-function redirect(url) {
-  var userAgent = navigator.userAgent.toLowerCase();
-  if (userAgent.indexOf("msie") !== -1) {
-      var isInternetExplorer = true;
-  } else {
-      var isInternetExplorer = true;
-  }
-  var version = parseInt(userAgent.substr(4, 2), 10);
-  
-  if (isInternetExplorer && version < 9) {
-    var link = document.createElement("a");
-    link.href = url;
-    document.body.appendChild(link);
-    link.click();
-  } else { 
-     window.location.href = url; 
-  }
-}
-function openNewTab(url) {
-  var newTab = window.open(url, '_blank');
-  newTab.focus();
-}
