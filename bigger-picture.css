@@ -12,15 +12,15 @@
 }
 .hamburger-cell {
   text-align: right;
+  display: inline;
 }
 #top_hamburger span {
-  background-color: white;
+  background-color: #666;
   height: 6px;
   display: block;
   position: relative;
   width: 100%;
   border-radius: 3px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 #hamburgerTop {
   top: 0;
