@@ -22,8 +22,12 @@ h3 {
   margin-bottom: 1.2em;
 }
 p {
+  color: #666;
   line-height: 1.7em;
   margin: 0;
+}
+strong {
+  color: #83AE9C;
 }
 .button {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
