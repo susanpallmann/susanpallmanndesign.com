@@ -13,8 +13,8 @@ window.onload = function() {
         if ($(this).hasClass("animcomplete")) {
             $(this).removeClass("animcomplete");
             $(this).addClass("closed");
-            $("#dropdown").css("transform", "TranslateY(-300px)");
-            $("#dropdown").css("-webkit-transform", "TranslateY(-300px)");
+            $("#dropdown").css("transform", "TranslateY(-200px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(-200px)");
             setTimeout(function() {
               $("#top_hamburger").removeClass("closed");
             }, hamburgerAnimSpeed);
