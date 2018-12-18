@@ -1,5 +1,5 @@
 /*Nav Menu*/
-nav {
+/*nav {
   position: absolute;
   width: 100%;
   background-color: #fff;
@@ -38,7 +38,7 @@ li a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-align: center;
-}
+}*/
 /*Page-Specific Hero Header*/
 #hero {
   background-color: #83AE9C;
