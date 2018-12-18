@@ -14,7 +14,7 @@
   position: absolute;
   max-width: 1000px;
 }
-/*Basic Appearance Styles*/
+/*Text Styles*/
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   margin: 0;
@@ -77,6 +77,7 @@ strong {
 .colorblock h3 {
   color: #fff;
 }
+/*Image Handling*/
 img {
   width: 100%;
 }
@@ -87,7 +88,7 @@ img {
   margin-top: 0.3em;
   padding-left: 20px;
 }
-/*Discount Bootstrap Responsive Grid (Mobile First)*/
+/*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
   background-color: #B1CABF;
   padding: 0.01px;
@@ -121,7 +122,7 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/*Discount Bootstrap Responsive Grid Media Queries*/
+/*'Discount Bootstrap' Responsive Grid Media Queries*/
 /*Vertical Mobile*/
 @media only screen and (max-width: 600px) {
 }
