@@ -1,10 +1,9 @@
 /*Nav Menu*/
 header {
   position: absolute;
+  width: 100%;
 }
 #navBar {
-  position: absolute;
-  width: 100%;
   background-color: #fff;
   padding: 8px 20px 8px 20px;
   display: inline-block;
@@ -16,7 +15,6 @@ header {
   max-width: 1200px;
   margin:auto;
 }
-/*
 #mark {
   height: 20px;
   display: inline-block;
@@ -42,7 +40,7 @@ li a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-align: center;
-}*/
+}
 /*Page-Specific Hero Header*/
 #hero {
   background-color: #83AE9C;
