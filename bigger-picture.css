@@ -85,6 +85,7 @@ img {
   width: 75%;
   margin: auto;
   margin-top: 0.3em;
+  padding-left: 20px;
 }
 /*Discount Bootstrap Responsive Grid (Mobile First)*/
 .colorblock {
@@ -224,5 +225,8 @@ img {
   p, h3, h2, h1 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .iconLarge {
+    padding-left: 0px;
   }
 }
