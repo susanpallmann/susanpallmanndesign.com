@@ -1,4 +1,8 @@
 /*Nav Menu*/
+#navContainer {
+  background-color: #fff;
+  padding: 15px;
+}
 ul {
   list-style-type: none;
   margin: 0;
