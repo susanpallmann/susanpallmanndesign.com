@@ -145,7 +145,7 @@ strong {
     width: 100%;
   }
   .spacer {
-    padding-right: 8.33%;
+    padding-right: 0;
     box-sizing: border-box;
   }
   .column.span8.static {
