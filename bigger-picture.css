@@ -33,7 +33,7 @@ nav#horizontal ul {
   float: right;
 }
 nav#horizontal li {
-  float: right;
+  float: left;
   margin-left: 20px;
   margin-top: 8px;
   margin-bottom: 8px;
