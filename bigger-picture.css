@@ -210,7 +210,7 @@ nav#vertical li a {
   font-size: 1.2em;
   line-height: 2em;
 }
-.dropdown {
+#dropdown {
   transform: translateY(-300px);
   -webkit-transform: translateY(-300px);
   transition: transform 1s;
