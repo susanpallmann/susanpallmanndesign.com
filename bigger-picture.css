@@ -456,4 +456,7 @@ img {
   #hamburger-cell {
     display: none;
   }
+  nav#vertical {
+    display: none;
+  }
 }
