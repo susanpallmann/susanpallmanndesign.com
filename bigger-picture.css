@@ -9,6 +9,9 @@
   text-align: center;
   padding-top: 280px;
 }
+#hero img {
+  max-width: 1000px;
+}
 /*Basic Appearance Styles*/
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
