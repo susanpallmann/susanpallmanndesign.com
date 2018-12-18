@@ -1,4 +1,7 @@
 /*Nav Menu*/
+header {
+  position: absolute;
+}
 /*nav {
   position: absolute;
   width: 100%;
