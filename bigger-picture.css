@@ -23,7 +23,7 @@ p {
   line-height: 1.7em;
   margin: 0;
 }
-button {
+.button {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: 1.2em;
   font-weight: 700;
