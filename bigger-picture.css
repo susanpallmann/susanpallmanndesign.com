@@ -1,4 +1,8 @@
 /*Nav Menu*/
+nav {
+  position: absolute;
+  width: 100%;
+}
 #navContainer {
   background-color: #fff;
   padding: 15px;
