@@ -13,10 +13,17 @@ nav {
   max-width: 1200px;
   margin:auto;
 }
+#mark {
+  height: 20px;
+  display: inline-block;
+  width: 50px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
+  float: right;
 }
 li {
   float: right;
