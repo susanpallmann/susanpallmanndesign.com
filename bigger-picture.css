@@ -20,7 +20,7 @@ header {
   display: inline-block;
   width: 50px;
 }
-#nav#horizontal {
+nav#horizontal {
   display: inline-block;
 }
 ul {
