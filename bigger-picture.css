@@ -11,6 +11,7 @@ nav {
 }
 #navContainer {
   max-width: 1200px;
+  margin:auto;
 }
 ul {
   list-style-type: none;
