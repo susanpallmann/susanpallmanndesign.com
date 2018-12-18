@@ -79,6 +79,8 @@ strong {
 .container {
   max-width: 1000px;
   margin:auto;
+  padding-top: 41.66px;
+  padding-bottom: 41.66px
 }
 .row {
   display: flex;
@@ -86,8 +88,8 @@ strong {
 }
 .column {
   width: 100%;
-  margin-top: 83.33px;
-  margin-bottom: 83.33px;
+  margin-top: 41.66px;
+  margin-bottom: 41.66px;
 }
 .column.hybridRow {
   display: flex;
