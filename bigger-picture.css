@@ -11,7 +11,7 @@ header {
   box-sizing: border-box;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
 }
-#navContainer {
+.navContainer {
   max-width: 1200px;
   margin:auto;
 }
@@ -47,6 +47,8 @@ nav#horizontal li a {
 }
 nav#vertical {
   float: right;
+  background-color: #fff;
+  padding: 15px;
 }
 nav#vertical ul {
   list-style-type: none;
