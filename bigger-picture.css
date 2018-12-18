@@ -115,11 +115,9 @@ p {
   .span12 {
     width: 100%;
   }
-  .span5.spacer {
-    padding-right: 20%;
-  }
-  .span6.spacer {
-    padding-right: 16.66%;
+  .spacer {
+    padding-right: 8.33%;
+    box-sizing: border-box;
   }
   .column.span8.static {
     width: 66.67%;
@@ -166,11 +164,9 @@ p {
   .span12 {
     width: 100%;
   }
-  .span5.spacer {
-    padding-right: 20%;
-  }
-  .span6.spacer {
-    padding-right: 16.66%;
+  .spacer {
+    padding-right: 8.33%;
+    box-sizing: border-box;
   }
   .column.span8.static {
     width: 66.67%;
