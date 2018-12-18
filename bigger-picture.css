@@ -24,20 +24,20 @@ nav#horizontal {
   display: inline-block;
   float: right;
 }
-ul {
+nav#horizontal ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: inline-block;
   float: right;
 }
-li {
+nav#horizontal li {
   float: right;
   margin-left: 20px;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-li a {
+nav#horizontal li a {
   color: #666;
   font-weight: 700;
   text-decoration: none;
