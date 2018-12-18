@@ -2,14 +2,14 @@
 nav {
   position: absolute;
   width: 100%;
-}
-#navContainer {
   background-color: #fff;
   padding: 15px;
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+#navContainer {
 }
 ul {
   list-style-type: none;
