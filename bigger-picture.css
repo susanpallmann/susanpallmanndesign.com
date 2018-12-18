@@ -23,6 +23,7 @@ button {
 }
 .colorblock .button {
   color: #fff;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
