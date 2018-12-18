@@ -112,10 +112,10 @@ p {
   .span12 {
     width: 100%;
   }
-  span5.spacer {
+  .span5.spacer {
     padding-right: 20%;
   }
-  span6.spacer {
+  .span6.spacer {
     padding-right: 16.66%;
   }
   .column.span8.static {
@@ -163,10 +163,10 @@ p {
   .span12 {
     width: 100%;
   }
-  span5.spacer {
+  .span5.spacer {
     padding-right: 20%;
   }
-  span6.spacer {
+  .span6.spacer {
     padding-right: 16.66%;
   }
   .column.span8.static {
