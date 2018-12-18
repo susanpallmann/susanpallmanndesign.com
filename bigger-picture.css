@@ -192,6 +192,7 @@ nav#vertical {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
+  position: absolute;
 }
 nav#vertical ul {
   list-style-type: none;
