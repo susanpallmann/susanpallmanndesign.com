@@ -3,7 +3,7 @@ nav {
   position: absolute;
   width: 100%;
   background-color: #fff;
-  padding: 15px;
+  padding: 8px;
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
@@ -21,6 +21,8 @@ ul {
 li {
   float: right;
   margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 li a {
   color: #666;
