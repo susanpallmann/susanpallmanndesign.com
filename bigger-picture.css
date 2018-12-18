@@ -191,6 +191,7 @@ nav#vertical {
   padding: 15px;
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 nav#vertical ul {
   list-style-type: none;
