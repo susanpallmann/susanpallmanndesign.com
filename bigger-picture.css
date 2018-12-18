@@ -12,6 +12,7 @@
 }
 #hero img {
   position: absolute;
+  max-width: 1000px;
 }
 /*Basic Appearance Styles*/
 body {
