@@ -5,6 +5,9 @@ ul {
   padding: 0;
   width: 83px;
 }
+li {
+  float: left;
+}
 li a {
   text-decoration: none;
   text-transform: uppercase;
