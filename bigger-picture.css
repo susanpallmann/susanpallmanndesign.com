@@ -20,6 +20,9 @@ header {
   display: inline-block;
   width: 50px;
 }
+#nav#horizontal {
+  display: inline-block;
+}
 ul {
   list-style-type: none;
   margin: 0;
