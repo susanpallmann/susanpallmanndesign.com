@@ -75,6 +75,12 @@ body {
   span6.spacer {
     padding-right: 16.66%;
   }
+  .column.span8.static {
+    width: 66.67%;
+  }
+  .column.span4.static {
+    width: 33.33%;
+  }
 }
 /*Desktop*/
 @media only screen and (min-width: 1001px) {
@@ -119,5 +125,11 @@ body {
   }
   span6.spacer {
     padding-right: 16.66%;
+  }
+  .column.span8.static {
+    width: 66.67%;
+  }
+  .column.span4.static {
+    width: 33.33%;
   }
 }
