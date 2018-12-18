@@ -163,7 +163,7 @@ header {
   width: 50px;
 }
 nav#horizontal {
-  display: inline-block;
+  display:none;
   float: right;
 }
 nav#horizontal ul {
@@ -449,5 +449,11 @@ img {
   }
   .iconLarge {
     padding-left: 0px;
+  }
+  nav#horizontal {
+  display: inline-block;
+  }
+  #hamburger-cell {
+    display: none;
   }
 }
