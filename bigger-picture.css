@@ -72,6 +72,12 @@ strong {
 .colorblock h3 {
   color: #fff;
 }
+img {
+  width: 100%;
+}
+.iconLarge {
+  width: 85%;
+}
 /*Discount Bootstrap Responsive Grid (Mobile First)*/
 .colorblock {
   background-color: #B1CABF;
