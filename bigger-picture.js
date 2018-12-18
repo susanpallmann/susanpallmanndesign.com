@@ -13,15 +13,15 @@ window.onload = function() {
         if ($(this).hasClass("animcomplete")) {
             $(this).removeClass("animcomplete");
             $(this).addClass("closed");
-            $("#top_menu li").css("font-size", "0");
-            $("#top_menu li").css("color", "transparent");
+            $("#dropdown").css("transform", "TranslateY(0px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(0px)");
             setTimeout(function() {
               $("#top_hamburger").removeClass("closed");
             }, hamburgerAnimSpeed);
         } else {
             $(this).addClass("open");
-            $("#top_menu li").css("font-size", "1.2em");
-            $("#top_menu li").css("color", "#fff");
+            $("#dropdown").css("transform", "TranslateY(-300px)");
+            $("#dropdown").css("-webkit-transform", "TranslateY(-300px)");
             setTimeout(function() {
               $("#top_hamburger").removeClass("open");
               $("#top_hamburger").addClass("animcomplete");
