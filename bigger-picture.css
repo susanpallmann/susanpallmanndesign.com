@@ -81,11 +81,11 @@ strong {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 83.33px;
-  margin-bottom: 83.33px;
 }
 .column {
   width: 100%;
+  margin-top: 83.33px;
+  margin-bottom: 83.33px;
 }
 .column.hybridRow {
   display: flex;
@@ -93,9 +93,13 @@ strong {
 }
 .column.span8.static {
   width: 66.67%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .column.span4.static {
   width: 33.33%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /*Discount Bootstrap Responsive Grid Media Queries*/
 /*Vertical Mobile*/
