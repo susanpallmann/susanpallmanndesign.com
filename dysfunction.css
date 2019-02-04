@@ -230,6 +230,7 @@ nav#vertical li a {
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   margin: 0;
+  background-color: #EDC2BB;
 }
 h1 {
   text-transform: uppercase;
