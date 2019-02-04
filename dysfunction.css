@@ -145,17 +145,13 @@ header {
 }
 #navBar {
   background-color: #fff;
-  padding: 8px 20px 8px 20px;
+  padding: 8px 8px 8px 8px;
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
   z-index: 1;
   position: relative;
-}
-.navContainer {
-  max-width: 1200px;
-  margin:auto;
 }
 #mark {
   display: inline-block;
