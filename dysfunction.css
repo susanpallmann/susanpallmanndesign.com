@@ -171,11 +171,10 @@ nav#horizontal ul {
 nav#horizontal li {
   float: left;
   margin-left: 20px;
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 nav#horizontal li a {
-  color: #666;
+  color: #fff;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
