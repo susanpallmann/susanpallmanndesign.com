@@ -318,6 +318,11 @@ nav li:hover:after {
 nav li:after {
   transform-origin:  0% 50%;
 }
+nav li#selected:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #4ECDC4;   
+}
 /*Image Handling*/
 img {
   width: 100%;
