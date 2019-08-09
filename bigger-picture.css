@@ -467,3 +467,13 @@ img {
     display: none;
   }
 }
+/*Underline Animation*/
+nav ul li a:after {
+  display:block;
+  border-bottom: solid 3px #FF9966;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+h1.fromLeft:after {
+  transform-origin:  0% 50%;
+}
