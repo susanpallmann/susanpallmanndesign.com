@@ -304,6 +304,16 @@ strong {
 .colorblock h3 {
   color: #fff;
 }
+/*Underline Animation*/
+nav#horizontal li a::after {
+  display:block;
+  border-bottom: solid 3px #FF9966;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+nav#horizontal li a::after {
+  transform-origin:  0% 50%;
+}
 /*Image Handling*/
 img {
   width: 100%;
@@ -466,14 +476,4 @@ img {
   nav#vertical {
     display: none;
   }
-}
-/*Underline Animation*/
-nav#horizontal li a::after {
-  display:block;
-  border-bottom: solid 3px #FF9966;  
-  transform: scaleX(0);  
-  transition: transform 250ms ease-in-out;
-}
-nav#horizontal li a::after {
-  transform-origin:  0% 50%;
 }
