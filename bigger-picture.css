@@ -312,6 +312,9 @@ nav#horizontal li:after {
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
+nav#horizontal li:hover:after {
+  transform: scaleX(1);
+}
 nav#horizontal li:after {
   transform-origin:  0% 50%;
 }
