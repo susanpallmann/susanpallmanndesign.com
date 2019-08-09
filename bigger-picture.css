@@ -199,6 +199,7 @@ nav#vertical ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 nav#vertical li a {
   color: #666;
@@ -321,7 +322,8 @@ nav li:after {
 nav li#selected:after {
   display:block;
   content: '';
-  border-bottom: solid 3px #4ECDC4;   
+  border-bottom: solid 3px #4ECDC4;
+  transform: scaleX(1); 
 }
 /*Image Handling*/
 img {
