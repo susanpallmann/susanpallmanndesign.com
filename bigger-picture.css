@@ -474,6 +474,6 @@ nav ul li a:after {
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
-h1.fromLeft:after {
+nav ul li a:after {
   transform-origin:  0% 50%;
 }
