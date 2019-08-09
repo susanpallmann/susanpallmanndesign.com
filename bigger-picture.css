@@ -313,6 +313,8 @@ nav li:after {
   content: '';
   border-bottom: solid 3px #FF6666;  
   transform: scaleX(0);  
+}
+nav#horizontal li:after {
   transition: transform 250ms ease-in-out;
 }
 nav li:hover:after {
