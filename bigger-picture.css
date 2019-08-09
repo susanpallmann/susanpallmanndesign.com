@@ -468,12 +468,12 @@ img {
   }
 }
 /*Underline Animation*/
-nav li a:after {
+nav li a::after {
   display:block;
   border-bottom: solid 3px #FF9966;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
-nav li a:after {
+nav li a::after {
   transform-origin:  0% 50%;
 }
