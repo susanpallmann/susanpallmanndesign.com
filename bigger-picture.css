@@ -208,7 +208,9 @@ nav#vertical li a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 1.2em;
-  line-height: 2em;
+}
+nav#vertical li:nth-child(1n+1) {
+  margin-top: 8px;
 }
 #dropdown {
   transform: translateY(-200px);
