@@ -307,6 +307,7 @@ strong {
 /*Underline Animation*/
 nav#horizontal li:after {
   display:block;
+  content: '';
   border-bottom: solid 3px #FF9966;  
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
