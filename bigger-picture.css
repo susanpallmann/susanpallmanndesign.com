@@ -201,7 +201,9 @@ nav#vertical ul {
   padding: 0;
 }
 nav#vertical li {
-  display: inline-block;
+  display: table;
+  content: initial;
+margin: auto;
 }
 nav#vertical li a {
   color: #666;
