@@ -262,6 +262,9 @@ nav#vertical li:nth-child(1n+1) {
     margin-left: 0px;
     margin-right: 0px;
   }
+  .row#title-row h1, h2 {
+    text-align: center;
+  }
 }
 /*Text Styles*/
 body {
