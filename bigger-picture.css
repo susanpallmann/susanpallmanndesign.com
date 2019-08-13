@@ -253,6 +253,16 @@ nav#vertical li:nth-child(1n+1) {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+@media only screen and (max-width: 600px) {
+  .row#title-row h1, h2 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width:1000px) {
+  .row#title-row h1, h2 {
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 1001px) {
   .row#title-row .span3.column {
     margin-top: 41.66px;
