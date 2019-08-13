@@ -250,6 +250,9 @@ h1 {
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 2.5em;
+  line-height: 1.1em;
+  margin-bottom: 0.2em;
 }
 h2 {
   color: #ff6666;
@@ -257,6 +260,7 @@ h2 {
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 1.5em;
 }
 h3 {
   text-transform: uppercase;
