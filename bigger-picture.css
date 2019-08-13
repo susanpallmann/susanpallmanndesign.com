@@ -314,6 +314,10 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
+#project-meta p {
+  line-height: 1.3em;
+  margin-bottom: 0.4em;
+}
 .button {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: 1.2em;
