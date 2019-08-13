@@ -249,10 +249,6 @@ nav#vertical li:nth-child(1n+1) {
   width: 100%;
   content: '';
 }
-.row#title-row .span3.column {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 @media only screen and (max-width: 600px) {
   .row#title-row h1, h2 {
     text-align: center;
@@ -264,10 +260,6 @@ nav#vertical li:nth-child(1n+1) {
   }
 }
 @media only screen and (min-width: 1001px) {
-  .row#title-row .span3.column {
-    margin-top: 41.66px;
-    margin-bottom: 41.66px;
-  }
   .row#title-row:after {
     margin-left: 0px;
     margin-right: 0px;
