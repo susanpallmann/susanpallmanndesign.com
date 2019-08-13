@@ -240,6 +240,17 @@ nav#vertical li:nth-child(1n+1) {
   position: absolute;
   max-width: 1000px;
 }
+/*Title Row Styles*/
+.row#title-row {
+  border-bottom: 3px dotted #ccc;
+}
+/*Horizontal Mobile & Tablets*/
+@media only screen and (min-width: 601px) and (max-width:1000px) { 
+  .span3.column {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 /*Text Styles*/
 body {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
