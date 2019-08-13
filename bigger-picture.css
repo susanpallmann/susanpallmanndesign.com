@@ -393,8 +393,6 @@ img {
 .container {
   max-width: 1000px;
   margin:auto;
-  padding-top: 41.66px;
-  padding-bottom: 41.66px
 }
 .row {
   display: flex;
