@@ -246,8 +246,15 @@ nav#vertical li:nth-child(1n+1) {
 }
 .row#title-row .span3.column {
   width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 41.66px;
+  margin-bottom: 41.66px;
+}
+@media only screen and (min-width: 1001px) {
+  .row#title-row .span3.column {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 /*Text Styles*/
 body {
