@@ -479,6 +479,11 @@ img {
 }
 /*Desktop*/
 @media only screen and (min-width: 1001px) {
+  .column {
+    width: 100%;
+    margin-bottom: 41.66px;
+    margin-top: 41.66px;
+  }
   .span1 {
     width: 8.33%;
   }
