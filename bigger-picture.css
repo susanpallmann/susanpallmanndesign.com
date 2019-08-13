@@ -321,6 +321,7 @@ strong {
 }
 .colorblock h3 {
   color: #fff;
+  border-bottom: 3px solid #fff;
 }
 /*Underline Animation*/
 nav li:after {
