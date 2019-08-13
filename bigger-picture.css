@@ -245,6 +245,9 @@ nav#vertical li:nth-child(1n+1) {
   border-bottom: 3px dotted #ccc;
   margin-left: 20px;
   margin-right: 20px;
+  display: block;
+  width: 100%;
+  content: '';
 }
 .row#title-row .span3.column {
   margin-top: 0px;
