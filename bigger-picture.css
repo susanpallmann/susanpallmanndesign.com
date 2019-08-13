@@ -241,8 +241,10 @@ nav#vertical li:nth-child(1n+1) {
   max-width: 1000px;
 }
 /*Title Row Styles*/
-.row#title-row {
+.row#title-row:after {
   border-bottom: 3px dotted #ccc;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .row#title-row .span3.column {
   margin-top: 0px;
@@ -252,6 +254,10 @@ nav#vertical li:nth-child(1n+1) {
   .row#title-row .span3.column {
     margin-top: 41.66px;
     margin-bottom: 41.66px;
+  }
+  .row#title-row:after {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 /*Text Styles*/
