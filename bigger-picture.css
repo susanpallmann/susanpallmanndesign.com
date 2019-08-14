@@ -254,6 +254,46 @@ div.image-centered img {
   transform: translateY(-50%);
   padding-top: 53px;
 }
+@media only screen and (min-width: 601px) and (max-width:1000px) {
+  #hero {
+    background-color: #83AE9C;
+    height: 600px;
+  }
+  div.image-centered {
+    height: 547px;
+    position: relative;
+    padding-top: 53px;
+    position: relative;
+  }
+  div.image-centered img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 53px;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  #hero {
+    background-color: #83AE9C;
+    height: 700px;
+  }
+  div.image-centered {
+    height: 647px;
+    position: relative;
+    padding-top: 53px;
+    position: relative;
+  }
+  div.image-centered img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 53px;
+  }
+}
 /*Title Row Styles*/
 .row#title-row:after {
   border-bottom: 3px dotted #ccc;
