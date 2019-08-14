@@ -227,7 +227,7 @@ nav#vertical li:nth-child(1n+1) {
 /*Page-Specific Hero Header*/
 #hero {
   background-color: #83AE9C;
-  height: 640px;
+  height: 400px;
 }
 #hero h1 {
   color: #fff;
@@ -239,6 +239,20 @@ nav#vertical li:nth-child(1n+1) {
 #hero img {
   position: absolute;
   max-width: 1000px;
+}
+div.image-centered {
+  height: 347px;
+  position: relative;
+  padding-top: 53px;
+  position: relative;
+}
+div.image-centered img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 53px;
 }
 /*Title Row Styles*/
 .row#title-row:after {
@@ -384,19 +398,6 @@ img {
   margin: auto;
   margin-top: 0.3em;
   padding-left: 20px;
-}
-div.image-centered {
-  height: 640px;
-  position: relative;
-  padding-top: 53px;
-  position: relative;
-}
-div.image-centered img {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 /*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
