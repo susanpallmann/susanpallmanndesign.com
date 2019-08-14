@@ -266,8 +266,6 @@ nav#vertical li:nth-child(1n+1) {
 @media only screen and (min-width: 601px) and (max-width:1000px) {
   #hero img {
     position: absolute;
-    height: 100%;
-    width: auto;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
