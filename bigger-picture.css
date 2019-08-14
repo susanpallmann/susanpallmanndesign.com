@@ -386,7 +386,9 @@ img {
   padding-left: 20px;
 }
 div.image-centered {
-  height: 600px;
+  height: 640px;
+  position: relative;
+  padding-top: 53px;
   position: relative;
 }
 div.image-centered img {
