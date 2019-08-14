@@ -290,6 +290,8 @@ nav#vertical li:nth-child(1n+1) {
     left: 0;
     right: 0;
     margin: 0 auto;
+    height: 100%;
+    width: auto;
   }
   #hero {
     background-color: #83AE9C;
