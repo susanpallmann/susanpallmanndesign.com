@@ -265,33 +265,17 @@ div.image-centered img {
     padding-top: 53px;
     position: relative;
   }
-  div.image-centered img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding-top: 53px;
-  }
 }
 @media only screen and (min-width: 1001px) {
   #hero {
     background-color: #83AE9C;
-    height: 700px;
+    height: 650px;
   }
   div.image-centered {
     height: 647px;
     position: relative;
     padding-top: 53px;
     position: relative;
-  }
-  div.image-centered img {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding-top: 53px;
   }
 }
 /*Title Row Styles*/
