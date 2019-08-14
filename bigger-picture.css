@@ -238,7 +238,7 @@ nav#vertical li:nth-child(1n+1) {
 }
 #hero img {
   position: absolute;
-  max-width: 1000px;
+  height: auto;
 }
 div.image-centered {
   height: 347px;
@@ -252,7 +252,6 @@ div.image-centered img {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding-top: 53px;
 }
 @media only screen and (min-width: 601px) and (max-width:1000px) {
   #hero {
