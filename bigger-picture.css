@@ -246,7 +246,7 @@ div.image-centered {
   padding-top: 53px;
   position: relative;
 }
-div.image-centered img {
+div.image-centered div.image-container {
   margin: 0;
   position: absolute;
   top: 50%;
