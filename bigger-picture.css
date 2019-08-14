@@ -385,6 +385,17 @@ img {
   margin-top: 0.3em;
   padding-left: 20px;
 }
+div.image-centered {
+  height: 600px;
+  position: relative;
+}
+div.image-centered img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 /*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
   background-color: #B1CABF;
