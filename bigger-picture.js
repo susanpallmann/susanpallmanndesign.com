@@ -36,8 +36,7 @@ window.onload = function() {
             redirect("/");
         }
     });
-};
-$('#sp-icon').mouseleave( function() {
+    $('#sp-icon').mouseleave( function() {
   if ( pattern < 3 ) {
     pattern ++;
   } else {
@@ -56,4 +55,5 @@ $('#sp-icon').mouseleave( function() {
     default:
       $('.pattern-gif').attr('xlink:href', 'images/Pattern 1');
   } 
-});
+  });
+};
