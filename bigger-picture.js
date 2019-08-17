@@ -7,6 +7,7 @@ window.onload = function() {
     /* Do not adjust these global variables */
     scrollValue = -100;
     screenWidth = screen.width;
+    pattern = 1;
     /* End global variables */
     
     $("#top_hamburger").click(function() {
@@ -36,3 +37,23 @@ window.onload = function() {
         }
     });
 };
+$('#sp-icon').mouseleave( function() {
+  if ( pattern < 3 ) {
+    pattern ++;
+  } else {
+    pattern = 1;
+  }
+  switch(pattern) {
+    case 1:
+      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/hoV5qOf.gif');
+      break;
+    case 2:
+      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/EcmEKuj.gif');
+      break;
+    case 3:
+      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/H1VoPgB.gif');
+      break;
+    default:
+      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/hoV5qOf.gif');
+  } 
+});
