@@ -630,3 +630,12 @@ img {
     display: none;
   }
 }
+/*Hover Effect for SP Ligature*/
+#ligature-fill {
+  fill: #FF6666;
+}
+#sp-icon:hover #ligature-fill {
+  fill: rgba(0, 0, 0, 0);
+  -webkit-transition: fill 0.2s ease-in-out;
+  transition: fill 0.2s ease-in-out;
+}
