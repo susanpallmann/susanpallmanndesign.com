@@ -44,16 +44,16 @@ window.onload = function() {
     }
     switch (pattern) {
       case 1:
-        $('.pattern-gif').attr('xlink:href', '/images/Pattern 1.svg');
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
         break;
       case 2:
-        $('.pattern-gif').attr('xlink:href', '/images/Pattern 2.svg');
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
         break;
       case 3:
-        $('.pattern-gif').attr('xlink:href', '/images/Pattern 3.svg');
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
         break;
       default:
-        $('.pattern-gif').attr('xlink:href', '/images/Pattern 1');
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
     }
   });
 };
