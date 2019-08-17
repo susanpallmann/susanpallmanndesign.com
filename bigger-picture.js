@@ -45,15 +45,15 @@ $('#sp-icon').mouseleave( function() {
   }
   switch(pattern) {
     case 1:
-      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/hoV5qOf.gif');
+      $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.svg');
       break;
     case 2:
-      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/EcmEKuj.gif');
+      $('.pattern-gif').attr('xlink:href', 'images/Pattern 2.svg');
       break;
     case 3:
-      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/H1VoPgB.gif');
+      $('.pattern-gif').attr('xlink:href', 'images/Pattern 3.svg');
       break;
     default:
-      $('.pattern-gif').attr('xlink:href', 'https://i.imgur.com/hoV5qOf.gif');
+      $('.pattern-gif').attr('xlink:href', 'images/Pattern 1');
   } 
 });
