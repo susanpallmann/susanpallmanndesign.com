@@ -1,3 +1,4 @@
+pattern = 1;
 window.onload = function() {
     /* Adjust these global variables */
     // Speed of hamburger animation (milliseconds). Should match CSS animation speed.
@@ -7,7 +8,6 @@ window.onload = function() {
     /* Do not adjust these global variables */
     scrollValue = -100;
     screenWidth = screen.width;
-    pattern = 1;
     /* End global variables */
     
     $("#top_hamburger").click(function() {
