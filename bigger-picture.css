@@ -435,6 +435,14 @@ p {
   color: #fff;
   border-bottom: 3px solid #fff;
 }
+
+::selection {
+  background: #483c46;
+}
+::-moz-selection {
+  background: #483c46;
+}
+
 /*Underline Animation*/
 nav li:after {
   display:block;
