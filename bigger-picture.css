@@ -438,9 +438,11 @@ p {
 
 ::selection {
   background: #483c46;
+  color: #FF6666;
 }
 ::-moz-selection {
   background: #483c46;
+  color: #FF6666;
 }
 
 /*Underline Animation*/
