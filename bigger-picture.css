@@ -435,16 +435,22 @@ p {
   color: #fff;
   border-bottom: 3px solid #fff;
 }
-
+img::selection {
+  background: rbga(0, 0, 0, 0,);
+  color: #fff;
+}
+img::-moz-selection {
+  background: rbga(0, 0, 0, 0,);
+  color: #fff;
+}
 ::selection {
-  background: #483c46;
+  background: #FF6666;
   color: #fff;
 }
 ::-moz-selection {
-  background: #483c46;
+  background: #FF6666;
   color: #fff;
 }
-
 /*Underline Animation*/
 nav li:after {
   display:block;
