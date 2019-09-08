@@ -693,3 +693,7 @@ p#footer-title {
   display: inline-block;
   margin-left: 10px;
 }
+.socials-icon svg {
+  fill: #ffffff;
+  color: #ffffff;
+}
