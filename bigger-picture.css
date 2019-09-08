@@ -663,9 +663,12 @@ footer {
 h6 {
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 0px;
   font-size: 0.8em;
+  margin: 0px;
 }
 footer ul {
   list-style-type: none;
+  font-size: 0.8em;
+  padding-left: 0px;
+  line-height: 1.8em;
 }
