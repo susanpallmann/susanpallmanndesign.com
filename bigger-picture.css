@@ -672,3 +672,7 @@ footer ul {
   padding-left: 0px;
   line-height: 1.8em;
 }
+footer #logo-mark {
+  display: inline-block;
+  width: 50px;
+}
