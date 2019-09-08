@@ -691,7 +691,7 @@ p#footer-title {
 }
 .socials-icon {
   display: inline-block;
-  margin-left: 6px;
+  margin-right: 6px;
 }
 .socials-icon svg {
   fill: #ffffff;
@@ -700,4 +700,13 @@ p#footer-title {
 }
 .socials-icon svg:hover {
   fill: #ff6666;
+}
+footer .column {
+  margin-left: 20px; 
+}
+@media only screen and (min-width: 601px) and (max-width:1000px) {
+  margin-left: 0px; 
+}
+@media only screen and (min-width: 1001px) {
+  margin-left: 0px;
 }
