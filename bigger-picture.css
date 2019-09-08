@@ -655,3 +655,12 @@ img {
   -webkit-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
+/*Footer Styles*/
+footer {
+  background-color: #483C46;
+  color: #B2ADB1;
+}
+h6 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
