@@ -721,4 +721,6 @@ footer .column {
 .copyright-info {
   font-size: 0.65em;
   color: #B2ADB1;
+  text-align: center;
+  padding: 5px 0;
 }
