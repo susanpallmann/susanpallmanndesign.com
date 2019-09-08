@@ -689,3 +689,7 @@ p#footer-title {
   margin: 0px;
   margin-left: 10px;
 }
+.socials-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
