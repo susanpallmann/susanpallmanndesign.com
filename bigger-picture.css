@@ -702,11 +702,16 @@ p#footer-title {
   fill: #ff6666;
 }
 footer .column {
-  margin-left: 20px; 
+  padding-left: 20px;
+  box-sizing: bounding-box;
 }
 @media only screen and (min-width: 601px) and (max-width:1000px) {
-  margin-left: 0px; 
+  footer .column {
+    padding-left: 0px; 
+  }
 }
 @media only screen and (min-width: 1001px) {
-  margin-left: 0px;
+  footer .column {
+    padding-left: 0px;
+  }
 }
