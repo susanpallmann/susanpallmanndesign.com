@@ -676,6 +676,9 @@ footer #logo-mark {
   display: inline-block;
   width: 50px;
 }
+#footer-title-container {
+  display: inline-block;
+}
 p#footer-title {
   color: #ffffff;
   text-transform: uppercase;
