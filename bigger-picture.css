@@ -676,3 +676,11 @@ footer #logo-mark {
   display: inline-block;
   width: 50px;
 }
+p#footer-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  line-height: 1.55em;
+  margin: 0px;
+  margin-left: 10px;
+}
