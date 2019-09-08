@@ -674,10 +674,11 @@ footer ul {
 }
 footer #logo-mark {
   display: inline-block;
-  width: 50px;
+  width: 60px;
 }
 #footer-title-container {
   display: inline-block;
+  width: 80px;
 }
 p#footer-title {
   color: #ffffff;
