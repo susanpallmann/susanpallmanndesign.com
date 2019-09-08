@@ -695,8 +695,8 @@ p#footer-title {
 }
 .socials-icon svg {
   fill: #ffffff;
-  transition: fill 0.2s ease-in-out;
-  -webkit-transition: fill 0.2s ease-in-out;
+  transition: fill 0.1s ease-in-out;
+  -webkit-transition: fill 0.1s ease-in-out;
 }
 .socials-icon svg:hover {
   fill: #ff6666;
