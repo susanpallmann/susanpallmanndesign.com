@@ -451,6 +451,18 @@ img::-moz-selection {
   background: none;
   color: #fff;
 }
+/*Arrows Styling*/
+.arrow-container {
+  height: 10px;
+  width: 18px;
+  margin: auto;
+}
+hero .arrow-container svg {
+  fill: #FFFFFF;
+}
+footer .arrow-container svg {
+  fill: #B2ADB1;
+}
 /*Underline Animation*/
 nav li:after {
   display:block;
