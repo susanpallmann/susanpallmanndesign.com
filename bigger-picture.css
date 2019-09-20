@@ -489,12 +489,14 @@ img {
 }
 /*'Discount Bootstrap' Responsive Grid (Mobile First)*/
 .colorblock {
-  background-color: #B1CABF;
+  background-color: #F7F7F7;
   padding: 0.01px;
 }
 .container {
   max-width: 1000px;
   margin:auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .row {
   display: flex;
@@ -502,10 +504,10 @@ img {
 }
 .column {
   width: 100%;
-  margin-bottom: 41.66px;
+  margin-bottom: 20px;
 }
 .column:nth-child(1) {
-  margin-top: 41.66px;
+  margin-top: 20px;
 }
 .column.hybridRow {
   display: flex;
@@ -513,13 +515,9 @@ img {
 }
 .column.span8.static {
   width: 66.67%;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 .column.span4.static {
   width: 33.33%;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 /*'Discount Bootstrap' Responsive Grid Media Queries*/
 /*Vertical Mobile*/
@@ -529,8 +527,6 @@ img {
 @media only screen and (min-width: 601px) and (max-width:1000px) {
   .column {
     width: 100%;
-    margin-bottom: 41.66px;
-    margin-top: 41.66px;
   }
   .span1 {
     width: 8.33%;
@@ -583,8 +579,6 @@ img {
 @media only screen and (min-width: 1001px) {
   .column {
     width: 100%;
-    margin-bottom: 41.66px;
-    margin-top: 41.66px;
   }
   .span1 {
     width: 8.33%;
