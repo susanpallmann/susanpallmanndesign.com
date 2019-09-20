@@ -494,12 +494,18 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+.row:nth-child(1) {
+  margin-top: 40px;
+}
+.row:nth-last-child(1) {
+  margin-bottom: 40px;
+}
 .column {
   width: 100%;
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
-.column:nth-last-child(2) {
-  margin-bottom: 20px;
+.column:nth-child(1) {
+  margin-top: 40px;
 }
 .column.hybridRow {
   display: flex;
