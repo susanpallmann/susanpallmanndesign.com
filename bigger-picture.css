@@ -358,12 +358,11 @@ h1 {
   margin-bottom: 0.2em;
 }
 h2 {
-  color: #ff6666;
-  font-weight: 700;
+  font-weight: 300;
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 h3 {
   font-family: 'Raleway', helvetica, arial, sans-serif;
