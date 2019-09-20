@@ -179,8 +179,9 @@ nav#horizontal li {
   margin-bottom: 8px;
 }
 nav#horizontal li a {
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  font-weight: 600;
   color: #666;
-  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -206,8 +207,9 @@ nav#vertical li {
 margin: auto;
 }
 nav#vertical li a {
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  font-weight: 600;
   color: #666;
-  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.05em;
