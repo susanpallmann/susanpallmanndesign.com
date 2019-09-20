@@ -367,15 +367,15 @@ h2 {
 h3 {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-weight: 600;
-  text-transform: uppercase;
   font-size: 1.5em;
   letter-spacing: 0.03em;
+  display: inline-block;
   margin: 0;
   margin-bottom: 1.2em;
   margin-left: 20px;
   margin-right: 20px;
+  padding-bottom: 3px;
   border-bottom: 3px solid #f66;
-  display: inline-block;
 }
 h4 {
   text-transform: uppercase;
