@@ -498,7 +498,7 @@ img {
   width: 100%;
   margin-top: 20px;
 }
-.column:nth-child(1) {
+.column:nth-last-child(2) {
   margin-bottom: 20px;
 }
 .column.hybridRow {
