@@ -181,10 +181,11 @@ nav#horizontal li {
 nav#horizontal li a {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-weight: 800;
+  font-size: 0.9em;
   color: #666;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.12em;
   text-align: center;
 }
 nav#vertical {
@@ -209,11 +210,11 @@ margin: auto;
 nav#vertical li a {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-weight: 800;
+  font-size: 1.2em;
   color: #666;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 1.2em;
+  letter-spacing: 0.12em;
 }
 nav#vertical li:nth-child(1n+1) {
   margin-top: 8px;
