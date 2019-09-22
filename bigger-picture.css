@@ -350,7 +350,7 @@ h1 {
   margin-bottom: 0.2em;
 }
 h2 {
-  font-weight: 300;
+  font-weight: 700;
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
@@ -360,6 +360,7 @@ h3 {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-weight: 600;
   font-size: 1.8em;
+  color: #FF6666;
   letter-spacing: 0.03em;
   display: inline-block;
   margin: 0;
@@ -692,6 +693,10 @@ p#footer-title {
 }
 .socials-icon svg:hover {
   fill: #ff6666;
+}
+footer .row {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 footer .column {
   padding-left: 20px;
