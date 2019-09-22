@@ -493,10 +493,10 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.row:nth-child(1) {
+main .row:nth-child(1) {
   margin-top: 60px;
 }
-.row:nth-last-child(1) {
+main .row:nth-last-child(1) {
   margin-bottom: 60px;
 }
 .column {
