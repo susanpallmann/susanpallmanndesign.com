@@ -216,7 +216,7 @@ nav#vertical li a {
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
-nav#vertical li:nth-child(1n+1) {
+nav#vertical li:nth-child(1n+2) {
   margin-top: 8px;
 }
 #dropdown {
