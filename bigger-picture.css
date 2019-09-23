@@ -390,6 +390,12 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
+a {
+  color: #FF6666;
+}
+a:hover {
+  color: #666;
+}
 #project-meta p {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 300;
