@@ -383,6 +383,7 @@ h3 {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 0.8em;
+  color: #483C46;
 }
 #project-meta h2:nth-child(n+2) {
   margin-top: 2.4em;
@@ -631,7 +632,7 @@ main .row:nth-last-child(1) {
   .column.span4.static {
     width: 33.33%;
   }
-  p, h4, h3, h2, h1 {
+  p, h4, h3, h2, #project-meta h2, h1 {
     margin-left: 0px;
     margin-right: 0px;
   }
