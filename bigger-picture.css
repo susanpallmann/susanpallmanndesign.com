@@ -403,6 +403,8 @@ span.read-more {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12em;
+  margin-top: 20px;
+  display: inline-block;
 }
 a {
   color: #FF6666;
