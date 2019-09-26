@@ -348,10 +348,11 @@ h1 {
   font-size: 2.5em;
   line-height: 1.1em;
   margin-bottom: 0.2em;
+  color: #483C46;
 }
 h2 {
   font-weight: 700;
-  color: #FF6666;
+  color: #4ECDC4;
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
@@ -367,6 +368,7 @@ h3 {
   margin-bottom: 0.8em;
   margin-left: 20px;
   margin-right: 20px;
+  color: #483C46;
 }
 h4 {
   text-transform: uppercase;
