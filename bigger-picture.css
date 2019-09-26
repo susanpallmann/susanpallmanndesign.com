@@ -14,12 +14,13 @@
   display: inline;
 }
 #top_hamburger span {
-  background-color: #666;
+  background-color: #483C46;
   height: 6px;
   display: block;
   position: relative;
   width: 100%;
   border-radius: 3px;
+  transition: background-color 0.5s;
 }
 #hamburgerTop {
   top: 0;
@@ -42,6 +43,9 @@
   width: 100%;
   transform: translateY(-12px) translateX(0) rotate(45deg);
   box-shadow: none;
+}
+#top_hamburger.animcomplete span#hamburgerBottom, #top_hamburger.animcomplete span#hamburgerMid, #top_hamburger.animcomplete span#hamburgerTop {
+  background-color: #FF6666;
 }
 .open #hamburgerTop {
   animation: hamburgerTopBar 0.4s ease-in-out 0s infinite alternate forwards;
@@ -182,7 +186,7 @@ nav#horizontal li a {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-weight: 800;
   font-size: 0.9em;
-  color: #666;
+  color: #483C46;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12em;
