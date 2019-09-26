@@ -367,12 +367,16 @@ h3 {
   font-weight: 600;
   font-size: 1.8em;
   letter-spacing: 0.03em;
-  display: inline-block;
   margin: 0;
   margin-bottom: 0.8em;
   margin-left: 20px;
   margin-right: 20px;
   color: #483C46;
+}
+h4 {
+  color: #FF6666;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #project-meta h2 {
   text-transform: uppercase;
