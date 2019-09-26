@@ -395,6 +395,15 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
+span.read-more {
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  font-weight: 800;
+  font-size: 0.9em;
+  color: #FF6666;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
 a {
   color: #FF6666;
 }
