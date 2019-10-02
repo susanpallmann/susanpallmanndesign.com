@@ -355,12 +355,11 @@ h1 {
   color: #483C46;
 }
 h2 {
-  font-weight: 700;
-  color: #4ECDC4;
+  font-weight: 300;
   margin: 0;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 h3 {
   font-family: 'Raleway', helvetica, arial, sans-serif;
