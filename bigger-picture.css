@@ -437,12 +437,15 @@ a:hover {
 }
 .button {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-size: 1.2em;
+  font-size: 0.95em;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background-color: #f66;
+  padding: 0.3em 1.6em;
+  color: #fff;
+  border-radius: 15px;
 }
 ::selection {
   background: #FF6666;
