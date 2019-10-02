@@ -249,10 +249,11 @@ nav#vertical li a {
 #hero h2 {
   text-align: center;
   color: #fff;
-  font-family: "raleway";
+  font-family: "raleway", helvetica, arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.15em;
 }
 #hero img {
   position: absolute;
