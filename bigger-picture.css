@@ -763,3 +763,6 @@ footer .column {
   margin: 10px;
   padding-top: 25%;
 }
+#portfolio .column {
+  padding: 10px;
+}
