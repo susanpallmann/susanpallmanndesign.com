@@ -766,4 +766,5 @@ footer .column {
 }
 #portfolio .column {
   padding: 10px;
+  box-sizing: border-box;
 }
