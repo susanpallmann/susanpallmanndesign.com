@@ -757,3 +757,9 @@ footer .column {
   width: 100%;
   background-image: linear-gradient(180deg, #FF6666, #DCA1C4);
 }
+/*Portfolio Grid*/
+.portfolio-box {
+  width: 100%;
+  margin: 10px;
+  padding-top: 25%;
+}
