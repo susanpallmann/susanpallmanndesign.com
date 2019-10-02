@@ -737,3 +737,9 @@ footer .column {
   padding: 10px 0;
   width: 100%;
 }
+/*Homepage Hero*/
+#gradient {
+  background-color: #FF6666;
+  height: 100%;
+  width: 100%;
+}
