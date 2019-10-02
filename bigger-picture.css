@@ -761,7 +761,8 @@ footer .column {
 .portfolio-box {
   width: 100%;
   margin: 10px;
-  padding-top: 25%;
+  padding-top: 75%;
+  background-color: #f7f7f7;
 }
 #portfolio .column {
   padding: 10px;
