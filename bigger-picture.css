@@ -742,4 +742,5 @@ footer .column {
   background-color: #FF6666;
   height: 100%;
   width: 100%;
+  background-image: linear-gradient(180deg, #FF6666, #DCA1C4);
 }
