@@ -776,6 +776,6 @@ footer .column {
   background-color: #FF6666;
   background: linear-gradient(to right, #FF6666, rgb(220, 161, 196));
   transform: scaleX(0);
-  transition: transform 500ms ease-in-out, height 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, height 100ms ease-in-out;
   transform-origin: 0% 50%;
 }
