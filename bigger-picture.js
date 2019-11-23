@@ -90,10 +90,10 @@ $(window).scroll(function() {
     console.log(pageScrollPercentage);
     if (pageScrollPercentage > 0) {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
-    $("#false-after").css("transform", "scaleY(1)");
+    $("#false-after").css("height", "4px");
     } else {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
-    $("#false-after").css("transform", "scaleY(0)");
+    $("#false-after").css("height", "0px");
     }
     console.log("End function");
     //Scroll timer value
