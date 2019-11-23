@@ -85,6 +85,6 @@ function readingProgress () {
       var viewportHeight = getViewportHeight();
       console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
     //Scroll timer value
-    ))}, 250);
-  }
+    }, 250));
+  });
 }
