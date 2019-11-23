@@ -772,9 +772,9 @@ footer .column {
 #navBar::after {
   display: block;
   content: '';
-  border-bottom: solid 4px #483C46;
   height: 4px;
   background-color: #FF6666;
+  background: linear-gradient(to right, #FF6666, rgb(220, 161, 196);
   transform: scaleX(1);
   transition: transform 250ms ease-in-out;
   transform-origin: 0% 50%;
