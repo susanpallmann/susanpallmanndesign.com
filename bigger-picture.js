@@ -80,10 +80,10 @@ $(window).scroll(function() {
   clearTimeout($.data(this, 'scrollTimer'));
   $.data(this, 'scrollTimer', setTimeout(function() {
     console.log("USER STOPPED SCROLLING");
-    //var scrollPosition = getScrollPosition();
-    //var pageHeight =  getPageHeight();
-    //var viewportHeight = getViewportHeight();
-    //console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
+    var scrollPosition = getScrollPosition();
+    var pageHeight =  getPageHeight();
+    var viewportHeight = getViewportHeight();
+    console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
   //Scroll timer value
   }, 250));
 });
