@@ -767,3 +767,14 @@ footer .column {
   padding: 0px 20px 0px 0px;
   box-sizing: border-box;
 }
+/*Scroll Progress*/
+
+
+#navBar::after {
+  display: block;
+  content: '';
+  border-bottom: solid 5px #FF6666;
+  transform: scaleX(1);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
