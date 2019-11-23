@@ -768,9 +768,7 @@ footer .column {
   box-sizing: border-box;
 }
 /*Scroll Progress*/
-
-
-header::after {
+#navBar::after {
   display: block;
   content: '';
   border-bottom: solid 5px #FF6666;
