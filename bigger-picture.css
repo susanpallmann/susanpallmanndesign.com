@@ -770,7 +770,7 @@ footer .column {
 /*Scroll Progress*/
 
 
-#navBar::after {
+header::after {
   display: block;
   content: '';
   border-bottom: solid 5px #FF6666;
