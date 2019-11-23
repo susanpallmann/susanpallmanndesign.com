@@ -84,6 +84,12 @@ $(window).scroll(function() {
     var pageHeight =  getPageHeight();
     var viewportHeight = getViewportHeight();
     console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
-  //Scroll timer value
+    var newScrollMax = pageHeight - viewportHeight;
+    console.log(newScrollMax);
+    var pageScrollPercentage = scrollPosition/newScrollMax;
+    console.log(pageScrollPercentage);
+    $("#false-after").css({transform: scaleX( pageScrollPercentage )});
+    console.log("End function");
+    //Scroll timer value
   }, 250));
 });
