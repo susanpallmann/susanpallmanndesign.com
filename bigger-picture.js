@@ -88,7 +88,13 @@ $(window).scroll(function() {
     console.log(newScrollMax);
     var pageScrollPercentage = scrollPosition/newScrollMax;
     console.log(pageScrollPercentage);
+    if (pageScrollPercentage > 0) {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
+    $("#false-after").css("transform", "scaleY(1)");
+    } else {
+    $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
+    $("#false-after").css("transform", "scaleY(0)");
+    }
     console.log("End function");
     //Scroll timer value
   }, 50));
