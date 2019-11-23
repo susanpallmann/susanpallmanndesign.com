@@ -769,7 +769,7 @@ footer .column {
   box-sizing: border-box;
 }
 /*Scroll Progress*/
-#navBar.supporting-page::after {
+#navBar.supporting-page .false-after {
   display: block;
   content: '';
   height: 4px;
