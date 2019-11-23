@@ -57,39 +57,3 @@ window.onload = function() {
     }
   });
 };
-//Returns the position user is scrolled to when called. Ensure this function is called when user has finished scrolling.
-function getScrollPosition () {
-    var scrollPosition = $(window).scrollTop();
-    console.log("getScrollPosition ran");
-    return scrollPosition;
-}
-//Returns the full height of the page, even past the viewport. Useful for determining percentage scrolled.
-function getPageHeight () {
-    var pageHeight = $(document).height();
-    console.log("getPageHeight ran");
-    return pageHeight;
-}
-//Returns the viewport height. Useful for determining if something is visible or not as the user scrolls.
-function getViewportHeight () {
-    var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    console.log("getViewportHeight ran");
-  return viewportHeight;
-}
-function readingProgress () {
-    //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
-    $(window).scroll(function() {
-        clearTimeout($.data(this, 'scrollTimer'));
-        $.data(this, 'scrollTimer', setTimeout(function() {
-          var scrollPosition = getScrollPosition();
-          var pageHeight =  getPageHeight();
-          var viewportHeight = getViewportHeight();
-          console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
-          var newScrollMax = pageHeight - viewportHeight;
-          console.log(newScrollMax);
-          var pageScrollPercentage = scrollPosition/newScrollMax;
-          console.log(pageScrollPercentage);
-          $("#false-after").css({transform: scaleX( pageScrollPercentage )});
-          console.log("End function");
-        //Scroll timer value
-        }, 250));
-})));
