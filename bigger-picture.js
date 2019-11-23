@@ -80,16 +80,16 @@ function readingProgress () {
     $(window).scroll(function() {
         clearTimeout($.data(this, 'scrollTimer'));
         $.data(this, 'scrollTimer', setTimeout(function() {
-        var scrollPosition = getScrollPosition();
-        var pageHeight =  getPageHeight();
-        var viewportHeight = getViewportHeight();
-        console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
-        var newScrollMax = pageHeight - viewportHeight;
-        console.log(newScrollMax);
-        var pageScrollPercentage = scrollPosition/newScrollMax;
-        console.log(pageScrollPercentage);
-        $("#false-after").css({transform: scaleX( pageScrollPercentage )});
-        console.log("End function");
-    //Scroll timer value
-    }, 250));
-}
+          var scrollPosition = getScrollPosition();
+          var pageHeight =  getPageHeight();
+          var viewportHeight = getViewportHeight();
+          console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
+          var newScrollMax = pageHeight - viewportHeight;
+          console.log(newScrollMax);
+          var pageScrollPercentage = scrollPosition/newScrollMax;
+          console.log(pageScrollPercentage);
+          $("#false-after").css({transform: scaleX( pageScrollPercentage )});
+          console.log("End function");
+        //Scroll timer value
+        }, 250));
+})));
