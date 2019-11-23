@@ -160,7 +160,7 @@ header {
 .navContainer {
   max-width: 1200px;
   margin:auto;
-  padding-bottom: 6px;
+  padding: 0px 10px 8px 10px;
 }
 #mark {
   display: inline-block;
