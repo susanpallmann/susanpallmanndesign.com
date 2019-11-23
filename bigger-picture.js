@@ -91,5 +91,5 @@ $(window).scroll(function() {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
     console.log("End function");
     //Scroll timer value
-  }, 250));
+  }, 50));
 });
