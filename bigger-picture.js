@@ -80,6 +80,7 @@ function readingProgress () {
   $(window).scroll(function() {
     clearTimeout($.data(this, 'scrollTimer'));
     $.data(this, 'scrollTimer', setTimeout(function() {
+      console.log("USER STOPPED SCROLLING");
       var scrollPosition = getScrollPosition();
       var pageHeight =  getPageHeight();
       var viewportHeight = getViewportHeight();
