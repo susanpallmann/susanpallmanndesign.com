@@ -466,8 +466,8 @@ img::-moz-selection {
 }
 /*Arrows Styling*/
 .arrow-container {
-  height: 10px;
-  width: 18px;
+  height: 20px;
+  width: 26px;
   margin: auto;
 }
 hero .arrow-container svg {
