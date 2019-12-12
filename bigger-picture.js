@@ -88,4 +88,5 @@ $(window).scroll(function() {
     } else {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
     $("#false-after").css("height", "0px");
+    }
 });
