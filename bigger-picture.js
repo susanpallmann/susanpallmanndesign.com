@@ -77,25 +77,15 @@ function getViewportHeight () {
 }
 //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
 $(window).scroll(function() {
-  clearTimeout($.data(this, 'scrollTimer'));
-  $.data(this, 'scrollTimer', setTimeout(function() {
-    console.log("USER STOPPED SCROLLING");
     var scrollPosition = getScrollPosition();
     var pageHeight =  getPageHeight();
     var viewportHeight = getViewportHeight();
-    console.log("called function variables correctly and they are" + scrollPosition + " " + pageHeight + " " + viewportHeight);
     var newScrollMax = pageHeight - viewportHeight;
-    console.log(newScrollMax);
     var pageScrollPercentage = scrollPosition/newScrollMax;
-    console.log(pageScrollPercentage);
     if (pageScrollPercentage > 0) {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
     $("#false-after").css("height", "4px");
     } else {
     $("#false-after").css("transform", "scaleX(" + pageScrollPercentage + ")" );
     $("#false-after").css("height", "0px");
-    }
-    console.log("End function");
-    //Scroll timer value
-  }, 50));
 });
