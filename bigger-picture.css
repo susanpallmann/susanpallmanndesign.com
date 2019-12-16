@@ -237,9 +237,6 @@ nav#vertical li a {
   height: 400px;
   overflow: hidden;
 }
-#hero .container {
-  padding-top: 53px;
-}
 #hero .headline-container-container {
   position: relative;
   height:100%;
@@ -249,7 +246,7 @@ nav#vertical li a {
 #hero .headline-container {
   overflow: hidden;
   height: 100%;
-  width: 200%;
+  width: 1000%;
   position: absolute;
 }
 #hero #dramatic-headline {
@@ -257,6 +254,8 @@ nav#vertical li a {
   font-size: 20em;
   font-weight: 800;
   position: relative;
+  line-height: 0;
+  top: 50%;
 }
 #hero img {
   position: absolute;
@@ -269,11 +268,7 @@ nav#vertical li a {
   right: 0;
   margin: 0 auto;
 }
-#hero div.image-centered {
-  height: 347px;
-  position: relative;
-}
-#hero div.image-container {
+#hero .image-container {
   margin: 0;
   position: absolute;
   display: inline-block;
