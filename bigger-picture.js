@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  globalViewportHeight = getViewportHeight();
+  globalPageHeight = getPageHeight();
+  heroParallax();
+});
+
 window.onload = function() {
   /* Adjust these global variables */
   // Speed of hamburger animation (milliseconds). Should match CSS animation speed.
@@ -58,23 +64,45 @@ window.onload = function() {
   });
 };
 //Returns the position user is scrolled to when called. Ensure this function is called when user has finished scrolling.
-function getScrollPosition () {
-    var scrollPosition = $(window).scrollTop();
-    console.log("getScrollPosition ran");
-    return scrollPosition;
+function getScrollPosition() {
+  var scrollPosition = $(window).scrollTop();
+  return scrollPosition;
 }
 //Returns the full height of the page, even past the viewport. Useful for determining percentage scrolled.
-function getPageHeight () {
-    var pageHeight = $(document).height();
-    console.log("getPageHeight ran");
-    return pageHeight;
+function getPageHeight() {
+  var pageHeight = $(document).height();
+  globalPageHeight = pageHeight;
+  return pageHeight;
 }
 //Returns the viewport height. Useful for determining if something is visible or not as the user scrolls.
-function getViewportHeight () {
-    var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    console.log("getViewportHeight ran");
+function getViewportHeight() {
+  var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  globalViewportHeight = viewportHeight;
   return viewportHeight;
 }
+
+function heroParallax() {
+  var hero = $('#hero');
+  var heroOffset = hero.offset();
+  var heroTop = heroOffset.top;
+  var heroHeight = hero.height();
+  var heroBottom = heroTop + heroHeight;
+  var imageModifier = 200;
+  var headlineModifier = 50;
+  $(window).scroll(function() {
+    var scrollPosition = getScrollPosition();
+    var bottomScrollPosition = scrollPosition + globalViewportHeight;
+    if ( heroBottom > scrollPosition) {
+      if ( heroBottom < bottomScrollPosition) {
+        var percentScrolled = 1 - ((heroBottom - scrollPosition)/globalViewportHeight);
+        console.log(percentScrolled);
+        $('img.parallax').css('transform','translateY(-' + imageModifier*percentScrolled + 'px)');
+        $('#dramatic-headline').css('transform','translateY(-' + headlineModifier*percentScrolled + 'px)');
+      }
+    }
+  });
+}
+
 //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
 $(window).scroll(function() {
   clearTimeout($.data(this, 'scrollTimer'));
