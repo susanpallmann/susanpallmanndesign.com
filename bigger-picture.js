@@ -92,7 +92,7 @@ function heroParallax() {
   var scrollPosition = getScrollPosition();
   var bottomScrollPosition = scrollPosition + globalViewportHeight;
   var bottomOffset = bottomScrollPosition - heroBottom;
-  console.log(scrollPosition + bottomScrollPosition + bottomOffset)
+  console.log(scrollPosition + bottomScrollPosition + bottomOffset);
   if (bottomOffset < 0) {
     bottomOffset = 0;
   }
