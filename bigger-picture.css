@@ -240,10 +240,23 @@ nav#vertical li a {
 #hero .container {
   padding-top: 53px;
 }
+#hero .headline-container-container {
+  position: relative;
+  height:100%;
+  width: 100%;
+  overflow: hidden;
+}
+#hero .headline-container {
+  overflow: hidden;
+  height: 100%;
+  width: 200%;
+  position: absolute;
+}
 #hero #dramatic-headline {
   color: #52837A;
   font-size: 20em;
   font-weight: 800;
+  position: relative;
 }
 #hero img {
   position: absolute;
