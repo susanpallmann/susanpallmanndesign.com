@@ -235,6 +235,7 @@ nav#vertical li a {
 #hero {
   background-color: #83AE9C;
   height: 400px;
+  overflow: hidden;
 }
 #hero .container {
   padding-top: 53px;
