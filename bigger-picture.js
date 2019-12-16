@@ -89,12 +89,18 @@ function heroParallax() {
   var heroBottom = heroTop + heroHeight;
   var imageModifier = 200;
   var headlineModifier = 50;
+  var scrollPosition = getScrollPosition();
+  var bottomScrollPosition = scrollPosition + globalViewportHeight;
+  var bottomOffset = bottomScrollPosition - heroBottom;
+  if (bottomOffset < 0) {
+    bottomOffset = 0;
+  }
   $(window).scroll(function() {
     var scrollPosition = getScrollPosition();
     var bottomScrollPosition = scrollPosition + globalViewportHeight;
     if ( heroBottom > scrollPosition) {
       if ( heroBottom < bottomScrollPosition) {
-        var percentScrolled = 1 - ((heroBottom - scrollPosition)/globalViewportHeight);
+        var percentScrolled = 1 - (((heroBottom + bottomOffset) - scrollPosition)/globalViewportHeight);
         console.log(percentScrolled);
         $('img.parallax').css('transform','translateY(-' + imageModifier*percentScrolled + 'px)');
         $('#dramatic-headline').css('transform','translateY(-' + headlineModifier*percentScrolled + 'px)');
