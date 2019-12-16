@@ -156,10 +156,10 @@
   }
 }
 /* Spacing System */
-.column {
+main .column {
   margin-top: 5em;
 }
-.container {
+main .container {
   margin-bottom: 5em;
 }
 /* Padding Spacing */
