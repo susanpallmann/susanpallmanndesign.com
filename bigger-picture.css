@@ -400,9 +400,14 @@ span.read-more {
   display: inline-block;
 }
 span.tag {
-  padding: 0.1em 1em 0.1em 1em;
-  background-color: ##E6E6E6;
-  color: #666666;
+  padding: 0em 1em;
+  background-color: #E6E6E6;
+  color: #888;
+  border-radius: 50px;
+  font-size: 0.8em;
+  margin: 0.2em 0 0.2em 0;
+  display: inline-block;
+  line-height: 1.8em;
 }
 a {
   color: #FF6666;
