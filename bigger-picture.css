@@ -399,6 +399,11 @@ span.read-more {
   letter-spacing: 0.12em;
   display: inline-block;
 }
+span.tag {
+  padding: 0.1em 1em 0.1em 1em;
+  background-color: ##E6E6E6;
+  color: #666666;
+}
 a {
   color: #FF6666;
 }
