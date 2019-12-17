@@ -236,6 +236,8 @@ nav#vertical li a {
   background-color: #6B9287;
   height: 400px;
   overflow: hidden;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 #hero .headline-container-container {
   position: relative;
