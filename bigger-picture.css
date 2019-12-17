@@ -258,12 +258,11 @@ nav#vertical li a {
   top: 50%;
 }
 #hero img {
-  position: absolute;
+  position: relative;
   height: auto;
   width: 100%;
-  left: 0;
-  right: 0;
   margin: 0 auto;
+  top: -50%;
 }
 #hero .image-container {
   margin: 0;
@@ -275,6 +274,8 @@ nav#vertical li a {
 }
 #hero .image-centered {
   position: relative;
+  display: inline-block;
+  top: 50%;
 }
 
 @media only screen and (min-width: 601px) and (max-width:1000px) {
