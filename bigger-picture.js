@@ -17,12 +17,12 @@ $(document).ready(function() {
       //Uncheck it, update the icon, expand text
       button.attr('aria-checked','false');
       button.html("Read Less");
-      container.children('.expandable').removeClass('collapsed');
+      container.children('.expandable p').removeClass('collapsed');
     } else {
       //If it is not checked, check it, update the icon, collapse text
       button.attr('aria-checked','true');
       button.html("Read More");
-      container.children('.expandable').addClass('collapsed');
+      container.children('.expandable p').addClass('collapsed');
     }
   });
 });
