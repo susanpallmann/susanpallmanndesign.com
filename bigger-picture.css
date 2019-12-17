@@ -386,9 +386,11 @@ a:hover {
   letter-spacing: 0.03em;
   cursor: pointer;
   background-color: #f66;
-  padding: 0.3em 1.6em;
+  padding: 0.3em 1.2em;
   color: #fff;
   border-radius: 15px;
+  margin-top: 1em;
+  display: inline-block;
 }
 ::selection {
   background: #FF6666;
