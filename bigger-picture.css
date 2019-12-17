@@ -262,7 +262,6 @@ nav#vertical li a {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  bottom: 50%;
 }
 #hero .image-container {
   margin: 0;
@@ -276,6 +275,7 @@ nav#vertical li a {
   position: relative;
   display: inline-block;
   top: 50%;
+  transform: translateY(-50%);
 }
 
 @media only screen and (min-width: 601px) and (max-width:1000px) {
