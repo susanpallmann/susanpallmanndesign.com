@@ -259,8 +259,8 @@ nav#vertical li a {
 }
 #hero img {
   position: absolute;
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -277,8 +277,6 @@ nav#vertical li a {
 @media only screen and (min-width: 601px) and (max-width:1000px) {
   #hero img {
     position: absolute;
-    height: 100%;
-    width: auto;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -286,16 +284,10 @@ nav#vertical li a {
   #hero {
     height: 600px;
   }
-  #hero div.image-centered {
-    height: 547px;
-    position: relative;
-  }
 }
 @media only screen and (orientation: landscape) and (min-width: 601px) and (max-width:1000px) {
   #hero img {
     position: absolute;
-    height: 100%;
-    width: auto;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -311,8 +303,6 @@ nav#vertical li a {
 @media only screen and (min-width: 1001px) {
   #hero img {
     position: absolute;
-    height: 100%;
-    width: auto;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -613,4 +603,22 @@ footer .row {
   transform: scaleX(0);
   transition: transform 500ms ease-in-out, height 100ms ease-in-out;
   transform-origin: 0% 50%;
+}
+@media only screen and (max-width: 320px) {
+}
+/* Major Breakpoint || Mobile */
+@media only screen and (min-width: 321px) {
+}
+/* Mobile Horizontal & Tablets */
+@media only screen and (min-width: 601px) {
+  #hero img {
+    height: 100%;
+    width: auto;
+  }
+}
+/* Major Breakpoint || Tablets & Small Desktops */
+@media only screen and (min-width: 721px) {
+}
+/* Major Breakpoint || Desktop & Up */
+@media only screen and (min-width: 1024px) {
 }
