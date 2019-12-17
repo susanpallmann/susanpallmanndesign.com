@@ -279,6 +279,13 @@ nav#vertical li a {
   height: auto;
   width: 100%;
 }
+#hero .image-max {
+  width: 100%;
+  display: block;
+  height: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
 
 @media only screen and (min-width: 601px) and (max-width:1000px) {
 }
