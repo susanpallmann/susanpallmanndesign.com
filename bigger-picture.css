@@ -276,6 +276,8 @@ nav#vertical li a {
   display: inline-block;
   top: 50%;
   transform: translateY(-50%);
+  height: auto;
+  width: 100%;
 }
 
 @media only screen and (min-width: 601px) and (max-width:1000px) {
@@ -292,6 +294,7 @@ nav#vertical li a {
   #hero {
     height: 650px;
   }
+  
 }
 /*Title Row Styles*/
 @media only screen and (min-width: 601px) and (max-width:1000px) {
