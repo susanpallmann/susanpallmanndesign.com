@@ -262,7 +262,7 @@ nav#vertical li a {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  top: -50%;
+  bottom: 50%;
 }
 #hero .image-container {
   margin: 0;
