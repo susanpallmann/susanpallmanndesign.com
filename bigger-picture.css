@@ -193,26 +193,26 @@ nav#horizontal li a {
   letter-spacing: 0.12em;
   text-align: center;
 }
-nav#vertical {
-  float: right;
+#dropdown {
   background-color: #483C46;
-  padding: 15px;
+  padding-top: 52px;
+  position: fixed;
+  width: 100%;
+}
+nav#vertical {
   width: 100%;
   text-align: center;
+  padding: 1.5em 1em 0 1em;
   box-sizing: border-box;
-  position: absolute;
 }
 nav#vertical ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1em;
+  display: inline-block;
 }
 nav#vertical li {
-  display: table;
-  content: initial;
-  margin: auto;
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 1.5em;
 }
 nav#vertical li a {
   font-family: 'Raleway', helvetica, arial, sans-serif;
@@ -222,14 +222,6 @@ nav#vertical li a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-}
-#dropdown {
-  transform: translateY(-200px);
-  -webkit-transform: translateY(-200px);
-  transition: transform 0.4s;
-  -webkit-transition: -webkit-transform 0.4s;
-  z-index: 0;
-  position: relative;
 }
 /* Hero Header */
 #hero {

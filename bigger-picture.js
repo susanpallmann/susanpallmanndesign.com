@@ -43,15 +43,15 @@ window.onload = function() {
     if ($(this).hasClass("animcomplete")) {
       $(this).removeClass("animcomplete");
       $(this).addClass("closed");
-      $("#dropdown").css("transform", "TranslateY(-200px)");
-      $("#dropdown").css("-webkit-transform", "TranslateY(-200px)");
+      $("#dropdown").slideToggle( "fast" ).addClass('collapsed');
+      $('#dropdown').find('.expandable').addClass('collapsed');
       setTimeout(function() {
         $("#top_hamburger").removeClass("closed");
       }, hamburgerAnimSpeed);
     } else {
       $(this).addClass("open");
-      $("#dropdown").css("transform", "TranslateY(0px)");
-      $("#dropdown").css("-webkit-transform", "TranslateY(0px)");
+      $("#dropdown").slideToggle( "fast" ).removeClass('collapsed');
+      $('#dropdown').find('.expandable').removeClass('collapsed');
       setTimeout(function() {
         $("#top_hamburger").removeClass("open");
         $("#top_hamburger").addClass("animcomplete");
