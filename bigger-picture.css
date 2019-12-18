@@ -517,7 +517,7 @@ img {
   -webkit-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
-.sp-icon:hover 
+.sp-icon:hover {
   fill: rgba(0, 0, 0, 0);
 }
 /*Footer Styles*/
