@@ -19,16 +19,16 @@ $(document).ready(function() {
     }
     switch (pattern) {
       case 1:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
         break;
       case 2:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+        $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
         break;
       case 3:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
+        $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
         break;
       default:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
     }
   });
   $('footer .sp-icon').mouseleave(function() {
@@ -39,13 +39,13 @@ $(document).ready(function() {
     }
     switch (pattern) {
       case 1:
-        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
         break;
       case 2:
-        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+        $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
         break;
       default:
-        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
     }
   });
   
