@@ -515,7 +515,7 @@ img {
 #ligature-fill {
   fill: #FF6666;
 }
-#sp-icon:hover #ligature-fill {
+.sp-icon:hover #ligature-fill {
   fill: rgba(0, 0, 0, 0);
   transition: fill 0.2s ease-in-out;
   -webkit-transition: fill 0.2s ease-in-out;
