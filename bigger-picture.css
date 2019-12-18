@@ -330,6 +330,7 @@ h3 {
   letter-spacing: 0.03em;
   color: #483C46;
   margin: 0;
+  margin-bottom: 1em;
 }
 h4 {
   color: #FF6666;
@@ -342,12 +343,24 @@ h4 {
   margin: 0;
   color: #FF6666;
 }
-#project-meta h2:nth-child(n+2) {
+#project-meta ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+}
+#project-meta li {
+  display: inline-block;
+}
+.hybrid-row p {
+  display: inline-block;
 }
 p {
   color: #666;
   line-height: 1.7em;
   margin: 0;
+  margin-bottom: 1em;
+  display: inline;
 }
 span.tag {
   padding: 0em 1em;
@@ -358,6 +371,13 @@ span.tag {
   margin: 0.2em 0 0.2em 0;
   display: inline-block;
   line-height: 1.8em;
+  transition-property: color;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: linear;
+  cursor: pointer; 
 }
 span.tag:hover {
   background-color: #cccccc;
@@ -397,11 +417,19 @@ a:hover {
   transition-timing-function: linear;
   -webkit-transition-property: background-image;
   -webkit-transition-duration: .2s;
-  -webkit-transition-timing-function: linear;
-  
+  -webkit-transition-timing-function: linear; 
 }
 .button:hover {
   background-image: linear-gradient(#FF6666, #EE8293);
+}
+.expandable {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: linear; 
 }
 ::selection {
   background: #FF6666;

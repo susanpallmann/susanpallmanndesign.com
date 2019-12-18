@@ -25,6 +25,16 @@
   display: flex;
   flex-wrap: wrap;
 }
+.column.hybrid-row .column {
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0;
+}
+/* Major Breakpoint || Desktop & Up */
+@media only screen and (min-width: 1024px) {
+  .column.hybrid-row .column p {
+    padding-right: 1em !important;
+  }
+}
 .column {
   width: 100%;
   box-sizing: border-box;
