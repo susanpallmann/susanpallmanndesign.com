@@ -2,6 +2,7 @@ $(document).ready(function() {
   globalViewportHeight = getViewportHeight();
   globalPageHeight = getPageHeight();
   heroParallax();
+  pattern = 1;
   
   $("#mark").click(function() {
     if (location.pathname == "/") {
@@ -10,7 +11,7 @@ $(document).ready(function() {
       redirect("/");
     }
   });
-  $('.sp-icon').mouseleave(function() {
+  $('header .sp-icon').mouseleave(function() {
     if (pattern < 3) {
       pattern++;
     } else {
@@ -28,6 +29,23 @@ $(document).ready(function() {
         break;
       default:
         $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+    }
+  });
+  $('footer .sp-icon').mouseleave(function() {
+    if (pattern < 2) {
+      pattern++;
+    } else {
+      pattern = 1;
+    }
+    switch (pattern) {
+      case 1:
+        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        break;
+      case 2:
+        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+        break;
+      default:
+        $('footer .pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
     }
   });
   
@@ -64,7 +82,6 @@ window.onload = function() {
   /* Do not adjust these global variables */
   scrollValue = -100;
   screenWidth = screen.width;
-  pattern = 1;
   /* End global variables */
 
   $("#top_hamburger").click(function() {
