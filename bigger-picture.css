@@ -514,11 +514,12 @@ img {
 /*Hover Effect for SP Ligature*/
 #ligature-fill {
   fill: #FF6666;
-  -webkit-transition: fill 0.2s ease-in-out;
-  transition: fill 0.2s ease-in-out;
+  opacity: 1;
 }
 .sp-icon:hover #ligature-fill {
-  fill: rgba(0, 0, 0, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 /*Footer Styles*/
 footer {
