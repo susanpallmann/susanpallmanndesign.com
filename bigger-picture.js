@@ -3,7 +3,35 @@ $(document).ready(function() {
   globalPageHeight = getPageHeight();
   heroParallax();
   
-   //Expands or collapses panels with this switch in them
+  $("#mark").click(function() {
+    if (location.pathname == "/") {
+      scrollToTop();
+    } else {
+      redirect("/");
+    }
+  });
+  $('.sp-icon').mouseleave(function() {
+    if (pattern < 3) {
+      pattern++;
+    } else {
+      pattern = 1;
+    }
+    switch (pattern) {
+      case 1:
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        break;
+      case 2:
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+        break;
+      case 3:
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
+        break;
+      default:
+        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+    }
+  });
+  
+  //Expands or collapses panels with this switch in them
   //When the user clicks on an expand/collapse toggle
   $('.read-more').click(function () {
     var button = $(this);
@@ -56,33 +84,6 @@ window.onload = function() {
         $("#top_hamburger").removeClass("open");
         $("#top_hamburger").addClass("animcomplete");
       }, hamburgerAnimSpeed);
-    }
-  });
-  $("#mark").click(function() {
-    if (location.pathname == "/") {
-      scrollToTop();
-    } else {
-      redirect("/");
-    }
-  });
-  $('#sp-icon').mouseleave(function() {
-    if (pattern < 3) {
-      pattern++;
-    } else {
-      pattern = 1;
-    }
-    switch (pattern) {
-      case 1:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
-        break;
-      case 2:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
-        break;
-      case 3:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
-        break;
-      default:
-        $('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
     }
   });
 };
