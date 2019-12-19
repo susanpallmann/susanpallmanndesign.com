@@ -574,9 +574,13 @@ footer .logo-mark {
   display: inline-block;
   width: 74px;
 }
+footer .signature {
+  text-align: center;
+}
 #footer-title-container {
   display: inline-block;
   width: 70px;
+  text-align: left;
 }
 p#footer-title {
   color: #ffffff;
@@ -706,6 +710,9 @@ input#contact-input {
   .footer-list.to50 {
     width: 50%;
   }
+  footer .signature {
+  text-align: left;
+}
 }
 /* Major Breakpoint || Tablets & Small Desktops */
 @media only screen and (min-width: 721px) {
