@@ -674,6 +674,7 @@ input#contact-input {
   }
   .footer-list.to50 {
     width: 100%;
+    text-align: center;
   }
 }
 /* Major Breakpoint || Mobile */
@@ -693,6 +694,7 @@ input#contact-input {
   }
   .footer-list.to50 {
     width: 50%;
+    text-align: left;
   }
 }
 /* Mobile Horizontal & Tablets */
