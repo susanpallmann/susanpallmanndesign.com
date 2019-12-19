@@ -554,11 +554,11 @@ h6 {
 footer ul {
   list-style-type: none;
   padding-left: 0px;
-  margin-top: 0px;
+  margin: 0px;
 }
 .column.main-footer {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 footer .logo-mark {
   display: inline-block;
