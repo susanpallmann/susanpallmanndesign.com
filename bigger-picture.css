@@ -529,7 +529,11 @@ footer {
   line-height: 1.8em;
 }
 .footer-list {
-  
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 4.1em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 footer p {
   margin: 0;
@@ -558,6 +562,8 @@ p#footer-title {
   text-transform: uppercase;
   font-weight: 700;
   margin: 0px;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 .socials-icon {
   display: inline-block;
