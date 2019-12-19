@@ -568,6 +568,8 @@ footer ul {
   list-style-type: none;
   padding-left: 0px;
   margin: 0px;
+  display: inline-block;
+  text-align: left;
 }
 .main-footer {
   padding-top: 2em;
@@ -578,6 +580,9 @@ footer .logo-mark {
   width: 74px;
 }
 footer .signature {
+  text-align: center;
+}
+footer .centered {
   text-align: center;
 }
 #footer-title-container {
