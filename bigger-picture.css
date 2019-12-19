@@ -388,6 +388,9 @@ a:hover {
 #project-meta a {
   color: #483C46;
 }
+.button-container {
+  text-align: center;
+}
 .button {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-size: 0.95em;
@@ -716,5 +719,8 @@ input#contact-input {
     padding-right: 4em;
     width: auto;
     margin: 2em 0 2em 0;
+  }
+  .button-container {
+    text-align: left;
   }
 }
