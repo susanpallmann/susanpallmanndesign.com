@@ -84,9 +84,6 @@
 }
 /* Mobile Horizontal & Tablets */
 @media only screen and (min-width: 601px) {
-}
-/* Major Breakpoint || Tablets & Small Desktops */
-@media only screen and (min-width: 721px) {
   .column.span1.md {
     width: 8.33%;
   }
@@ -123,6 +120,9 @@
   .column.span12.md {
     width: 100%;
   }
+}
+/* Major Breakpoint || Tablets & Small Desktops */
+@media only screen and (min-width: 721px) {
 }
 /* Major Breakpoint || Desktop & Up */
 @media only screen and (min-width: 1024px) {
