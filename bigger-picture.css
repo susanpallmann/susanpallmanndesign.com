@@ -704,7 +704,7 @@ input#contact-input {
   #hero {
     height: 600px;
   }
-  .footer-list {
+  .footer-list.to50, .footer-list.to33, .footer-list.to100 {
     padding-right: 4em;
     width: auto;
   }
@@ -713,7 +713,7 @@ input#contact-input {
 @media only screen and (min-width: 1024px) {
   #hero {
   }
-  .footer-list {
+  .footer-list.to50, .footer-list.to33, .footer-list.to100 {
     padding-right: 4em;
     width: auto;
   }
