@@ -562,7 +562,7 @@ footer ul {
   padding-left: 0px;
   margin-top: 0px;
 }
-.main-footer {
+.column.main-footer {
   padding-top: 3em;
   padding-bottom: 3em;
 }
