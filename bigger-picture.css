@@ -657,7 +657,7 @@ input#contact-input {
   }
   .footer-list {
     padding-right: 2em;
-    margin: 1em 0 1em 0;
+    margin: 2em 0 2em 0;
   }
   .footer-list.to100 {
     width: 100%;
@@ -666,7 +666,7 @@ input#contact-input {
     width: 33.33%;
   }
   .footer-list.to50 {
-    width: 50%;
+    width: 100%;
   }
 }
 /* Major Breakpoint || Mobile */
@@ -685,7 +685,7 @@ input#contact-input {
     width: 33.33%;
   }
   .footer-list.to50 {
-    width: 50%;
+    width: 100%;
   }
 }
 /* Mobile Horizontal & Tablets */
