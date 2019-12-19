@@ -88,8 +88,8 @@ window.onload = function() {
     if ($(this).hasClass("animcomplete")) {
       $(this).removeClass("animcomplete");
       $(this).addClass("closed");
-      $('#dropdown').find('.expandable').addClass('collapsed');
       $("#dropdown").slideToggle( "fast" );
+      $('#dropdown').find('.expandable').addClass('collapsed');
       setTimeout(function() {
         $("#top_hamburger").removeClass("closed");
       }, hamburgerAnimSpeed);
