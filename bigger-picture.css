@@ -525,6 +525,8 @@ img {
 footer {
   background-color: #483C46;
   color: #B2ADB1;
+  font-size: 0.8em;
+  line-height: 1.8em;
 }
 h6 {
   color: #ffffff;
@@ -534,9 +536,7 @@ h6 {
 }
 footer ul {
   list-style-type: none;
-  font-size: 0.8em;
   padding-left: 0px;
-  line-height: 1.8em;
   margin-top: 0px;
 }
 footer .logo-mark {
@@ -550,9 +550,7 @@ footer .logo-mark {
 p#footer-title {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 0.7em;
   font-weight: 700;
-  line-height: 1.55em;
   margin: 0px;
 }
 .socials-icon {
@@ -570,6 +568,16 @@ p#footer-title {
 footer .row {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.footer input {
+  background-color: #665964;
+  border: none;
+  border-radius: 5px;
+  font-family: 'open sans', sans;
+  color: #fff;
+  padding: 0.2em 0.5em;
+  box-sizing: border-box;
+  width: 100%;
 }
 .dark-box {
   background-color: #3F353D;
