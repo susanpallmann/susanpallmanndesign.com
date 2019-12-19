@@ -534,9 +534,9 @@ footer {
 .footer-list {
   display: inline-block;
   vertical-align: top;
-  padding-right: 4.1em;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-sizing: border-box;
 }
 footer p {
   margin: 0;
@@ -646,11 +646,19 @@ input#contact-input {
 @media only screen and (max-width: 320px) {
   #hero {
   }
+  .footer-list {
+    padding-right: 2em;
+    width: 50%;
+  }
 }
 /* Major Breakpoint || Mobile */
 @media only screen and (min-width: 321px) {
   #hero {
     height: 400px;
+  }
+  .footer-list {
+    padding-right: 2em;
+    width: 50%;
   }
 }
 /* Mobile Horizontal & Tablets */
@@ -658,15 +666,27 @@ input#contact-input {
   #hero {
     height: 600px;
   }
+  .footer-list {
+    padding-right: 3em;
+    width: 33.33%;
+  }
 }
 /* Major Breakpoint || Tablets & Small Desktops */
 @media only screen and (min-width: 721px) {
   #hero {
     height: 600px;
   }
+  .footer-list {
+    padding-right: 3em;
+    width: 33.33%;
+  }
 }
 /* Major Breakpoint || Desktop & Up */
 @media only screen and (min-width: 1024px) {
   #hero {
+  }
+  .footer-list {
+    padding-right: 4em;
+    width: auto;
   }
 }
