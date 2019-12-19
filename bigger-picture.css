@@ -34,7 +34,8 @@ img::-moz-selection {
 }
 .colorblock {
   background-color: #FAFAFA;
-  padding: 0.01px;
+  display: inline-block;
+  width: 100%;
 }
 /* Header Styles */
 header {
