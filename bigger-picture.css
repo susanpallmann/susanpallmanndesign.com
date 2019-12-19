@@ -569,7 +569,7 @@ footer .row {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.footer input {
+input#contact-input {
   background-color: #665964;
   border: none;
   border-radius: 5px;
