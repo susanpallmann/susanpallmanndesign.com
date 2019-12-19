@@ -677,8 +677,8 @@ input#contact-input {
     height: 600px;
   }
   .footer-list {
-    padding-right: 3em;
-    width: 33.33%;
+    padding-right: 4em;
+    width: auto;
   }
 }
 /* Major Breakpoint || Desktop & Up */
