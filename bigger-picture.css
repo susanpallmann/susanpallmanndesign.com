@@ -648,6 +648,14 @@ input#contact-input {
   }
   .footer-list {
     padding-right: 2em;
+  }
+  .footer-list.to100 {
+    width: 100%;
+  }
+  .footer-list.to33 {
+    width: 33.33%;
+  }
+  .footer-list.to50 {
     width: 50%;
   }
 }
@@ -658,6 +666,14 @@ input#contact-input {
   }
   .footer-list {
     padding-right: 2em;
+  }
+  .footer-list.to100 {
+    width: 100%;
+  }
+  .footer-list.to33 {
+    width: 33.33%;
+  }
+  .footer-list.to50 {
     width: 50%;
   }
 }
@@ -668,7 +684,15 @@ input#contact-input {
   }
   .footer-list {
     padding-right: 3em;
-    width: 33.33%;
+  }
+  .footer-list.to100 {
+    width: 25%;
+  }
+  .footer-list.to33 {
+    width: 25%;
+  }
+  .footer-list.to50 {
+    width: 50%;
   }
 }
 /* Major Breakpoint || Tablets & Small Desktops */
