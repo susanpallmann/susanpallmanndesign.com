@@ -20,7 +20,6 @@
   position: relative;
   width: 100%;
   border-radius: 3px;
-  transition: background-color 0.5s;
 }
 #hamburgerTop {
   top: 0;
@@ -43,9 +42,6 @@
   width: 100%;
   transform: translateY(-12px) translateX(0) rotate(45deg);
   box-shadow: none;
-}
-#top_hamburger.animcomplete span#hamburgerBottom, #top_hamburger.animcomplete span#hamburgerMid, #top_hamburger.animcomplete span#hamburgerTop {
-  background-color: #4ECDC4;
 }
 .open #hamburgerTop {
   animation: hamburgerTopBar 0.4s ease-in-out 0s infinite alternate forwards;
