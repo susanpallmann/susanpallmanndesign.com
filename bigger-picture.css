@@ -538,6 +538,10 @@ footer {
 footer p {
   margin: 0;
 }
+footer .cta {
+  font-weight: 500;
+  color: #ffffff;
+}
 footer a:hover {
   color: #ffffff;
 }
