@@ -541,6 +541,16 @@ footer {
 footer p {
   margin: 0;
 }
+footer a:hover {
+  color: #ffffff;
+}
+.footer-list li p a {
+  text-decoration: none;
+  color: #B2ADB1;
+}
+.footer-list li p a:hover {
+  color: #ffffff;
+}
 h6 {
   color: #ffffff;
   text-transform: uppercase;
