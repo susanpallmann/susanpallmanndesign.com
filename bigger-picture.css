@@ -555,7 +555,7 @@ footer .logo-mark {
 }
 #footer-title-container {
   display: inline-block;
-  width: 80px;
+  width: 70px;
 }
 p#footer-title {
   color: #ffffff;
@@ -595,7 +595,7 @@ input#contact-input {
   background-color: #3F353D;
 }
 .copyright-info {
-  font-size: 0.65em;
+  font-size: 0.9em;
   color: #B2ADB1;
   text-align: center;
   padding: 10px 0;
