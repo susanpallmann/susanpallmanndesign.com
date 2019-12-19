@@ -539,8 +539,11 @@ footer p {
   margin: 0;
 }
 footer .cta {
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
+  max-width: 11em;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
 }
 footer a:hover {
   color: #ffffff;
