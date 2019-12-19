@@ -562,6 +562,10 @@ footer ul {
   padding-left: 0px;
   margin-top: 0px;
 }
+.main-footer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 footer .logo-mark {
   display: inline-block;
   width: 74px;
