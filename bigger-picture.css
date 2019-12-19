@@ -413,6 +413,9 @@ a:hover {
   -webkit-transition-duration: .2s;
   -webkit-transition-timing-function: linear; 
 }
+footer .button {
+  padding: 0 1.2em;
+}
 .button:hover {
   background-image: linear-gradient(#FF6666, #EE8293);
 }
