@@ -1,0 +1,1 @@
+The goal of this project was to design a short folio about a famous person, making prominent use of type and the grid. While Thomas Edison was chosen as the subject matter for this project, the approach was a contemporary one. The folio instead was designed as though Edison was going to be speaking at a conference soon, and this pamphlet was promoting the event.
