@@ -1,0 +1,1 @@
+This portfolio website was designed and developed from scratch over several months. The addition of many new projects to the portfolio afforded the opportunity to redo the website, and make a number of improvements based on new things learned in the past two years, especially related to accessibility. 
