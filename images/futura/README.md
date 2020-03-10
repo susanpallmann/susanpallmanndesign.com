@@ -1,0 +1,1 @@
+The task was to design a zine that expressed a type family, Futura, through a variety of formats, including conceptually and through a personification of the typeface. These requirements informed a sort of retro-futurism theme that unified the publication.
