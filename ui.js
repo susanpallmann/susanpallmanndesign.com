@@ -171,8 +171,8 @@ $(document).ready(function () {
     /* Ligature Click Function */
     $(".mark").click(function () {
         //If on the homepage
-        //if (location.pathname == "/" || location.pathname == "/index.html") { // Change to this version on the real site.
-        if (location.pathname == "/stage.susanpallmanndesign.com/" || location.pathname == "/stage.susanpallmanndesign.com/index.html") { // Change to this version on the stage site.
+        if (location.pathname == "/" || location.pathname == "/index.html") { // Change to this version on the real site.
+        //if (location.pathname == "/stage.susanpallmanndesign.com/" || location.pathname == "/stage.susanpallmanndesign.com/index.html") { // Change to this version on the stage site.
             // Retrieve current sorting instructions from URL
             var sort = getParameterByName('sort');
             // If there aren't any sort instructions
@@ -184,12 +184,12 @@ $(document).ready(function () {
                 // If there are filters in place
             } else {
                 // Navigate to the homepage without filters
-                window.location.assign("https://susanpallmann.github.io/stage.susanpallmanndesign.com/");
+                window.location.assign("https://www.susanpallmanndesign.com/");
             }
             // If not on the homepage
         } else {
             // Navigate to the homepage
-            window.location.assign("https://susanpallmann.github.io/stage.susanpallmanndesign.com/");
+            window.location.assign("https://www.susanpallmanndesign.com/");
         }
     });
 });
