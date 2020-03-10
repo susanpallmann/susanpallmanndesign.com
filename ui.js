@@ -43,17 +43,16 @@ $(document).ready(function() {
   });
   
   $(".mark").click(function() {
-   //if (location.pathname == "/" || location.pathname == "/index.html") {
-    if (location.pathname == "/stage.susanpallmanndesign.com/" || location.pathname == "/stage.susanpallmanndesign.com/index.html") {
+   if (location.pathname == "/" || location.pathname == "/index.html") {
       var sort = getParameterByName('sort');
       if (!sort) {
         $("html,body").animate({
           scrollTop: $("body").offset().top - $("header").height()}, "slow");
       } else {
-        window.location.assign("https://susanpallmann.github.io/stage.susanpallmanndesign.com/");
+        window.location.assign("https://www.susanpallmanndesign.com/");
       }
     } else {
-      window.location.assign("https://susanpallmann.github.io/stage.susanpallmanndesign.com/");
+      window.location.assign("https://www.susanpallmanndesign.com/");
     }
   });
   $('header .sp-icon').mouseleave(function() {
