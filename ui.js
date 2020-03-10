@@ -192,38 +192,38 @@ $(document).ready(function () {
             window.location.assign("https://www.susanpallmanndesign.com/");
         }
     });
-});
 
-/* Hamburger Menu Animation */
-$("#top_hamburger").click(function () {
-    // If the animation is complete
-    if ($(this).hasClass("animcomplete")) {
-        // Set to incomplete
-        $(this).removeClass("animcomplete");
-        // Mark closed
-        $(this).addClass("closed");
-        // Toggle dropdown
-        $("#dropdown").slideToggle("fast");
-        $('#dropdown').find('.expandable').addClass('collapsed');
-        // Set delay (for CSS animation)
-        setTimeout(function () {
-            // Remove closed
-            $("#top_hamburger").removeClass("closed");
-        }, 400);
-    } else {
-        // Mark open
-        $(this).addClass("open");
-        // Toggle dropdown
-        $('#dropdown').find('.expandable').removeClass('collapsed');
-        $("#dropdown").slideToggle("fast");
-        // Set delay (for CSS animation)
-        setTimeout(function () {
-            // Remove open
-            $("#top_hamburger").removeClass("open");
-            // Mark complete
-            $("#top_hamburger").addClass("animcomplete");
-        }, 400);
-    }
+    /* Hamburger Menu Animation */
+    $("#top_hamburger").click(function () {
+        // If the animation is complete
+        if ($(this).hasClass("animcomplete")) {
+            // Set to incomplete
+            $(this).removeClass("animcomplete");
+            // Mark closed
+            $(this).addClass("closed");
+            // Toggle dropdown
+            $("#dropdown").slideToggle("fast");
+            $('#dropdown').find('.expandable').addClass('collapsed');
+            // Set delay (for CSS animation)
+            setTimeout(function () {
+                // Remove closed
+                $("#top_hamburger").removeClass("closed");
+            }, 400);
+        } else {
+            // Mark open
+            $(this).addClass("open");
+            // Toggle dropdown
+            $('#dropdown').find('.expandable').removeClass('collapsed');
+            $("#dropdown").slideToggle("fast");
+            // Set delay (for CSS animation)
+            setTimeout(function () {
+                // Remove open
+                $("#top_hamburger").removeClass("open");
+                // Mark complete
+                $("#top_hamburger").addClass("animcomplete");
+            }, 400);
+        }
+    });
 });
 
 /* Checks URL for search parameters */
