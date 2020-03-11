@@ -534,6 +534,7 @@ nav#horizontal li:after {
   -webkit-transition-duration: .15s;
   -webkit-transition-timing-function: linear;
   border-radius: 80px;
+  cursor: pointer;
 }
 .gallery-left:hover, .gallery-right:hover {
   opacity: 1;
@@ -561,6 +562,7 @@ nav#horizontal li:after {
   -webkit-transition-duration: .15s;
   -webkit-transition-timing-function: linear;
   border-radius: 80px;
+  cursor: pointer;
 }
 /* Hero Header */
 #hero {
