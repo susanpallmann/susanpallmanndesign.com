@@ -675,6 +675,21 @@ h5 {
   color: #483C46;
   margin: 1em 0 0 0;
 }
+#portfolio h4 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.4em;
+  font-family: 'raleway', sans-serif;
+  text-transform: initial;
+  letter-spacing: initial;
+}
+#portfolio h5 {
+  color: #fff;
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
 main p {
   color: #666;
   line-height: 1.7em;
