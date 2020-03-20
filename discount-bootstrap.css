@@ -30,6 +30,12 @@
 .column.hybrid-row .column {
   margin: 0 0 0 0;
 }
+.column.vanishing, .column.md.vanishing {
+  margin-top: 0;
+}
+.column.sm.vanishing {
+  margin-top: 5em;
+}
 /* Major Breakpoint || Desktop & Up */
 @media only screen and (min-width: 1024px) {
   .column.hybrid-row .column p {
@@ -120,6 +126,9 @@
   .column.span12.md {
     width: 100%;
   }
+  .column.md.vanishing, .column.sm.vanishing {
+    margin-top: 5em;
+  }
 }
 /* Major Breakpoint || Tablets & Small Desktops */
 @media only screen and (min-width: 721px) {
@@ -199,6 +208,9 @@
   }
   .column.span12 {
     width: 100%;
+  }
+  .column.vanishing, .column.md.vanishing, .column.sm.vanishing {
+    margin-top: 5em;
   }
 }
 /* Spacing System */
