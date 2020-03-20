@@ -200,7 +200,7 @@ main {
   height: 100%;
 }
 .hybrid-row p {
-  /* display: inline-block; */
+  display: inline-block;
 }
 .expandable {
   opacity: 1;
