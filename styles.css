@@ -990,6 +990,7 @@ main .socials-icon svg {
 /* Portfolio Filter */
 h3.grid-title {
   float: left;
+  margin-top: 0.3em;
 }
 #filter {
   float: right;
