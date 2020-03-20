@@ -17,9 +17,19 @@
       <priority>0.8</priority>
    </url>
    
+   <url>
+      <loc>https://susanpallmanndesign.com/resume.html</loc>
+      <priority>0.5</priority>
+   </url>
+   
+   <url>
+      <loc>https://susanpallmanndesign.com/files/susan-pallmann-resume-mobile.pdf</loc>
+      <priority>0.3</priority>
+   </url>
+   
     <url>
       <loc>https://susanpallmanndesign.com/files/susan-pallmann-resume.pdf</loc>
-      <priority>0.5</priority>
+      <priority>0.3</priority>
    </url>
    
    <url>
