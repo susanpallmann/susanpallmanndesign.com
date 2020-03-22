@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /files/
 Disallow: /resources/
 Disallow: /404.html
 
