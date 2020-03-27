@@ -742,6 +742,9 @@ a:hover {
 #project-meta a {
   color: #483C46;
 }
+#project-meta a:hover {
+  color: #FF5C5C;
+}
 span.tag {
   padding: 0em 1em;
   background-color: #E6E6E6;
