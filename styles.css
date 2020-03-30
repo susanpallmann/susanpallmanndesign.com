@@ -725,6 +725,7 @@ a:hover {
 }
 #project-meta li {
   display: block;
+  padding-bottom: 0.5em;
 }
 .horizontal#project-meta ul {
   display: inline-block;
@@ -737,7 +738,7 @@ a:hover {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 300;
   color: #483C46;
-  line-spacing: 1.5em;
+  line-height: 1.25em;
 }
 #project-meta a {
   color: #483C46;
