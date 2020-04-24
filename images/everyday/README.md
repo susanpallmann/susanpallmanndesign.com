@@ -1,0 +1,1 @@
+Everyday is an app designed to let users record their moods and daily behaviors. The hope is that tracking this data will let users notice patterns in how their behavior or habits affect their moods, and lead to better days overall.
