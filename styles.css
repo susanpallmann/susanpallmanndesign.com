@@ -80,6 +80,12 @@
   background-image: url("images/mrs-eaves/thumbnail.png");
 }
 /* Everyday */
+.everyday#hero {
+  background-color: #40C8C2;
+}
+.everyday#hero #dramatic-headline {
+  color: #3dbeb8;
+}
 .column.hybrid-row .column.project .column.everyday {
   background-color: #40C8C2;
   background-image: url("images/everyday/thumbnail.png");
