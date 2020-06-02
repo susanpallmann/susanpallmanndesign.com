@@ -291,7 +291,10 @@ function heroParallax() {
             $("#hero").mousemove(function (event) {
                 var w = $(this).width(),
                     pct = 360 * (+event.pageX) / w,
-                    bg = "linear-gradient(" + pct + "deg,#FF6666,#DCA1C4)";
+                    // Original version, restore by removing comments 
+                    // bg = "linear-gradient(" + pct + "deg,#FF6666,#DCA1C4)";
+                    // BLM Edition
+                    bg = "linear-gradient(" + pct + "deg,#0a0a0a,#000000)";
                 $("#hero").css('background-image', bg);
             });
         } else {
