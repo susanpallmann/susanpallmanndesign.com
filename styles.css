@@ -1,6 +1,4 @@
 /* Project-Specific Styles */
-
-/* Original Version, restore by removing comments.
 .gradient#hero {
   background-color: #FF5C5C;
   background-image: linear-gradient(90deg, #FF5C5C, #DCA1C4);
@@ -12,20 +10,7 @@
   color: #FF5C5C;
   opacity: 0.1;
 }
-*/
 
-/* BLM Edition */
-.gradient#hero {
-  background-color: #262626;
-  background-image: linear-gradient(90deg, #262626, #000000);
-}
-.gradient#hero p {
-  color: #ffffff;
-}
-.gradient#hero #dramatic-headline {
-  color: #555555;
-  opacity: 0.1;
-}
 /* See the Bigger Picture */
 .bigger-picture#hero {
   background-color: #6B9287;
