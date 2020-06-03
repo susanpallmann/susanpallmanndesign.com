@@ -290,11 +290,8 @@ function heroParallax() {
         if ($('#hero').hasClass('gradient')) {
             $("#hero").mousemove(function (event) {
                 var w = $(this).width(),
-                    pct = 360 * (+event.pageX) / w,
-                    // Original version, restore by removing comments 
-                    // bg = "linear-gradient(" + pct + "deg,#FF6666,#DCA1C4)";
-                    // BLM Edition
-                    bg = "linear-gradient(" + pct + "deg,#262626,#000000)";
+                    pct = 360 * (+event.pageX) / w, 
+                    bg = "linear-gradient(" + pct + "deg,#FF6666,#DCA1C4)";
                 $("#hero").css('background-image', bg);
             });
         } else {
