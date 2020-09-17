@@ -26,3 +26,17 @@ This is my portfolio website, coded from scratch.
 * Resume.html
 * Privacy.html
 * 404.html
+
+## Style Notes:
+### discount-bootstrap.css
+"Discount Bootstrap" is my lightweight take on Bootstrap's responsive grid system. It has its own repository over at <url>. It provides most of the website structure through use of classes like:
+  ```css
+  .container
+  .row
+  .column
+  .span12
+  .md
+  ```
+
+### styles.css
+This is the main stylesheet for the website's look.
