@@ -3,7 +3,7 @@ I am a Louisville-based web designer and developer. I am deeply fascinated with 
 
 This is my portfolio website, coded from scratch.
 
-##Contents:
+## Contents:
 * [Pages](https://github.com/susanpallmann/susanpallmanndesign.com#pages)
 * [Style Notes](https://github.com/susanpallmann/susanpallmanndesign.com#style-notes)
 
@@ -43,4 +43,4 @@ This is my portfolio website, coded from scratch.
   ```
 
 ### styles.css
-This is the main stylesheet for the website's theme, and where most changes should be made.
+This is the main stylesheet for the website's theme, and where most changes should be made. It has a table of contents in the css file to make navigation easier.
