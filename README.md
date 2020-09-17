@@ -33,7 +33,7 @@ This is my portfolio website, coded from scratch.
 
 ## Style Notes:
 ### discount-bootstrap.css
-"Discount Bootstrap" is my lightweight take on Bootstrap's responsive grid system. It has its own repository over at <url>. It provides most of the website structure through use of classes like:
+"Discount Bootstrap" is my lightweight take on Bootstrap's responsive grid system. It has its own repository and documentation over at https://github.com/susanpallmann/discount-bootstrap. It provides most of the website structure through use of classes like:
   ```css
   .container
   .row
