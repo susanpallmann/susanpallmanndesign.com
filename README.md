@@ -3,6 +3,10 @@ I am a Louisville-based web designer and developer. I am deeply fascinated with 
 
 This is my portfolio website, coded from scratch.
 
+##Contents:
+* [Pages](https://github.com/susanpallmann/susanpallmanndesign.com#pages)
+* [Style Notes](https://github.com/susanpallmann/susanpallmanndesign.com#style-notes)
+
 ## Pages:
 ### Main Pages:
 * Index.html
