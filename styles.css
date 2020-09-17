@@ -1,4 +1,51 @@
+/* Contents
+
+  - Project-Specific Styles (styles unique to specific pages)
+      - Hero header gradient
+      - See the Bigger Picture
+      - Jason Submarines
+      - Edison Folio
+      - Mrs Eaves
+      - Everyday
+      - Best Foot Forward
+      - Crescendo
+      - Evolve KY
+      - Futura Zine
+      - Documentation
+      - Type Lamp #Note: not in use
+      - Lost Places #Note: not in use
+      - Color Me _ #Note: not in use
+      - Onward Together
+  - Selection Styles
+  - Bootstrap Add-Ons (discount bootstrap changes/overrides)
+  - Header Styles (upper navigation)
+      - Logo Mark ("SP" ligature)
+      - Hamburger Menu
+      - Vertical Navigation (Dropdown Menu)
+      - Horzontal Navigation
+      - Nav Underline Animation
+      - Scroll Progress Bar
+  - Gallery Widget General Styles (slideshow functionality, see jason.index for example)
+  - Hero Header (styles for hero headers [below navigation], shared across all pages)
+  - Body Styles
+  - Project Meta Information (#project-meta and children, tags)
+  - Buttons
+  - Forms
+  - Images
+  - Footer Styles
+  - Portfolio Filter (styles for the filtering feature on the homepage)
+  - Portfolio Grid (arrangement of squares for each project on the homepage)
+  - Media Queries (Mobile First)
+      - Very Small Screens (max 320)
+      - Major Breakpoint || Mobile (max 321)
+      - Mobile Horizontal & Tablets (max 601)
+      - Major Breakpoint || Tablets & Small Desktops (max 721)
+      - Major Breakpoint || Desktop & Up (max 1024)
+      - Desktop (Includes Margins) (max 1056) (this is to account for margins in responsive grid so some things break cleanly)
+*/
+
 /* Project-Specific Styles */
+/* Hero header gradient */
 .gradient#hero {
   background-color: #FF5C5C;
   background-image: linear-gradient(90deg, #FF5C5C, #DCA1C4);
