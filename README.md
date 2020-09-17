@@ -7,7 +7,7 @@ I am a Louisville-based web designer and developer. I am deeply fascinated with 
 * About.html
 * Contact.html
 
-## Projects:
+### Projects:
 * See the Bigger Picture (bigger-picture.html)
 * Crescendo (crescendo.html)
 * Edison (edison.html) - removed from navigation
@@ -19,7 +19,7 @@ I am a Louisville-based web designer and developer. I am deeply fascinated with 
 * Mrs Eaves Poster (mrs-eaves.html)
 * Onward Together (onward-together.html)
 
-## Other:
+### Other:
 * Documentation.html
 * Resume.html
 * Privacy.html
