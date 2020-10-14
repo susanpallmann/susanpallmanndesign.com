@@ -43,9 +43,14 @@
   color: #483C46;
 }
 
+.page-h2-tiny {
+}
+
+.page-description-tiny {
+}
+
 main .page-meta-tiny p {
   margin: auto !important;
-  line-height: unset !important;
 }
 
 .meta-header-tiny {
@@ -84,4 +89,5 @@ main .page-meta-tiny p {
   border: 1px solid #ccc;
   padding: 1em;
   font-family: monospace;
+  margin-bottom: 5em;
 }
