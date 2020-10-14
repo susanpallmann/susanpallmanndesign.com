@@ -83,5 +83,5 @@ main .page-meta-tiny p {
   min-height: 200px;
   border: 1px solid #ccc;
   padding: 1em;
-  font-family: 'monospaced';
+  font-family: monospace;
 }
