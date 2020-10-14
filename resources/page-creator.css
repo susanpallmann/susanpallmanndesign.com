@@ -6,8 +6,31 @@
 
 .page-hero {
   background-color: #666;
+  overflow: hidden;
+  width: 100%;
+  height: 9em;
 }
 
 .page-accent {
   color: #555;
+  font-size: 4.5em;
+  font-weight: 800;
+  display: block;
+  width: 200%;
+}
+
+.page-subtitle-tiny {
+  font-weight: 300;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.page-title-tiny {
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  font-weight: 800;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-bottom: 0.2em;
+  color: #483C46;
 }
