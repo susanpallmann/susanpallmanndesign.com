@@ -123,6 +123,12 @@ $(document).ready(function () {
         }
     });
 
+    /* Note: the following three functions get initialized again in the function initializeNavEffects. Although the three are being left in
+     * this document ready call (just to be safe), they probably are not being used now that page headers and footers are being loaded 
+     * dynamically (hence the need for re-initializing). See function initializeNavEffects to make real changes. */
+    
+    /* TODO: Someday REALLY test every page to make sure nothing goes wrong, and then remove the following three functions from this area. */
+    
     /* Ligature Hover Function */
     $('header .sp-icon').mouseleave(function () {
         // Resets the pattern if the maximum is reached
@@ -382,4 +388,109 @@ $(window).scroll(function () {
         }
     });
 });
+
+function initializeNavEffects() {
+    /* Ligature Hover Function */
+    $('header .sp-icon').mouseleave(function () {
+        // Resets the pattern if the maximum is reached
+        if (pattern < 3) {
+            pattern++;
+        } else {
+            pattern = 1;
+        }
+        // Change the pattern url based on the outcome of the previous variable manipulation
+        switch (pattern) {
+            case 1:
+                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                break;
+            case 2:
+                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+                break;
+            case 3:
+                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
+                break;
+            default:
+                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        }
+    });
+
+    /* Ligature Hover Function (Footer Version) */
+    $('footer .sp-icon').mouseleave(function () {
+        // Resets the pattern if the maximum is reached (it's 2 here because the third pattern doesn't read well against a dark background)
+        if (pattern < 2) {
+            pattern++;
+        } else {
+            pattern = 1;
+        }
+        // Change the pattern url based on the outcome of the previous variable manipulation
+        switch (pattern) {
+            case 1:
+                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                break;
+            case 2:
+                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+                break;
+            default:
+                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+        }
+    });
+
+    /* Ligature Click Function */
+    $(".mark").click(function () {
+        //If on the homepage
+        if (location.pathname == "/" || location.pathname == "/index.html") { // Change to this version on the real site.
+        //if (location.pathname == "/stage.susanpallmanndesign.com/" || location.pathname == "/stage.susanpallmanndesign.com/index.html") { // Change to this version on the stage site.
+            // Retrieve current sorting instructions from URL
+            var sort = getParameterByName('sort');
+            // If there aren't any sort instructions
+            if (!sort) {
+                // Scroll to top of page rather than refreshing
+                $("html,body").animate({
+                    scrollTop: $("body").offset().top - $("header").height()
+                }, "slow");
+                // If there are filters in place
+            } else {
+                // Navigate to the homepage without filters
+                window.location.assign("https://www.susanpallmanndesign.com/");
+            }
+            // If not on the homepage
+        } else {
+            // Navigate to the homepage
+            window.location.assign("https://www.susanpallmanndesign.com/");
+        }
+    });
+
+    /* Hamburger Menu Animation */
+    $("#top_hamburger").click(function () {
+        // If the animation is complete
+        if ($(this).hasClass("animcomplete")) {
+            // Set to incomplete
+            $(this).removeClass("animcomplete");
+            // Mark closed
+            $(this).addClass("closed");
+            // Toggle dropdown
+            $("#dropdown").slideToggle("fast");
+            $('#dropdown').find('.expandable').addClass('collapsed');
+            // Set delay (for CSS animation)
+            setTimeout(function () {
+                // Remove closed
+                $("#top_hamburger").removeClass("closed");
+            }, 400);
+        } else {
+            // Mark open
+            $(this).addClass("open");
+            // Toggle dropdown
+            $('#dropdown').find('.expandable').removeClass('collapsed');
+            $("#dropdown").slideToggle("fast");
+            // Set delay (for CSS animation)
+            setTimeout(function () {
+                // Remove open
+                $("#top_hamburger").removeClass("open");
+                // Mark complete
+                $("#top_hamburger").addClass("animcomplete");
+            }, 400);
+        }
+    });
+}
+
 // end
