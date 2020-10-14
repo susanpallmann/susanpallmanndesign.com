@@ -71,3 +71,12 @@
   display: inline-block;
   line-height: 1.8em;
 }
+
+#page-creator-output {
+  background-color: #eee;
+  border-radius: 4px;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 1em;
+  font-family: 'monospaced';
+}
