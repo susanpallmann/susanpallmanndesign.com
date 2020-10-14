@@ -43,6 +43,11 @@
   color: #483C46;
 }
 
+.page-meta-tiny {
+  margin: auto !important;
+  line-height: unset !important;
+}
+
 .meta-header-tiny {
   text-transform: uppercase;
   font-size: 0.3em;
