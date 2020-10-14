@@ -28,23 +28,23 @@ $(document).ready(function() {
     if ($('#form-project-github').val() !== '') {
       metas['github'] = $('#form-project-github').val();
     }
-    if ($('#form-category-3d').val() !== '') {
-      metas['categories'].push($('#form-category-3d').val());
+    if ($('#form-category-3d:checked').val()) {
+      metas['categories'].push($('#form-category-3d:checked').val());
     }
-    if ($('#form-category-code').val() !== '') {
-      metas['categories'].push($('#form-category-code').val());
+    if ($('#form-category-code:checked').val()) {
+      metas['categories'].push($('#form-category-code:checked').val());
     }
-    if ($('#form-category-identity').val() !== '') {
-      metas['categories'].push($('#form-category-identity').val());
+    if ($('#form-category-identity:checked').val()) {
+      metas['categories'].push($('#form-category-identity:checked').val());
     }
-    if ($('#form-category-illustration').val() !== '') {
-      metas['categories'].push($('#form-category-illustration').val());
+    if ($('#form-category-illustration:checked').val()) {
+      metas['categories'].push($('#form-category-illustration:checked').val());
     }
-    if ($('#form-category-web-design').val() !== '') {
-      metas['categories'].push($('#form-category-web-design').val());
+    if ($('#form-category-web-design:checked').val()) {
+      metas['categories'].push($('#form-category-web-design:checked').val());
     }
-    if ($('#form-category-identity').val() !== '') {
-      metas['categories'].push($('#form-category-identity').val());
+    if ($('#form-category-identity:checked').val()) {
+      metas['categories'].push($('#form-category-identity:checked').val());
     }
     // Use information to update our preview panel
     $('.page-hero').css('background-color', color);
