@@ -5,6 +5,7 @@ $(document).ready(function() {
     let accentColor = "#555";
     let title = "Project Title";
     let subtitle = "Project Subtitle";
+    let description = "Write a brief description here, maybe a line or two.";
     let metas = {};
     metas['categories'] = [];
     if ($('#form-project-color').val() !== '') {
@@ -18,6 +19,9 @@ $(document).ready(function() {
     }
     if ($('#form-project-subtitle').val() !== '') {
       subtitle = $('#form-project-subtitle').val();
+    }
+    if ($('#form-project-description').val() !== '') {
+      description = $('#form-project-description').val();
     }
     if ($('#form-project-issuu').val() !== '') {
       metas['issuu'] = $('#form-project-issuu').val();
@@ -51,6 +55,8 @@ $(document).ready(function() {
     $('.page-accent').css('color', accentColor).text(title.toLowerCase());
     $('.page-subtitle-tiny').text(subtitle);
     $('.page-title-tiny').text(title);
+    $('.page-h2-tiny').text('Objective');
+    $('.page-description-tiny').text(description);
     $('.page-meta-tiny').empty();
     for (const [key, value] of Object.entries(metas)) {
       if (key !== 'categories') {
