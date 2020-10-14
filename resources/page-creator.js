@@ -6,6 +6,7 @@ $(document).ready(function() {
     let title = "Project Title";
     let subtitle = "Project Subtitle";
     let metas = {};
+    metas['categories'] = [];
     if ($('#form-project-color').val() !== '') {
       color = $('#form-project-color').val();
     }
@@ -51,12 +52,15 @@ $(document).ready(function() {
     $('.page-subtitle-tiny').text(subtitle);
     $('.page-title-tiny').text(title);
     for (const [key, value] of Object.entries(metas)) {
-      $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
       if (key !== 'categories') {
+        $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
         $('.page-meta-tiny').append('<p class="meta-text-tiny">' + value + '</p>');
       } else {
-        for ( let i = 0; i < metas["categories"].length; i++ ) {
-          $('.page-meta-tiny').append('<p class="meta-tag-tiny">' + value + '</p>');
+        if ( metas["categories"].length > 0 ) {
+          $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
+          for ( let i = 0; i < metas["categories"].length; i++ ) {
+            $('.page-meta-tiny').append('<p class="meta-tag-tiny">' + value + '</p>');
+          }
         }
       }
     }
