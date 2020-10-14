@@ -52,6 +52,13 @@ $(document).ready(function() {
     $('.page-title-tiny').text(title);
     for (const [key, value] of Object.entries(metas)) {
       $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
+      if (key !== 'categories') {
+        $('.page-meta-tiny').append('<p class="meta-text-tiny">' + value + '</p>');
+      } else {
+        for ( let i = 0; i < metas["categories"].length; i++ ) {
+          $('.page-meta-tiny').append('<p class="meta-tag-tiny">' + value + '</p>');
+        }
+      }
     }
   }); 
 });
