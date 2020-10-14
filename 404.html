@@ -44,22 +44,13 @@
     <meta name="twitter:image" content="https://www.susanpallmann.github.io/stage.susanpallmanndesign.com/images/thumbnail.png" />
     <noscript><link rel="stylesheet" type="text/css" href="no-script.css"></noscript>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="ui.js"></script>
     <script type="text/javascript">
       $(function(){
         $("header").load("header.html");
         $("footer").load("footer.html");
-        console.log("this ran!");
-        $(".navContainer").addClass("selected");
-        $("header").find("#horiz-portfolio").addClass("selected");
       });
     </script>
-    <script>
-      $(document).ready(function() {
-        $("#vert-portfolio").addClass("selected");
-        initializeNavEffects();
-      });
-    </script>
+    <script type="text/javascript" src="ui.js"></script>
   </head>
   <body>
     <header>
