@@ -11,8 +11,8 @@ $(document).ready(function() {
     if ($('#form-project-accent-color').val() !== '') {
       accentColor = $('#form-project-accent-color').val();
     }
-    if ($('#form-project-title').val() !== '') {
-      title = $('#form-project-title').val();
+    if ($('#form-project-name').val() !== '') {
+      title = $('#form-project-name').val();
     }
     if ($('#form-project-accent-subtitle').val() !== '') {
       subtitle = $('#form-project-accent-subtitle').val();
