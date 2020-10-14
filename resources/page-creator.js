@@ -6,7 +6,6 @@ $(document).ready(function() {
     let title = "Project Title";
     let subtitle = "Project Subtitle";
     let metas = {};
-    metas['categories'] = [];
     if ($('#form-project-color').val() !== '') {
       color = $('#form-project-color').val();
     }
