@@ -57,8 +57,8 @@
   font-size: 0.4em;
 }
 
-main .page-meta-tiny p {
-  margin: auto !important;
+main .page-meta-tiny {
+  line-height: 0.5em;
 }
 
 .meta-header-tiny {
