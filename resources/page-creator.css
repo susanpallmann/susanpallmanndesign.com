@@ -43,7 +43,7 @@
   color: #483C46;
 }
 
-.page-meta-tiny {
+main .page-meta-tiny p {
   margin: auto !important;
   line-height: unset !important;
 }
