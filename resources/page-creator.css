@@ -52,3 +52,22 @@
   color: #FF5C5C;
   display: block;
 }
+
+.meta-text-tiny {
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 0.5em;
+  color: #483C46;
+  line-height: 1.25em;
+}
+
+.meta-tag-tiny {
+  padding: 0em 1em;
+  background-color: #E6E6E6;
+  color: #888;
+  border-radius: 50px;
+  font-size: 0.4em;
+  margin: 0.5em 0.3em 0.2em 0;
+  display: inline-block;
+  line-height: 1.8em;
+}
