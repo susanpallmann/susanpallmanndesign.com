@@ -11,6 +11,14 @@
   height: 9em;
 }
 
+.page-outline .fake-main {
+  margin: 0 10%;
+}
+
+.page-outline .column {
+  margin-top: 3em;
+}
+
 .page-accent {
   color: #555;
   font-size: 4.5em;
