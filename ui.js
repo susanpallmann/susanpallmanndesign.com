@@ -123,14 +123,9 @@ $(document).ready(function () {
         }
     });
 
-    /* Note: the following three functions get initialized again in the function initializeNavEffects. Although the three are being left in
-     * this document ready call (just to be safe), they probably are not being used now that page headers and footers are being loaded 
-     * dynamically (hence the need for re-initializing). See function initializeNavEffects to make real changes. */
-    
-    /* TODO: Someday REALLY test every page to make sure nothing goes wrong, and then remove the following three functions from this area. */
     
     /* Ligature Hover Function */
-    $('header .sp-icon').mouseleave(function () {
+    $('body').on('click', 'header .sp-icon', function() {
         // Resets the pattern if the maximum is reached
         if (pattern < 3) {
             pattern++;
@@ -154,7 +149,7 @@ $(document).ready(function () {
     });
 
     /* Ligature Hover Function (Footer Version) */
-    $('footer .sp-icon').mouseleave(function () {
+    $('body').on('click', 'footer .sp-icon', function() {
         // Resets the pattern if the maximum is reached (it's 2 here because the third pattern doesn't read well against a dark background)
         if (pattern < 2) {
             pattern++;
@@ -175,7 +170,7 @@ $(document).ready(function () {
     });
 
     /* Ligature Click Function */
-    $(".mark").click(function () {
+    $('body').on('click', '.mark', function() {
         //If on the homepage
         if (location.pathname == "/" || location.pathname == "/index.html") { // Change to this version on the real site.
         //if (location.pathname == "/stage.susanpallmanndesign.com/" || location.pathname == "/stage.susanpallmanndesign.com/index.html") { // Change to this version on the stage site.
@@ -200,7 +195,7 @@ $(document).ready(function () {
     });
 
     /* Hamburger Menu Animation */
-    $("#top_hamburger").click(function () {
+    $('body').on('#top_hamburger', function() {
         // If the animation is complete
         if ($(this).hasClass("animcomplete")) {
             // Set to incomplete
