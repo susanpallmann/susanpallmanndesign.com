@@ -14,8 +14,8 @@ $(document).ready(function() {
     if ($('#form-project-name').val() !== '') {
       title = $('#form-project-name').val();
     }
-    if ($('#form-project-accent-subtitle').val() !== '') {
-      subtitle = $('#form-project-accent-subtitle').val();
+    if ($('#form-project-subtitle').val() !== '') {
+      subtitle = $('#form-project-subtitle').val();
     }
     // Use information to update our preview panel
     $('.page-hero').css('background-color', color);
