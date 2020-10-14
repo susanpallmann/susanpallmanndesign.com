@@ -135,16 +135,16 @@ $(document).ready(function () {
         // Change the pattern url based on the outcome of the previous variable manipulation
         switch (pattern) {
             case 1:
-                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                $('header').find('.pattern-gif').attr('xlink:href', '/images/Pattern 1.gif');
                 break;
             case 2:
-                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+                $('header').find('.pattern-gif').attr('xlink:href', '/images/Pattern 2.gif');
                 break;
             case 3:
-                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 3.gif');
+                $('header').find('.pattern-gif').attr('xlink:href', '/images/Pattern 3.gif');
                 break;
             default:
-                $('header').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                $('header').find('.pattern-gif').attr('xlink:href', '/images/Pattern 1.gif');
         }
     });
 
@@ -159,13 +159,13 @@ $(document).ready(function () {
         // Change the pattern url based on the outcome of the previous variable manipulation
         switch (pattern) {
             case 1:
-                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                $('footer').find('.pattern-gif').attr('xlink:href', '/images/Pattern 1.gif');
                 break;
             case 2:
-                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 2.gif');
+                $('footer').find('.pattern-gif').attr('xlink:href', '/images/Pattern 2.gif');
                 break;
             default:
-                $('footer').find('.pattern-gif').attr('xlink:href', 'images/Pattern 1.gif');
+                $('footer').find('.pattern-gif').attr('xlink:href', '/images/Pattern 1.gif');
         }
     });
 
