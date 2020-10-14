@@ -43,21 +43,22 @@ $(document).ready(function() {
     if ($('#form-category-web-design:checked').val()) {
       metas['categories'].push($('#form-category-web-design:checked').val());
     }
-    if ($('#form-category-identity:checked').val()) {
-      metas['categories'].push($('#form-category-identity:checked').val());
+    if ($('#form-category-print:checked').val()) {
+      metas['categories'].push($('#form-category-print:checked').val());
     }
     // Use information to update our preview panel
     $('.page-hero').css('background-color', color);
     $('.page-accent').css('color', accentColor).text(title.toLowerCase());
     $('.page-subtitle-tiny').text(subtitle);
     $('.page-title-tiny').text(title);
+    $('.page-meta-tiny').empty();
     for (const [key, value] of Object.entries(metas)) {
       if (key !== 'categories') {
         $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
         $('.page-meta-tiny').append('<p class="meta-text-tiny">' + value + '</p>');
       } else {
         if ( metas["categories"].length > 0 ) {
-          $('.page-meta-tiny').append('<p class="meta-header-tiny">' + key + '</p>');
+          $('.page-meta-tiny').append('<p class="meta-header-tiny">Work</p>');
           for ( let i = 0; i < metas["categories"].length; i++ ) {
             $('.page-meta-tiny').append('<p class="meta-tag-tiny">' + value[i] + '</p>');
           }
