@@ -44,9 +44,17 @@
 }
 
 .page-h2-tiny {
+  font-family: 'Raleway', helvetica, arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  letter-spacing: 0.03em;
+  color: #483C46;
+  margin: 0;
+  margin-bottom: 1em;
 }
 
 .page-description-tiny {
+  font-size: 0.4em;
 }
 
 main .page-meta-tiny p {
