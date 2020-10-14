@@ -125,7 +125,7 @@ $(document).ready(function () {
 
     
     /* Ligature Hover Function */
-    $('body').on('click', 'header .sp-icon', function() {
+    $('body').on('mouseleave', 'header .sp-icon', function() {
         // Resets the pattern if the maximum is reached
         if (pattern < 3) {
             pattern++;
@@ -149,7 +149,7 @@ $(document).ready(function () {
     });
 
     /* Ligature Hover Function (Footer Version) */
-    $('body').on('click', 'footer .sp-icon', function() {
+    $('body').on('mouseleave', 'footer .sp-icon', function() {
         // Resets the pattern if the maximum is reached (it's 2 here because the third pattern doesn't read well against a dark background)
         if (pattern < 2) {
             pattern++;
@@ -195,7 +195,7 @@ $(document).ready(function () {
     });
 
     /* Hamburger Menu Animation */
-    $('body').on('#top_hamburger', function() {
+    $('body').on('click', '#top_hamburger', function() {
         // If the animation is complete
         if ($(this).hasClass("animcomplete")) {
             // Set to incomplete
