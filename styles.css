@@ -49,10 +49,11 @@
 .gradient#hero {
   background-color: #FF5C5C;
   background-image: linear-gradient(90deg, #FF5C5C, #DCA1C4);
-  animation: gradient-shift 20s ease infinite;
+  animation: gradient-shift 20s infinite;
   background-size: 120%;
 }
 
+/* New slight animation for gradient, borrowed from Github Universe 2020 and modified */
 @keyframes gradient-shift {
   0% {
     background-position: 58% 50%;
