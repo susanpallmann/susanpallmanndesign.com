@@ -49,7 +49,7 @@
 .gradient#hero {
   background-color: #FF5C5C;
   background-image: linear-gradient(90deg, #FF5C5C, #DCA1C4);
-  animation: gradient-shift 10s ease infinite;
+  animation: gradient-shift 20s ease infinite;
   background-size: 120%;
 }
 
