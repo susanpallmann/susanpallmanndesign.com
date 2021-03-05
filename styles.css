@@ -297,6 +297,9 @@ main {
   display: inline-block;
   width: 100%;
 }
+.column.horizontal {
+  margin-top: 2em;
+}
 /* Header Styles */
 header {
   position: absolute;
