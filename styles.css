@@ -874,6 +874,9 @@ span.tag.selected {
   -webkit-transition-duration: .2s;
   -webkit-transition-timing-function: linear; 
 }
+.button:after {
+  
+}
 .button:hover {
   background-image: linear-gradient(#FF5C5C, #EE8293);
 }
