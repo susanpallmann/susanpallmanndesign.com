@@ -10,52 +10,6 @@ $(document).ready(function () {
     pattern = 1;
     // Retrieves screen width (there's no horizontal scrolling so this is both viewport and window width)
     screenWidth = screen.width;
-    // Variables for tracking mouse direction trajectory
-    traj1 = [null, null];
-    traj2 = [null, null];
-    // Pre-programmed circle points for hero header.
-    points = [
-        [0.5, 0], 
-        [0.58, 0.01], 
-        [0.67, 0.03], 
-        [0.73, 0.06],
-        [0.80, 0.11], 
-        [0.85, 0.15], 
-        [0.89, 0.21], 
-        [0.92, 0.25],
-        [0.96, 0.32], 
-        [0.98, 0.40], 
-        [1, 0.5], 
-        [0.98, 0.60],
-        [0.96, 0.68], 
-        [0.92, 0.75], 
-        [0.89, 0.79], 
-        [0.85, 0.85],
-        [0.80, 0.89], 
-        [0.73, 0.94], 
-        [0.67, 0.97], 
-        [0.58, 0.99],
-        [0.5, 1], 
-        [0.42, 0.99], 
-        [0.33, 0.97], 
-        [0.27, 0.94],
-        [0.20, 0.89], 
-        [0.15, 0.85], 
-        [0.11, 0.79], 
-        [0.08, 0.75],
-        [0.04, 0.68], 
-        [0.02, 0.60], 
-        [0, 0.5], 
-        [0.02, 0.40],
-        [0.04, 0.32], 
-        [0.08, 0.25], 
-        [0.11, 0.21], 
-        [0.15, 0.15],
-        [0.20, 0.11], 
-        [0.27, 0.06], 
-        [0.33, 0.03], 
-        [0.42, 0.01]
-    ];
 
     /* Calling functions */
     //     Checks URL for sort instructions, acts accordingly
@@ -64,8 +18,6 @@ $(document).ready(function () {
     heroParallax();
     //     Start parallax on images (on the homepage)
     parallax();
-    //     Generate circle on homepage
-    generateCirclePoints();
 
     /* Read More Functionality */
     // Expands or collapses panels with this switch in them
@@ -340,24 +292,8 @@ function heroParallax() {
             $("#hero").mousemove(function (event) {
                 var w = $(this).width(),
                     pct = 360 * (+event.pageX) / w, 
-                    bg = "linear-gradient(" + pct + "deg,#FF6666,#F87C7C)";
+                    bg = "linear-gradient(" + pct + "deg,#FF6666,#DCA1C4)";
                 $("#hero").css('background-image', bg);
-                
-                // If this is our first time saving trajectories
-                if (traj1[0] === null) {
-                    // Just set them to the same values (we'll treat it as 0 movement, user never sees it anyway)
-		            traj1 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
-		            traj2 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
-                // Otherwise
-                } else {
-                    // Move our previous newest trajectory (traj2) to the old trajectory position (traj1)
-		            traj1 = traj2;
-                    // And then update our newest trajectory position with the current mouse position
-		            traj2 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
-                }
-                // Check dots to see if the new mouse location is within range of any of them
-                checkDots();
-		console.log('this ran 1');
             });
         } else {
             var hero = $('#hero');
@@ -414,162 +350,6 @@ function parallax() {
             }
         });
     });
-}
-
-/* Generate circle of points for homepage */
-function generateCirclePoints() {
-    // If the circle-bounds element exists (should only exist on homepage)
-    if ($('.circle-bounds').length) {
-        // Get size of bounding element
-        let circleWidth = $('.circle-bounds').width();
-        let circleHeight = $('.circle-bounds').height();
-        // For each set of coordinates in the points array (see global variables)
-        for (i = 0; i < points.length; i++) {
-            // create dots multiplying the coordinates by the dimensions of the bounding element
-            // we're also storing these values as custom attributes to let the dots come back to their original
-            // position
-            $('.circle-bounds').append(
-                '<div class="dot" left="'
-                + points[i][0]*circleWidth + 
-                '"top="'
-                + points[i][1]*circleHeight + 
-                '"style="left:'
-                + points[i][0]*circleWidth + 
-                'px; top:'
-                + points[i][1]*circleHeight + 
-                'px"></div>'
-            );
-        }
-    }
-}
-
-// Changes text from specified class to the next item in a switch case of options, replaces in the HTML
-function alterText() {
-    // We're using the class "open" to indicate whether the element should or shouldn't be animated (if the text changes
-    // too much it feels weird, even if the user is triggering it a lot)
-    if ($(".center h1").hasClass('open')) {
-        // Retrieve current text from this element
-        let centerText = $(".center h1.open").text();
-        let newText;
-        // Based on what text is currently set, change to the next thing in the list
-        switch(centerText) {
-          case 'create':
-            newText = 'design';
-            break;
-          case 'design':
-            newText = 'develop';
-            break;
-          case 'develop':
-            newText = 'sketch';
-            break;
-          case 'sketch':
-            newText = 'animate';
-            break;
-          default:
-            newText = 'create';
-            break;
-        }
-        // Remove "open" class so it can't be acted on again, hides the word to create a cool fade-out effect
-        $(".center h1").removeClass('open').addClass('hidden');
-        // Delay to allow the css transition time to work
-        $(".center h1").delay(1000)
-          .queue(function (next) { 
-                // Change text to what was determined by the switch case
-                $(this).text(newText)
-                    next(); 
-                })
-          .delay(100)
-          .queue(function (next) { 
-                // Unhide element
-                $(this).removeClass('hidden')
-                    next(); 
-                })
-          .delay(800)
-          .queue(function (next) { 
-                // Allow for new events
-                $(this).addClass('open');
-                    next();
-                });
-    }
-}
-
-/* Determine mouse proximity to all dots */
-function checkDots() {
-    setTimeout(function(){
-	console.log('this ran 2');
-	$('.dot').each(function ( index ) {
-            if ($(this).hasClass('inUse') === false) {
-                // Captures snapshot of mouse trajectory so we're not constantly updating movement
-				let captureTraj1 = traj1;
-				let captureTraj2 = traj2;
-                
-                // Get position information about this specific dot, and calculate each side as well
-				let dotPosition = $(this).offset();
-				let dotWidth = $(this).width();
-				let leftBound = dotPosition.left;
-				let rightBound = dotPosition.left + dotWidth;
-				let topBound = dotPosition.top;
-				let bottomBound = dotPosition.top + dotWidth;
-                
-                // Editable variable that determines how far away the mouse can be to affect the dot
-				let detectionRadius = 80;
-                
-                // If mouse is within range of the bounds expanded by the detection radius
-				if (traj2[0] > -detectionRadius + leftBound && traj2[0] < detectionRadius + rightBound && traj2[1] > -detectionRadius + topBound && traj2[1] < detectionRadius + bottomBound) {
-				    
-                    // Gets how close to the dot the mouse is on all sides, converts to absolute value because it's a distance
-				    let closeness = [Math.abs(leftBound - captureTraj2[0]), Math.abs(topBound - captureTraj2[1]), Math.abs(rightBound - captureTraj2[0]), Math.abs(bottomBound - captureTraj2[1])];
-				    // Returns smallest value from the closeness array
-                    Array.min = function( array ){
-						return Math.min.apply( Math, array );
-				    };
-				    let minimum = Array.min(closeness);
-                    // To get the "closeness modifier" we take the smallest distance value from above and divide it by the detection radius
-                    // From there we subtract this ratio from 1 (because a higher number in this case would actually mean it is further away
-                    // We're multiplying this calculation by itself to make the effect exponentially more noticeable, and again by 5 to make 
-                    // it bigger overall
-				    let closenessModifier = (1-(minimum/detectionRadius))*(1-(minimum/detectionRadius))*5;
-                    
-                    // Calls function to change the text of a specific span whenever the dots are moving
-                    alterText();
-                    
-                    // Makes the moving dots grow/fade to enhance the effect by adding "large" class
-				    $(this).addClass('inUse').addClass('large');
-                    
-				    // Calculate trajectory direction of the mouse from the captured values we grabbed earlier
-                    // Multiplying this value by the closeness modifier so that dots closer to the mouse move further
-				    let moveX = (traj2[0] - traj1[0])*closenessModifier;
-				    let moveY = (traj2[1] - traj1[1])*closenessModifier;
-                    
-                    // Grabs existing values of dot position to use later when dots return to their original places, ensures they're integers
-				    let exisTop = $(this).attr('top');
-				    exisTop = parseInt(exisTop);
-				    let exisLeft = $(this).attr('left');
-				    exisLeft =  parseInt(exisLeft);
-                    
-                    // Change position value of the dot by adding our move values to the existing positions
-				    $(this).css('left', (exisLeft + moveX) + 'px')
-					       .css('top', (exisTop + moveY) + 'px')
-                           // Delay to allow the transition effect in CSS to run its course
-					       .delay(1000)
-					       .queue(function (next) { 
-                               // Return dots to their original positions we saved earlier
-							   $(this).css('top', (exisTop) + 'px')
-						              .css('left', (exisLeft) + 'px')
-                                      // Removes large class, allowing dots to return to their original size/opacity as they move
-						              .removeClass('large');
-					           next(); 
-					       })
-                           // Delays again to allow transition of CSS again (.large has a longer transition than a typical .dot)
-					       .delay(1500)
-					       .queue(function (next) {
-					           $(this).removeClass('inUse');
-					           next(); 
-					       })
-				}
-			}
-		});
-	}, 100);
 }
 
 //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
