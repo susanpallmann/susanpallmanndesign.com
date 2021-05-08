@@ -169,11 +169,11 @@
   transition: all 1s;
 }
 .left h1 {
-  transform: translateX(-6em);
+  transform: translateX(-5.5em);
   width: 8em;
 }
 .right h1 {
-  transform: translateX(6.5em);
+  transform: translateX(6em);
   width: 8em;
 }
 /* See the Bigger Picture */
