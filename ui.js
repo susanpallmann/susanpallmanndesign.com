@@ -358,7 +358,6 @@ function heroParallax() {
                 // Check dots to see if the new mouse location is within range of any of them
                 checkDots();
             });
-        });
         } else {
             var hero = $('#hero');
             var heroOffset = hero.offset();
