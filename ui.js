@@ -346,14 +346,14 @@ function heroParallax() {
                 // If this is our first time saving trajectories
                 if (traj1[0] === null) {
                     // Just set them to the same values (we'll treat it as 0 movement, user never sees it anyway)
-		            traj1 = [(e.pageX - $('.canvas').offset().left),(e.pageY - $('.canvas').offset().top)];
-		            traj2 = [(e.pageX - $('.canvas').offset().left),(e.pageY - $('.canvas').offset().top)];
+		            traj1 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
+		            traj2 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
                 // Otherwise
                 } else {
                     // Move our previous newest trajectory (traj2) to the old trajectory position (traj1)
 		            traj1 = traj2;
                     // And then update our newest trajectory position with the current mouse position
-		            traj2 = [(e.pageX - $('.canvas').offset().left),(e.pageY - $('.canvas').offset().top)];
+		            traj2 = [(event.pageX - $('.canvas').offset().left),(event.pageY - $('.canvas').offset().top)];
                 }
                 // Check dots to see if the new mouse location is within range of any of them
                 checkDots();
