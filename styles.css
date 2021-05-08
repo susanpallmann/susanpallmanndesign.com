@@ -52,7 +52,7 @@
   background-image: linear-gradient(90deg, #FF6666, #F87C7C);
   animation: gradient-shift 15s infinite;
   background-size: 120%;
-  height: 95vh;
+  height: 95vh !important;
 }
 
 /* New slight animation for gradient, borrowed from Github Universe 2020 and modified */
