@@ -2,6 +2,7 @@
 
   - Project-Specific Styles (styles unique to specific pages)
       - Hero header gradient
+      - Dot circle styles
       - See the Bigger Picture
       - Jason Submarines
       - Edison Folio
@@ -98,6 +99,103 @@
 }
 #gallery-big-pic .gallery-img[data-current-img="3"] {
   background-image: url("/images/bigger-picture/gallery-3.png");
+}
+/* Dot circle styles */
+.canvas {
+  height: 95vh;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  transition: all 1.5s;
+  opacity: 0.5;
+  animation: vibrate 5s infinite alternate linear;
+}
+.dot:nth-child(8n - 0) {
+  animation: vibrate 6s infinite alternate linear;
+}
+.dot:nth-child(8n - 1) {
+  animation: vibrate 34s infinite alternate linear;
+}
+.dot:nth-child(8n - 2) {
+  animation: vibrate 8s infinite alternate linear;
+}
+.dot:nth-child(8n - 3) {
+  animation: vibrate 27s infinite alternate linear;
+}
+.dot:nth-child(8n - 4) {
+  animation: vibrate 9s infinite alternate linear;
+}
+.dot:nth-child(8n - 5) {
+  animation: vibrate 13s infinite alternate linear;
+}
+.dot:nth-child(8n - 6) {
+  animation: vibrate 26s infinite alternate linear;
+}
+.dot:nth-child(8n - 7) {
+  animation: vibrate 15s infinite alternate linear;
+}
+@keyframes vibrate {
+  0% {transform: translate(0px, 0px);}
+  25% {transform: translate(-5px, 0px);}
+  50% {transform: translate(5px, 5px);}
+  75% {transform: translate(-5px, 0px);}
+  100% {transform: translate(0px, 5px);}
+}
+.dot.large {
+  height: 7px;
+  width: 7px;
+  opacity: 0.1;
+  transition: all 1s;
+}
+.canvas h1 {
+  font-family: Raleway;
+  display: inline-block;
+  margin: auto;
+  color: #fff;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  line-height: 0.1;
+}
+.circle-bounds {
+  height: 180px;
+  width: 180px;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+.center h1 {
+  width: 5em;
+  transition: all 0.8s;
+  opacity: 1;
+}
+.center h1.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+.left h1 {
+  transform: translateX(-6em);
+  width: 8em;
+}
+.right h1 {
+  transform: translateX(6.5em);
+  width: 8em;
 }
 /* Jason Submarines */
 .jason#hero {
