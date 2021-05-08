@@ -357,6 +357,7 @@ function heroParallax() {
                 }
                 // Check dots to see if the new mouse location is within range of any of them
                 checkDots();
+		console.log('this ran 1');
             });
         } else {
             var hero = $('#hero');
@@ -495,7 +496,8 @@ function alterText() {
 /* Determine mouse proximity to all dots */
 function checkDots() {
     setTimeout(function(){
-		$('.dot').each(function ( index ) {
+	console.log('this ran 2');
+	$('.dot').each(function ( index ) {
             if ($(this).hasClass('inUse') === false) {
                 // Captures snapshot of mouse trajectory so we're not constantly updating movement
 				let captureTraj1 = traj1;
