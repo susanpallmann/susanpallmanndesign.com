@@ -77,29 +77,6 @@
   color: #FF5C5C;
   opacity: 0.1;
 }
-
-/* See the Bigger Picture */
-.bigger-picture#hero {
-  background-color: #6B9287;
-}
-.bigger-picture#hero #dramatic-headline {
-  color: #52837A;
-}
-.column.hybrid-row .column.project .column.bigger-picture {
-  background-color: #6B9287;
-  background-image: url("/images/bigger-picture/thumbnail.png");
-}
-#gallery-big-pic {
-}
-#gallery-big-pic .gallery-img[data-current-img="1"] {
-  background-image: url("/images/bigger-picture/gallery-1.png");
-}
-#gallery-big-pic .gallery-img[data-current-img="2"] {
-  background-image: url("/images/bigger-picture/gallery-2.png");
-}
-#gallery-big-pic .gallery-img[data-current-img="3"] {
-  background-image: url("/images/bigger-picture/gallery-3.png");
-}
 /* Dot circle styles */
 .canvas {
   height: 95vh;
@@ -158,6 +135,7 @@
 }
 .canvas h1 {
   font-family: Raleway;
+  font-weight: 600;
   display: inline-block;
   margin: auto;
   color: #fff;
@@ -196,6 +174,28 @@
 .right h1 {
   transform: translateX(6.5em);
   width: 8em;
+}
+/* See the Bigger Picture */
+.bigger-picture#hero {
+  background-color: #6B9287;
+}
+.bigger-picture#hero #dramatic-headline {
+  color: #52837A;
+}
+.column.hybrid-row .column.project .column.bigger-picture {
+  background-color: #6B9287;
+  background-image: url("/images/bigger-picture/thumbnail.png");
+}
+#gallery-big-pic {
+}
+#gallery-big-pic .gallery-img[data-current-img="1"] {
+  background-image: url("/images/bigger-picture/gallery-1.png");
+}
+#gallery-big-pic .gallery-img[data-current-img="2"] {
+  background-image: url("/images/bigger-picture/gallery-2.png");
+}
+#gallery-big-pic .gallery-img[data-current-img="3"] {
+  background-image: url("/images/bigger-picture/gallery-3.png");
 }
 /* Jason Submarines */
 .jason#hero {
