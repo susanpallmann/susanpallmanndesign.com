@@ -48,7 +48,7 @@
 /* Hero header gradient */
 .gradient#hero {
   background-color: #FF5C5C;
-  background-image: linear-gradient(90deg, #FF5C5C, #DCA1C4);
+  background-image: linear-gradient(90deg, #FF5C5C, #F0A2A2);
   animation: gradient-shift 15s infinite;
   background-size: 120%;
 }
