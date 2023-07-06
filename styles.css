@@ -29,6 +29,7 @@
   - Hero Header (styles for hero headers [below navigation], shared across all pages)
   - Body Styles
   - Project Meta Information (#project-meta and children, tags)
+  - Work Experience Styles
   - Buttons
   - Forms
   - Images
@@ -895,6 +896,30 @@ span.tag.selected {
 .link-button:hover {
   color: #666666;
 }
+
+/* Work Experience Styles */
+.workplace-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+}
+.workplace-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+.workplace-icon {
+  height: 80px;
+  width: 80px;
+  background-color: #FFF4F2;
+  border-radius: 4px;
+}
+.workplace-info {
+}
+.workplace-heading {
+}
+
 /* Forms */
 form {
   margin: 2em 0 0 0;
