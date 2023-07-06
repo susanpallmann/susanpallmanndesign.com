@@ -925,6 +925,7 @@ span.tag.selected {
   align-items: center;
   gap: 16px;
   align-self: stretch;
+  margin-top: 3em;
 }
 .skills-title {
   text-align: center;
@@ -939,7 +940,9 @@ span.tag.selected {
   gap: 16px;
   align-self: stretch;
   flex-wrap: wrap;
-  list-style: none
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .skills-list-item {
   display: flex;
@@ -948,6 +951,7 @@ span.tag.selected {
   align-items: center;
   border-radius: 100px;
   background: #FFEFEB;
+  box-sizing: border-box;
 }
 
 /* Forms */
