@@ -1042,6 +1042,9 @@ img.sketch {
 img.profile.serious {
   background-color: #68B2B2;
   border-radius: 400px;
+  max-width: 300px;
+  margin: auto;
+  display: block;
 }
 img.profile.silly {
   background-color: #EDC24A;
