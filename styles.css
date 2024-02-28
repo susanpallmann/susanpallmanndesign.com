@@ -1089,6 +1089,9 @@ footer .footer-column-container {
   width: 100%;
   text-align: center;
 }
+.footer-list.to50 li {
+  text-align: center;
+}
 .footer-list li a {
   text-decoration: none;
   color: #D6B8B8;
@@ -1364,6 +1367,9 @@ main .centered {
   .footer-list.to50 {
     width: 50%;
     text-align: center;
+  }
+  .footer-list.to50 li {
+  text-align: left;
   }
   .footer-list.to33 {
     width: 33.33%;
