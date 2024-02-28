@@ -1077,10 +1077,15 @@ footer ul {
   display: inline-block;
   text-align: left;
 }
+footer .footer-column-container {
+  display: flex;
+  justify-content: space-between;
+}
 .footer-list {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
+  width: 100%;
 }
 .footer-list li a {
   text-decoration: none;
