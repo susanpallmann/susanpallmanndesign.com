@@ -1099,6 +1099,7 @@ h6 {
 }
 .footer h6 {
   color: #ffffff;
+  text-transform: unset;
   font-weight: 500;
   margin: 0px;
   font-size: 1em;
