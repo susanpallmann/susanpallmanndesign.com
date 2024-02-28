@@ -902,13 +902,13 @@ span.tag.selected {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 64px;
+  gap: 48px;
 }
-.column.workplace-list:nth-child(2) {
-  padding-bottom: 64px !important;
+.column.workplace-list:nth-child(3) {
+  padding-bottom: 48px !important;
 }
 @media only screen and (min-width: 721px) {
-  .row .column.workplace-list:nth-child(2) {
+  .row .column.workplace-list:nth-child(3) {
     padding: 0 0 0 0 !important;
   }
 }
@@ -923,9 +923,21 @@ span.tag.selected {
   background-color: #FFF4F2;
   border-radius: 4px;
 }
-.workplace-info {
+.workplace-info p {
+  line-height: 1.3em;
 }
 .workplace-heading {
+}
+.workplace-heading p {
+  margin-bottom: 0.75em;
+  color: #757575;
+}
+.workplace-heading h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9em;
+  font-weight: 750;
+  font-family: "Nunito Sans";
 }
 .skills-container {
   display: flex;
