@@ -1057,6 +1057,7 @@ footer {
   font-size: 0.8em;
   line-height: 1.8em;
   display: table-row;
+  font-family: 'Nunito', helvetica, arial, sans-serif;
 }
 footer .row {
   margin-top: 0px;
@@ -1105,10 +1106,12 @@ footer h6 {
   font-size: 1em;
   line-height: 1.5em;
   font-family: 'DM Serif Text', helvetica, arial, sans-serif;
+  letter-spacing: 0.04em;
 }
 footer p {
   margin: 0;
 }
+/*
 footer .cta {
   font-weight: 600;
   color: #ffffff;
@@ -1116,11 +1119,19 @@ footer .cta {
   line-height: 1.2em;
   margin-bottom: 0.5em;
 }
+*/
 footer a:hover {
   color: #ffffff;
 }
 footer .button {
-  padding: 0 1.2em;
+  font-family: 'Nunito', helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 10px 24px;
+  border-radius: 4px;
+  background-color: #FF584D;
+  background-image: none;
+  margin-bottom: 1em;
 }
 footer .signature {
   text-align: center;
@@ -1160,11 +1171,11 @@ main .socials-icon svg {
   -webkit-transition: fill 0.15s ease-in-out;
 }
 .dark-box {
-  background-color: #3F353D;
+  background-color: #40343E;
 }
 .copyright-info {
   font-size: 0.9em;
-  color: #B2ADB1;
+  color: #725B5B;
   text-align: center;
   padding: 10px 0;
   width: 100%;
