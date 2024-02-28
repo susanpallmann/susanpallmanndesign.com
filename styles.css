@@ -934,7 +934,7 @@ span.tag.selected {
 }
 .workplace-heading h5 {
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   font-size: 0.9em;
   font-weight: 750;
   font-family: "Nunito Sans";
