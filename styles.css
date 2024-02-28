@@ -1172,6 +1172,9 @@ p#footer-title {
   line-height: 1.3em;
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
 }
+.footer-list.last-column li {
+  text-align: center;
+}
 .socials-icon {
   display: inline-block;
   margin-right: 14px;
@@ -1449,6 +1452,9 @@ main .centered {
     align-content: center;
     display: flex;
     justify-content: center;
+  }
+  .footer-list.last-column li {
+    text-align: left;
   }
   .footer-list.to100, .footer-list.to50, .footer-list.to33 {
     width: auto;
