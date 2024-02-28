@@ -904,11 +904,11 @@ span.tag.selected {
   align-items: flex-start;
   gap: 48px;
 }
-.column.workplace-list:nth-child(3) {
+.column.workplace-list:nth-child(2) {
   padding-bottom: 48px !important;
 }
 @media only screen and (min-width: 721px) {
-  .row .column.workplace-list:nth-child(3) {
+  .row .column.workplace-list:nth-child(2) {
     padding: 0 0 0 0 !important;
   }
 }
