@@ -1084,7 +1084,7 @@ footer ul {
 }
 .footer-list li a {
   text-decoration: none;
-  color: #B2ADB1;
+  color: #D6B8B8;
 }
 .footer-list li a:hover {
   color: #ffffff;
@@ -1107,6 +1107,7 @@ footer h6 {
   line-height: 1.5em;
   font-family: 'DM Serif Text', helvetica, arial, sans-serif;
   letter-spacing: 0.04em;
+  margin-bottom: 0.7em;
 }
 footer p {
   margin: 0;
@@ -1122,6 +1123,7 @@ footer .cta {
 */
 footer a:hover {
   color: #ffffff;
+  text-decoration: underline;
 }
 footer .button {
   font-family: 'Nunito', helvetica, arial, sans-serif;
@@ -1135,10 +1137,12 @@ footer .button {
 }
 footer .signature {
   text-align: center;
+  display: flex;
 }
 footer .logo-mark {
   display: inline-block;
-  width: 74px;
+  width: 97px;
+  height: 54px;
 }
 #footer-title-container {
   display: inline-block;
@@ -1150,7 +1154,7 @@ p#footer-title {
   font-weight: 700;
   margin: 0px;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
 }
 .socials-icon {
