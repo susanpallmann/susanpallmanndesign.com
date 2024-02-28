@@ -909,7 +909,7 @@ span.tag.selected {
 }
 @media only screen and (min-width: 721px) {
   .row .column.workplace-list:nth-child(2) {
-    padding: 0 0 0 0 !important;
+    padding: 0 1em 0 1em !important;
   }
 }
 .workplace-item {
