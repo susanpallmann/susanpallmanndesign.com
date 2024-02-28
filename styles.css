@@ -1054,7 +1054,7 @@ img.profile.silly {
 footer {
   background-color: #483C46;
   color: #CDCDCD;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1.8em;
   display: table-row;
   font-family: 'Nunito', helvetica, arial, sans-serif;
@@ -1103,7 +1103,7 @@ footer h6 {
   text-transform: unset;
   font-weight: 500;
   margin: 0px;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5em;
   font-family: 'DM Serif Text', helvetica, arial, sans-serif;
   letter-spacing: 0.04em;
@@ -1175,7 +1175,7 @@ main .socials-icon svg {
 }
 .copyright-info {
   font-size: 0.9em;
-  color: #725B5B;
+  color: #A98D8D;
   text-align: center;
   padding: 10px 0;
   width: 100%;
