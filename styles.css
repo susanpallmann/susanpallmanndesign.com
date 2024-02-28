@@ -1080,6 +1080,7 @@ footer ul {
 footer .footer-column-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-list {
   display: inline-block;
@@ -1366,7 +1367,7 @@ main .centered {
     margin: 2em 0 2em 0;
   }
   .footer-list.to100 {
-    width: 25%;
+    width: 100%;
   }
   .footer-list.to50 {
     width: 50%;
