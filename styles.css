@@ -1360,7 +1360,7 @@ main .centered {
   }
   .footer-list.to50 {
     width: 50%;
-    text-align: left;
+    text-align: center;
   }
   .footer-list.to33 {
     width: 33.33%;
@@ -1452,6 +1452,7 @@ main .centered {
   }
   .footer-list.to100, .footer-list.to50, .footer-list.to33 {
     width: auto;
+    text-align: left;
     margin: 2em 0 2em 0;
   }
   .gallery-img {
