@@ -529,13 +529,13 @@ nav#horizontal li {
   margin-bottom: 8px;
 }
 nav#horizontal li a {
-  font-family: 'Raleway', helvetica, arial, sans-serif;
-  font-weight: 800;
-  font-size: 0.9em;
-  color: #483C46;
+  font-family: 'Nunito Sans', helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #666666;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.01em;
+  padding: 0 8px;
   text-align: center;
 }
 /*Nav Underline Animation */
