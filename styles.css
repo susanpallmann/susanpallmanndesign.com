@@ -929,8 +929,9 @@ span.tag.selected {
 .workplace-heading {
 }
 .workplace-heading p {
-  margin-bottom: 0.75em;
   color: #757575;
+  margin-bottom: 1em;
+  font-size: 0.9em;
 }
 .workplace-heading h5 {
   text-transform: uppercase;
