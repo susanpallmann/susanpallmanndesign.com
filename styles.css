@@ -1087,6 +1087,7 @@ footer .footer-column-container {
   vertical-align: top;
   box-sizing: border-box;
   width: 100%;
+  text-align: center;
 }
 .footer-list li a {
   text-decoration: none;
@@ -1134,17 +1135,24 @@ footer a:hover {
 footer .button {
   font-family: 'Nunito', helvetica, arial, sans-serif;
   font-weight: 700;
-  font-size: 1.2em;
-  padding: 10px 24px;
+  font-size: 1em;
+  padding: 8px 24px;
   border-radius: 4px;
   background-color: #FF584D;
   background-image: none;
   margin-top: 0px;
   margin-bottom: 1em;
 }
+.footer-list.signature-container {
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
 footer .signature {
   text-align: center;
   display: flex;
+  width: fit-content;
 }
 footer .logo-mark {
   display: inline-block;
@@ -1183,6 +1191,7 @@ main .socials-icon svg {
 }
 .dark-box {
   background-color: #40343E;
+  padding: 0px 24px;
 }
 .copyright-info {
   font-size: 0.9em;
@@ -1191,6 +1200,7 @@ main .socials-icon svg {
   padding: 10px 0;
   width: 100%;
   margin: 0;
+  line-height: 1.3em;
 }
 /* Portfolio Filter */
 h3.grid-title {
@@ -1306,6 +1316,12 @@ main .centered {
   .footer-list {
     margin: 2em 0 2em 0;
   }
+  .footer-list.signature-container {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
   .footer-list.to100 {
     width: 100%;
   }
@@ -1332,6 +1348,12 @@ main .centered {
   }
   .footer-list {
     margin: 2em 0 2em 0;
+  }
+  .footer-list.signature-container {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
   }
   .footer-list.to100 {
     width: 100%;
@@ -1363,6 +1385,12 @@ main .centered {
   }
   .footer-list {
     margin: 2em 0 2em 0;
+  }
+  .footer-list.signature-container {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
   }
   .footer-list.to100 {
     width: 100%;
@@ -1415,6 +1443,12 @@ main .centered {
   }
   main .centered {
     font-size: 1em;
+  }
+  .footer-list.signature-container {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
   }
   .footer-list.to100, .footer-list.to50, .footer-list.to33 {
     width: auto;
