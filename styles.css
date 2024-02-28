@@ -1097,6 +1097,14 @@ h6 {
   margin-bottom: 0.4em;
   letter-spacing: 0.1em;
 }
+.footer h6 {
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'DM Serif Text', helvetica, arial, sans-serif;
+}
 footer p {
   margin: 0;
 }
@@ -1127,11 +1135,11 @@ footer .logo-mark {
 }
 p#footer-title {
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0px;
   font-size: 1em;
   line-height: 1.5em;
-  font-family: 'DM Serif Text', helvetica, arial, sans-serif;
+  font-family: 'Nunito Sans', helvetica, arial, sans-serif;
 }
 .socials-icon {
   display: inline-block;
