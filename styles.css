@@ -1139,6 +1139,7 @@ footer .button {
   border-radius: 4px;
   background-color: #FF584D;
   background-image: none;
+  margin-top: 0px;
   margin-bottom: 1em;
 }
 footer .signature {
@@ -1165,7 +1166,7 @@ p#footer-title {
 }
 .socials-icon {
   display: inline-block;
-  margin-right: 6px;
+  margin-right: 14px;
 }
 .socials-icon svg {
   fill: #ffffff;
