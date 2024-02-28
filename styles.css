@@ -1052,8 +1052,8 @@ img.profile.silly {
 }
 /* Footer Styles */
 footer {
-  background-color: #483C46;
-  color: #B2ADB1;
+  background-color: #7E6464;
+  color: #CDCDCD;
   font-size: 0.8em;
   line-height: 1.8em;
   display: table-row;
@@ -1127,11 +1127,11 @@ footer .logo-mark {
 }
 p#footer-title {
   color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0px;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.5em;
+  font-family: 'DM Serif Text', helvetica, arial, sans-serif;
 }
 .socials-icon {
   display: inline-block;
