@@ -532,7 +532,7 @@ nav#horizontal li a {
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 1em;
-  color: #666666;
+  color: #725B5B;
   text-decoration: none;
   letter-spacing: 0.01em;
   padding: 0 8px;
@@ -963,6 +963,7 @@ span.tag.selected {
   text-align: center;
   font-weight: bold;
   color: #363636;
+  font-family: 'Nunito', helvetica, arial, sans-serif;
 }
 
 /* Forms */
