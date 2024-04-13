@@ -13,6 +13,7 @@ $(document).ready(function () {
             //code goes here that will be run every 1 seconds.
                 round.updateTimeElapsed($.now());
             }, 1000);*/
+            generateGameGrid();
             break;
         case 2:
             console.log('Middle mouse button is pressed');
@@ -56,5 +57,13 @@ class Round {
     updateFlags(value){
     }
     startGame(){
+    }
+}
+
+/* Generate game grid in UI */
+function generateGameGrid() {
+    $('#game-grid').empty();
+    for (i=0; i<63; i++) {
+        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"');
     }
 }
