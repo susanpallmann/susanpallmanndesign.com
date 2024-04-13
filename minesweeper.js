@@ -22,6 +22,12 @@ $(document).on('click', '.ms-grid', function(event) {
     }, 1000);*/
 
     // Is this the first turn?
+    if (round.gameStarted === false) {
+        console.log("this is the first turn");
+        round.startGame();
+    } else {
+        console.log("this is not the first turn");
+    }
     // If yes, generate the level, clear flags (if any exist), and start the timer
     // If no, assess move
 });
@@ -70,6 +76,7 @@ class Round {
     }
     
     startGame() {
+        this.gameStarted = true;
     }
 }
 
