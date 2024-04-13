@@ -1,40 +1,42 @@
-
 $(document).ready(function () {
-    /* Coding's like riding a bike, right? 
-    
-    only if we're talking about the worst bike ever*/
+    prepareGame();
 });
 
+/* Player Actions */
+
+// On left click
 $(document).on('click', '.ms-grid', function(event) {
+
+    // TODO remove
     console.log('Left mouse button is pressed');
-            const round = new Round(8, false, 0, 0);
-            round.writeStartTime();
-            /*setInterval(function(){ 
-            //code goes here that will be run every 1 seconds.
-                round.updateTimeElapsed($.now());
-            }, 1000);*/
-            generateGameGrid(); 
-    /*(switch (event.which) {
-        case 1:
-            
-            break;
-        case 2:
-            console.log('Middle mouse button is pressed');
-            break;
-        case 3:
-            console.log('Right mouse button is pressed');
-            break;
-        default:
-            console.log('Something went wrong');
-    }*/
+
+    // Recording start time for the game
+    round.writeStartTime();
+
+    // Updates time elapsed every second
+    /*setInterval(function(){ 
+    //code goes here that will be run every 1 seconds.
+        round.updateTimeElapsed($.now());
+    }, 1000);*/
 });
+
+// On right click
 $(document).on("contextmenu", '.ms-grid', function(event) {
+
+    // Preventing popover/context menu
     event.preventDefault();
+
+    // TODO remove
     console.log('Right mouse button is pressed');
 });
 
-
-/* Unprofessional suedo code or something */
+function prepareGame() {
+    // Creating a new round
+    const round = new Round(8, false, 0, 0);
+    
+    // Creates the grid on the UI
+    generateGameGrid(); 
+}
 
 class Round {
     flags;
@@ -54,19 +56,25 @@ class Round {
         this.startTime = $.now();
         console.log(this.startTime);
     }
-    updateTimeElapsed(time){
+    
+    updateTimeElapsed(time) {
         this.timeElapsed = (time - this.startTime) / 1000;
         console.log(this.timeElapsed + " seconds");
     }
-    updateFlags(value){
+    
+    updateFlags(value) {
     }
-    startGame(){
+    
+    startGame() {
     }
 }
 
 /* Generate game grid in UI */
 function generateGameGrid() {
+    // Empties grid of existing elements
     $('#game-grid').empty();
+
+    // Adds 64 grid boxes
     for (i=0; i<64; i++) {
         $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
     }
