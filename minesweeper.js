@@ -11,7 +11,7 @@ $(document).ready(function () {
             round.writeStartTime();
             setInterval(function(){ 
             //code goes here that will be run every 1 seconds.
-                round.updateTimeElapsed($.now()){
+                round.updateTimeElapsed($.now());
             }, 1000);
             break;
         case 2:
