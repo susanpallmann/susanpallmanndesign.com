@@ -1,34 +1,37 @@
 
 $(document).ready(function () {
-    /* Coding's like riding a bike, right? */
-});
+    /* Coding's like riding a bike, right? 
+    
+    only if we're talking about the worst bike ever*/
+    
+    $('.ms-grid').on('click', function(event) {
+        console.log('Left mouse button is pressed');
+                const round = new Round(8, false, 0, 0);
+                round.writeStartTime();
+                /*setInterval(function(){ 
+                //code goes here that will be run every 1 seconds.
+                    round.updateTimeElapsed($.now());
+                }, 1000);*/
+                generateGameGrid(); 
+        /*(switch (event.which) {
+            case 1:
+                
+                break;
+            case 2:
+                console.log('Middle mouse button is pressed');
+                break;
+            case 3:
+                console.log('Right mouse button is pressed');
+                break;
+            default:
+                console.log('Something went wrong');
+        }*/
+    });
+    $('.ms-grid').on("contextmenu", function(event) {
+        event.preventDefault();
+        console.log('Right mouse button is pressed');
+    });
 
-$('.ms-grid').on('click', function(event) {
-    console.log('Left mouse button is pressed');
-            const round = new Round(8, false, 0, 0);
-            round.writeStartTime();
-            /*setInterval(function(){ 
-            //code goes here that will be run every 1 seconds.
-                round.updateTimeElapsed($.now());
-            }, 1000);*/
-            generateGameGrid(); 
-    /*(switch (event.which) {
-        case 1:
-            
-            break;
-        case 2:
-            console.log('Middle mouse button is pressed');
-            break;
-        case 3:
-            console.log('Right mouse button is pressed');
-            break;
-        default:
-            console.log('Something went wrong');
-    }*/
-});
-$('.ms-grid').on("contextmenu", function(event) {
-    event.preventDefault();
-    console.log('Right mouse button is pressed');
 });
 
 
