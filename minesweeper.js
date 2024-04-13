@@ -7,9 +7,11 @@ $(document).ready(function () {
             break;
         case 2:
             console.log('Middle mouse button is pressed');
+            event.preventDefault();
             break;
         case 3:
             console.log('Right mouse button is pressed');
+            event.preventDefault();
             break;
         default:
             console.log('Something went wrong');
