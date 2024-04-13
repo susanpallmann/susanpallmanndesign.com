@@ -1,4 +1,4 @@
-const round = null;
+let round;
 
 $(document).ready(function () {
     prepareGame();
