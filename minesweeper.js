@@ -3,17 +3,18 @@ $(document).ready(function () {
     /* Coding's like riding a bike, right? */
 });
 
-$('.ms-grid').on('mousedown', function(event) {
-     switch (event.which) {
-        case 1:
-            console.log('Left mouse button is pressed');
+$('.ms-grid').on('click', function(event) {
+    console.log('Left mouse button is pressed');
             const round = new Round(8, false, 0, 0);
             round.writeStartTime();
             /*setInterval(function(){ 
             //code goes here that will be run every 1 seconds.
                 round.updateTimeElapsed($.now());
             }, 1000);*/
-            generateGameGrid();
+            generateGameGrid(); 
+    /*(switch (event.which) {
+        case 1:
+            
             break;
         case 2:
             console.log('Middle mouse button is pressed');
@@ -23,8 +24,12 @@ $('.ms-grid').on('mousedown', function(event) {
             break;
         default:
             console.log('Something went wrong');
-    }
+    }*/
 });
+$('.ms-grid').on( "contextmenu", function(event) {
+    event.preventDefault();
+    console.log('Right mouse button is pressed');
+}
 
 
 /* Unprofessional suedo code or something */
