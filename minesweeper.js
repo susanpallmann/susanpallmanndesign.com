@@ -12,23 +12,35 @@ $(document).on('click', '.ms-grid', function(event) {
     // TODO remove
     console.log('Left mouse button is pressed');
 
-    // Recording start time for the game
-    round.writeStartTime();
-
-    // Updates time elapsed every second
-    /*setInterval(function(){ 
-    //code goes here that will be run every 1 seconds.
-        round.updateTimeElapsed($.now());
-    }, 1000);*/
-
     // Is this the first turn?
     if (round.gameStarted === false) {
+
+        // TODO: remove
         console.log("this is the first turn");
+        
+        // If so, generate the level (TODO)
+        generateLevel(8, 8);
+
+        // Clear any placed flags (TODO)
+
+        // Record start time for the game
+        round.writeStartTime();
+        
+        // Start timer, updates time elapsed every second
+        //setInterval(function(){ 
+            //code goes here that will be run every 1 seconds.
+            //round.updateTimeElapsed($.now());
+        //}, 1000);
+
+        // Mark the game as started
         round.startGame();
+        
     } else {
+        
+        // TODO: remove
         console.log("this is not the first turn");
+        
     }
-    // If yes, generate the level, clear flags (if any exist), and start the timer
     // If no, assess move
 });
 
@@ -48,6 +60,18 @@ function prepareGame() {
     
     // Creates the grid on the UI
     generateGameGrid(); 
+}
+
+function generateLevel(x, y) {
+    let x = x;
+    let y = y;
+    let level = [];
+    for (i=0; i<x; i++) {
+        for (j=0; j<y; j++) {
+            level[i][j] = 0;
+        }
+    }
+    console.log(level);
 }
 
 class Round {
