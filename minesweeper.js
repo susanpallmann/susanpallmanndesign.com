@@ -50,8 +50,8 @@ class Round {
         console.log(this.startTime);
     }
     updateTimeElapsed(time){
-        timeElapsed = (time - this.startTime) / 1000;
-        console.log(timeElapsed + " seconds");
+        this.timeElapsed = (time - this.startTime) / 1000;
+        console.log(this.timeElapsed + " seconds");
     }
     updateFlags(value){
     }
