@@ -18,6 +18,10 @@ $(document).on('click', '.ms-grid', function(event) {
     //code goes here that will be run every 1 seconds.
         round.updateTimeElapsed($.now());
     }, 1000);*/
+
+    // Is this the first turn?
+    // If yes, generate the level, clear flags (if any exist), and start the timer
+    // If no, assess move
 });
 
 // On right click
@@ -52,9 +56,7 @@ class Round {
     }
     
     writeStartTime() {
-        console.log(this.startTime);
         this.startTime = $.now();
-        console.log(this.startTime);
     }
     
     updateTimeElapsed(time) {
