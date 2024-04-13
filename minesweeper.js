@@ -64,6 +64,6 @@ class Round {
 function generateGameGrid() {
     $('#game-grid').empty();
     for (i=0; i<63; i++) {
-        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"');
+        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
     }
 }
