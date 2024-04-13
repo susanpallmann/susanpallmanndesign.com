@@ -9,10 +9,10 @@ $(document).ready(function () {
             console.log('Left mouse button is pressed');
             const round = new Round(8, false, 0, 0);
             round.writeStartTime();
-            setInterval(function(){ 
+            /*setInterval(function(){ 
             //code goes here that will be run every 1 seconds.
                 round.updateTimeElapsed($.now());
-            }, 1000);
+            }, 1000);*/
             break;
         case 2:
             console.log('Middle mouse button is pressed');
