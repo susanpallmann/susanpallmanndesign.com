@@ -9,6 +9,10 @@ $(document).ready(function () {
             console.log('Left mouse button is pressed');
             const round = new Round(8, false, 0, 0);
             round.writeStartTime();
+            setInterval(function(){ 
+            //code goes here that will be run every 1 seconds.
+                round.updateTimeElapsed($.now()){
+            }, 1000);
             break;
         case 2:
             console.log('Middle mouse button is pressed');
@@ -45,7 +49,9 @@ class Round {
         this.startTime = $.now();
         console.log(this.startTime);
     }
-    updateTimeElapsed(){
+    updateTimeElapsed(time){
+        timeElapsed = (time - this.startTime) / 1000;
+        console.log(timeElapsed + " seconds");
     }
     updateFlags(value){
     }
