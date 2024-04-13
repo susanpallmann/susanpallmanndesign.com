@@ -1533,7 +1533,7 @@ main .centered {
   height: 100%;
   width: 100%;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
 }
 .ms-cleared-1::after {
   content: "1";
