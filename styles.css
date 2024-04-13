@@ -43,6 +43,7 @@
       - Major Breakpoint || Tablets & Small Desktops (max 721)
       - Major Breakpoint || Desktop & Up (max 1024)
       - Desktop (Includes Margins) (max 1056) (this is to account for margins in responsive grid so some things break cleanly)
+  - Minesweeper Styles
 */
 
 /* Project-Specific Styles */
@@ -1501,4 +1502,32 @@ main .centered {
 .button-container {
     text-align: left;
   }
+}
+/* Minesweeper Styles */
+.ms-grid {
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+}
+.ms-uncleared-blank {
+  background-color: #FFE4DF;
+}
+.ms-uncleared-flag {
+  background-color: #FFE4DF;
+}
+.ms-cleared-blank, .ms-cleared-1, .ms-cleared-2, .ms-cleared-3, .ms-cleared-4, .ms-cleared-5, .ms-cleared-6, .ms-cleared-7, .ms-cleared-8 {
+  background-color: #FFF6F4;
+}
+.ms-cleared-1::after, .ms-cleared-2::after, .ms-cleared-3::after, .ms-cleared-4::after, .ms-cleared-5::after, .ms-cleared-6::after, .ms-cleared-7::after, .ms-cleared-8::after {
+  content:"1";
+  color: #0FAAEC;
+  font-family: 'Nunito Sans', helvetica, arial, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ms-bomb {
+  background-color: #FF584D;
 }
