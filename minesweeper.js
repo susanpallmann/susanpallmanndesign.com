@@ -26,10 +26,10 @@ $('.ms-grid').on('click', function(event) {
             console.log('Something went wrong');
     }*/
 });
-$('.ms-grid').on( "contextmenu", function(event) {
+$('.ms-grid').on("contextmenu", function(event) {
     event.preventDefault();
     console.log('Right mouse button is pressed');
-}
+});
 
 
 /* Unprofessional suedo code or something */
