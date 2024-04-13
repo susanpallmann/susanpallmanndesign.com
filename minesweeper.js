@@ -45,7 +45,10 @@ class Round {
         this.startTime = $.now();
         console.log(this.startTime);
     }
-    updateTimeElapsed();
-    updateFlags(value);
-    startGame();
+    updateTimeElapsed(){
+    }
+    updateFlags(value){
+    }
+    startGame(){
+    }
 }
