@@ -1,3 +1,5 @@
+const round;
+
 $(document).ready(function () {
     prepareGame();
 });
@@ -36,7 +38,7 @@ $(document).on("contextmenu", '.ms-grid', function(event) {
 
 function prepareGame() {
     // Creating a new round
-    const round = new Round(8, false, 0, 0);
+    round = new Round(8, false, 0, 0);
     
     // Creates the grid on the UI
     generateGameGrid(); 
