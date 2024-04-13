@@ -1514,6 +1514,8 @@ main .centered {
 }
 .ms-uncleared-flag {
   background-color: #FFE4DF;
+}
+.ms-uncleared-flag::after {
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
   text-align: center;
   height: 100%;
