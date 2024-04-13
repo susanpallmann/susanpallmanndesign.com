@@ -1523,10 +1523,12 @@ main .centered {
   color: #0FAAEC;
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
   font-size: 32px;
-  line-height: 36px;
+  line-height: 50px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
 }
 .ms-bomb {
   background-color: #FF584D;
