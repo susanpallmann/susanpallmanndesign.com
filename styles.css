@@ -1504,6 +1504,12 @@ main .centered {
   }
 }
 /* Minesweeper Styles */
+#game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+  gap: 4px;
+}
 .ms-grid {
   height: 50px;
   width: 50px;
