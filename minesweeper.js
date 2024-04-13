@@ -23,8 +23,7 @@ $(document).on('click', $('.ms-grid'), function(event) {
             break;
         default:
             console.log('Something went wrong');
-        }
-    });
+    }
 });
 
 
