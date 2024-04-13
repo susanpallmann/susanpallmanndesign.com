@@ -3,7 +3,7 @@ $(document).ready(function () {
     /* Coding's like riding a bike, right? */
 });
 
-$(document).on('click', $('.ms-grid'), function(event) {
+$('#game-grid').on('mousedown', $('.ms-grid'), function(event) {
      switch (event.which) {
         case 1:
             console.log('Left mouse button is pressed');
