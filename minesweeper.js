@@ -63,8 +63,6 @@ function prepareGame() {
 }
 
 function generateLevel(x, y) {
-    let x = x;
-    let y = y;
     let level = [];
     for (i=0; i<x; i++) {
         for (j=0; j<y; j++) {
