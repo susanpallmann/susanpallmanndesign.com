@@ -1514,13 +1514,18 @@ main .centered {
 }
 .ms-uncleared-flag {
   background-color: #FFE4DF;
+  font-family: 'Nunito Sans', helvetica, arial, sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
+  content: "flag";
 }
 .ms-cleared-blank, .ms-cleared-1, .ms-cleared-2, .ms-cleared-3, .ms-cleared-4, .ms-cleared-5, .ms-cleared-6, .ms-cleared-7, .ms-cleared-8 {
   background-color: #FFF6F4;
 }
 .ms-cleared-1::after, .ms-cleared-2::after, .ms-cleared-3::after, .ms-cleared-4::after, .ms-cleared-5::after, .ms-cleared-6::after, .ms-cleared-7::after, .ms-cleared-8::after {
-  content:"1";
-  color: #0FAAEC;
   font-family: 'Nunito Sans', helvetica, arial, sans-serif;
   font-size: 32px;
   line-height: 50px;
@@ -1529,6 +1534,38 @@ main .centered {
   width: 100%;
   display: inline-block;
   font-weight: 600;
+}
+.ms-cleared-1::after {
+  content: "1";
+  color: #0FAAEC;
+}
+.ms-cleared-2::after {
+  content: "2";
+  color: #09AB40;
+}
+.ms-cleared-3::after {
+  content: "3";
+  color: #DE9914;
+}
+.ms-cleared-4::after {
+  content: "4";
+  color: #FE3541;
+}
+.ms-cleared-5::after {
+  content: "5";
+  color: #E12A82;
+}
+.ms-cleared-6::after {
+  content: "6";
+  color: #8E20E5;
+}
+.ms-cleared-7::after {
+  content: "7";
+  color: #192FF0;
+}
+.ms-cleared-8::after {
+  content: "8";
+  color: #2C3474;
 }
 .ms-bomb {
   background-color: #FF584D;
