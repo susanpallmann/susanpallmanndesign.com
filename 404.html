@@ -53,6 +53,7 @@
       });
     </script>
     <script type="text/javascript" src="/ui.js"></script>
+    <script type="text/javascript" src="/minesweeper.js"></script>
   </head>
   <body>
     <header>
@@ -74,10 +75,10 @@
           </div>
           <div class="column span12 md horizontal" id="project-meta">
             <ul>
-              <li><h2>Home</h2></li>
-              <li><p><a href="/index" target="_self" rel="noreferrer">Home</a></p></li>
+              <li><h2>About</h2></li>
               <li><p><a href="/index#portfolio" target="_self" rel="noreferrer">Portfolio</a></p></li>
-              <li><p><a href="/documentation.html" target="_self" rel="noreferrer">This Site</a></p></li>
+              <li><p><a href="/about" target="_self">About</a></p></li>
+              <li><p><a href="/files/susan-pallmann-resume.pdf" target="_blank">Resume</a></p></li>
             </ul>
             <ul>
               <li><h2>Projects</h2></li>
@@ -85,12 +86,24 @@
               <li><p><a href="/index?sort=print#portfolio" target="_self">Print</a></p></li>
               <li><p><a href="/index?sort=identity#portfolio" target="_self">Identity</a></p></li>
             </ul>
-            <ul>
-              <li><h2>About Me</h2></li>
-              <li><p><a href="/about" target="_self">About</a></p></li>
-              <li><p><a href="/files/susan-pallmann-resume.pdf" target="_blank">Resume</a></p></li>
-              <li><p><a href="/contact" target="_self">Contact</a></p></li>
-            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column span12 md">
+            <div id="minesweeper">
+              <div class="ms-grid ms-uncleared-blank"></div>
+              <div class="ms-grid ms-uncleared-flag"></div>
+              <div class="ms-grid ms-bomb"></div>
+              <div class="ms-grid ms-cleared-blank"></div>
+              <div class="ms-grid ms-cleared-1"></div>
+              <div class="ms-grid ms-cleared-2"></div>
+              <div class="ms-grid ms-cleared-3"></div>
+              <div class="ms-grid ms-cleared-4"></div>
+              <div class="ms-grid ms-cleared-5"></div>
+              <div class="ms-grid ms-cleared-6"></div>
+              <div class="ms-grid ms-cleared-7"></div>
+              <div class="ms-grid ms-cleared-8"></div>
+            </div>
           </div>
         </div>
       </div>
