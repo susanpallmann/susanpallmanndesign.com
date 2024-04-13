@@ -1,10 +1,10 @@
 
 $(document).ready(function () {
     /* Coding's like riding a bike, right? */
+});
 
-    /* Listens for left and right clicks, then triggers the appropriate method */
-    $('.ms-grid').mousedown(function(event) {
-    switch (event.which) {
+$(document).on('click', $('.ms-grid'), function(event) {
+     switch (event.which) {
         case 1:
             console.log('Left mouse button is pressed');
             const round = new Round(8, false, 0, 0);
@@ -17,11 +17,9 @@ $(document).ready(function () {
             break;
         case 2:
             console.log('Middle mouse button is pressed');
-            event.preventDefault();
             break;
         case 3:
             console.log('Right mouse button is pressed');
-            event.preventDefault();
             break;
         default:
             console.log('Something went wrong');
@@ -63,7 +61,7 @@ class Round {
 /* Generate game grid in UI */
 function generateGameGrid() {
     $('#game-grid').empty();
-    for (i=0; i<63; i++) {
+    for (i=0; i<64; i++) {
         $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
     }
 }
