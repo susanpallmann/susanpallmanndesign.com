@@ -90,11 +90,11 @@ function generateLevel(x, y, clickedX, clickedY) {
         }
         level[i] = column;
     }
-    console.log(level);
+    console.log(JSON.stringify(level))
 
     level[clickedX][clickedY] = "test";
 
-    console.log(level);
+    console.log(JSON.stringify(level))
         
     console.log(round.flags);
     for (k=0; k < round.flags;k++) {
