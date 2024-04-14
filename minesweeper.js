@@ -67,7 +67,7 @@ function generateLevel(x, y) {
         let column = [];
         for (j=0; j<y; j++) {
             column[j] = 0;
-            $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${i}" y="${j}"></div>`);
+            $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
         }
         level[i] = column;
     }
