@@ -56,7 +56,11 @@ $(document).on("contextmenu", '.ms-grid', function(event) {
 
 function prepareGame() {
     // Creating a new round
-    round = new Round(8, false, 0, 0); 
+    $('#game-grid').empty();
+    round = new Round(8, false, 0, 0);
+    for (i=0; i<64; i++) {
+        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"</div>');
+    }
 }
 
 function generateLevel(x, y) {
