@@ -62,8 +62,12 @@ function prepareGame() {
     // Creating a new round
     $('#game-grid').empty();
     round = new Round(8, false, 0, 0);
-    for (i=0; i<64; i++) {
-        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
+    
+    for (i=0; i<8; i++) {
+        for (j=0; j<8; j++) {
+            // Creates corresponding grid in the UI with coordinates
+            $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
+        }
     }
 }
 
