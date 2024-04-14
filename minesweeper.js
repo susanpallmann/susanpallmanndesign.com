@@ -9,6 +9,7 @@ $(document).ready(function () {
 // On left click
 $(document).on('click', '.ms-grid', function(event) {
 
+    console.log($(event.currentTarget).attr('x'));
     let clickedX = $(event.currentTarget).attr('x');
     let clickedY = $(event.currentTarget).attr('y');
     
