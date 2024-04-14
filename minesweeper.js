@@ -59,7 +59,7 @@ function prepareGame() {
     $('#game-grid').empty();
     round = new Round(8, false, 0, 0);
     for (i=0; i<64; i++) {
-        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"</div>');
+        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
     }
 }
 
