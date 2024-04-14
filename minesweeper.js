@@ -56,18 +56,18 @@ $(document).on("contextmenu", '.ms-grid', function(event) {
 
 function prepareGame() {
     // Creating a new round
-    round = new Round(8, false, 0, 0);
-    
-    // Creates the grid on the UI
-    generateGameGrid(); 
+    round = new Round(8, false, 0, 0); 
 }
 
 function generateLevel(x, y) {
+    // Empties grid of existing elements
+    $('#game-grid').empty();
     let level = [];
     for (i=0; i<x; i++) {
         let column = [];
         for (j=0; j<y; j++) {
             column[j] = 0;
+            $('#game-grid').append('<div class="ms-grid ms-uncleared-blank" x="${i}" y="${j}"></div>');
         }
         level[i] = column;
     }
@@ -101,16 +101,5 @@ class Round {
     
     startGame() {
         this.gameStarted = true;
-    }
-}
-
-/* Generate game grid in UI */
-function generateGameGrid() {
-    // Empties grid of existing elements
-    $('#game-grid').empty();
-
-    // Adds 64 grid boxes
-    for (i=0; i<64; i++) {
-        $('#game-grid').append('<div class="ms-grid ms-uncleared-blank"></div>');
     }
 }
