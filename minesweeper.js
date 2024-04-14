@@ -95,7 +95,7 @@ function generateLevel(x, y, clickedX, clickedY) {
 
     level[clickedX][clickedY] = "test";
 
-    console.log(level);
+    console.log(level + 'again');
         
     console.log(round.flags);
     for (k=0; k < round.flags;k++) {
