@@ -92,7 +92,7 @@ function generateLevel(x, y, clickedX, clickedY) {
     }
     console.log(level);
 
-    //level[clickedX][clickedY] = "test";
+    level[clickedX][clickedY] = "test";
 
     console.log(level);
         
