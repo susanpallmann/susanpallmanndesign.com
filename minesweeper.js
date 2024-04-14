@@ -9,6 +9,9 @@ $(document).ready(function () {
 // On left click
 $(document).on('click', '.ms-grid', function(event) {
 
+    let clickedX = $(event.currentTarget).attr('x');
+    let clickedY = $(event.currentTarget).attr('y');
+    
     // TODO remove
     console.log('Left mouse button is pressed');
 
@@ -19,7 +22,7 @@ $(document).on('click', '.ms-grid', function(event) {
         console.log("this is the first turn");
         
         // If so, generate the level (TODO)
-        generateLevel(8, 8);
+        generateLevel(8, 8, clickedX, clickedY);
 
         // Clear any placed flags (TODO)
 
@@ -63,19 +66,34 @@ function prepareGame() {
     }
 }
 
-function generateLevel(x, y) {
+function generateLevel(x, y, clickedX, clickedY) {
+
     // Empties grid of existing elements
     $('#game-grid').empty();
+
+    // Creates an array to store our level
     let level = [];
+
     for (i=0; i<x; i++) {
         let column = [];
         for (j=0; j<y; j++) {
             column[j] = 0;
+
+            // Creates corresponding grid in the UI with coordinates
             $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
         }
         level[i] = column;
     }
     console.log(level);
+
+    level[clickedX][clickedY] = "test";
+
+    console.log(level);
+        
+    console.log(round.flags);
+    for (k=0; k < round.flags;k++) {
+        
+    }
 }
 
 class Round {
