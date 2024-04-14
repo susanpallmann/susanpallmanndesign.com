@@ -9,7 +9,6 @@ $(document).ready(function () {
 // On left click
 $(document).on('click', '.ms-grid', function(event) {
 
-    console.log($(event.currentTarget).attr('x'));
     let clickedX = $(event.currentTarget).attr('x');
     let clickedY = $(event.currentTarget).attr('y');
     
@@ -93,9 +92,9 @@ function generateLevel(x, y, clickedX, clickedY) {
     }
     console.log(level);
 
-    level[clickedX][clickedY] = "test";
+    //level[clickedX][clickedY] = "test";
 
-    console.log(level + 'again');
+    console.log(level);
         
     console.log(round.flags);
     for (k=0; k < round.flags;k++) {
