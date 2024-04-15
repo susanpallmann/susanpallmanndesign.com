@@ -80,10 +80,20 @@ function generateLevel(x, y, clickedX, clickedY) {
     // Creates an array to store our level
     let level = [];
 
+    // Going to represent the states of each cell with another array
+    // First is contents:
+    // 0 = empty
+    // 1-8 = number
+    // 10 = bomb
+    // Second is display:
+    // 0 = unrevealed
+    // 1 = marked
+    // 2 = revealed
+    
     for (i=0; i<x; i++) {
         let column = [];
         for (j=0; j<y; j++) {
-            column[j] = 0;
+            column[j] = [0, 0];
 
             // Creates corresponding grid in the UI with coordinates
             $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
@@ -100,8 +110,9 @@ function generateLevel(x, y, clickedX, clickedY) {
     for (k=0; k < round.flags;k++) {
         let tryX = Math.floor((Math.random() * 8) + 1);
         let tryY = Math.floor((Math.random() * 8) + 1);
-        if (level[tryX][tryY] === 0) {
-            level[tryX][tryY] = "bomb";
+        if (level[tryX][tryY] === [0, 0]) {
+            console.log('the arrays matched');
+            level[tryX][tryY] = [10, 0];
         }
     }
     */
