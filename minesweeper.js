@@ -71,8 +71,6 @@ function prepareGame() {
 }
 
 function generateLevel(x, y, clickedX, clickedY) {
-
-    console.log(clickedX);
     
     // Empties grid of existing elements
     $('#game-grid').empty();
