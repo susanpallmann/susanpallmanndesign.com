@@ -78,6 +78,17 @@ function assessArrayEquality(array1, array2) {
     }      
 }
 
+function attemptPlaceBomb() {
+    let tryX = Math.floor((Math.random() * 7) + 0);
+    let tryY = Math.floor((Math.random() * 7) + 0);
+    if (assessArrayEquality(level[tryX][tryY], [9,0])) {
+        console.log('the arrays matched');
+        level[tryX][tryY] = [10, 0];
+    } else {
+        attemptPlaceBomb();
+    }
+}
+
 function generateLevel(x, y, clickedX, clickedY) {
     
     // Empties grid of existing elements
@@ -99,7 +110,7 @@ function generateLevel(x, y, clickedX, clickedY) {
     for (i=0; i<x; i++) {
         let column = [];
         for (j=0; j<y; j++) {
-            column[j] = [0,0];
+            column[j] = [9,0];
 
             // Creates corresponding grid in the UI with coordinates
             $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
@@ -108,21 +119,17 @@ function generateLevel(x, y, clickedX, clickedY) {
     }
     console.log(JSON.stringify(level))
 
-    level[clickedX][clickedY] = "test";
+    level[clickedX][clickedY] = [0,0];
 
-    console.log(JSON.stringify(level))
+    console.log(JSON.stringify(level));
     
     console.log(round.flags);
     
     for (k=0; k<round.flags; k++) {
         console.log('this ran');
-        let tryX = Math.floor((Math.random() * 7) + 0);
-        let tryY = Math.floor((Math.random() * 7) + 0);
-        if (assessArrayEquality(level[tryX][tryY], [0,0])) {
-            console.log('the arrays matched');
-            level[tryX][tryY] = [10, 0];
-        }
+        attemptPlaceBomb();
     }
+    console.log(JSON.stringify(level));
 }
 
 class Round {
