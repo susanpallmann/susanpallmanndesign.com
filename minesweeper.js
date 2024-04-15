@@ -93,7 +93,7 @@ function generateLevel(x, y, clickedX, clickedY) {
     for (i=0; i<x; i++) {
         let column = [];
         for (j=0; j<y; j++) {
-            column[j] = [0, 0];
+            column[j] = [0,0];
 
             // Creates corresponding grid in the UI with coordinates
             $('#game-grid').append(`<div class="ms-grid ms-uncleared-blank" x="${j}" y="${i}"></div>`);
