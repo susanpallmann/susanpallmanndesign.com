@@ -106,7 +106,8 @@ function generateLevel(x, y, clickedX, clickedY) {
     
     console.log(round.flags);
     
-    for (k=0; k < round.flags;k++) {
+    for (k=0; k<round.flags; k++) {
+        console.log('this ran');
         let tryX = Math.floor((Math.random() * 8) + 1);
         let tryY = Math.floor((Math.random() * 8) + 1);
         console.log(tryX);
