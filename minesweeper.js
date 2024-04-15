@@ -118,7 +118,7 @@ function generateLevel(x, y, clickedX, clickedY) {
         console.log('this ran');
         let tryX = Math.floor((Math.random() * 7) + 0);
         let tryY = Math.floor((Math.random() * 7) + 0);
-        if (assessArrayEquality(level[tryX][tryY], [0,0]) {
+        if (assessArrayEquality(level[tryX][tryY], [0,0])) {
             console.log('the arrays matched');
             level[tryX][tryY] = [10, 0];
         }
