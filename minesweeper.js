@@ -105,10 +105,12 @@ function generateLevel(x, y, clickedX, clickedY) {
     console.log(JSON.stringify(level))
     
     console.log(round.flags);
+    
     for (k=0; k < round.flags;k++) {
         let tryX = Math.floor((Math.random() * 8) + 1);
         let tryY = Math.floor((Math.random() * 8) + 1);
-        
+        console.log(tryX);
+        console.log(level[tryX][tryY]);
         if (level[tryX][tryY] === [0,0]) {
             console.log('the arrays matched');
             level[tryX][tryY] = [10, 0];
