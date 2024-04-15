@@ -95,11 +95,16 @@ function generateLevel(x, y, clickedX, clickedY) {
     level[clickedX][clickedY] = "test";
 
     console.log(JSON.stringify(level))
-        
+    /*    
     console.log(round.flags);
     for (k=0; k < round.flags;k++) {
-        
+        let tryX = Math.floor((Math.random() * 8) + 1);
+        let tryY = Math.floor((Math.random() * 8) + 1);
+        if (level[tryX][tryY] === 0) {
+            level[tryX][tryY] = "bomb";
+        }
     }
+    */
 }
 
 class Round {
