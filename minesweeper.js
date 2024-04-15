@@ -108,11 +108,9 @@ function generateLevel(x, y, clickedX, clickedY) {
     
     for (k=0; k<round.flags; k++) {
         console.log('this ran');
-        let tryX = Math.floor((Math.random() * 8) + 1);
-        let tryY = Math.floor((Math.random() * 8) + 1);
-        console.log(tryX);
-        console.log(level[tryX][tryY]);
-        if (level[tryX][tryY] === [0,0]) {
+        let tryX = Math.floor((Math.random() * 7) + 0);
+        let tryY = Math.floor((Math.random() * 7) + 0);
+        if (level[tryX][tryY] == [0,0]) {
             console.log('the arrays matched');
             level[tryX][tryY] = [10, 0];
         }
