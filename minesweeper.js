@@ -78,14 +78,14 @@ function assessArrayEquality(array1, array2) {
     }      
 }
 
-function attemptPlaceBomb() {
+function attemptPlaceBomb(level) {
     let tryX = Math.floor((Math.random() * 7) + 0);
     let tryY = Math.floor((Math.random() * 7) + 0);
     if (assessArrayEquality(level[tryX][tryY], [9,0])) {
         console.log('the arrays matched');
         level[tryX][tryY] = [10, 0];
     } else {
-        attemptPlaceBomb();
+        attemptPlaceBomb(level);
     }
 }
 
@@ -127,7 +127,7 @@ function generateLevel(x, y, clickedX, clickedY) {
     
     for (k=0; k<round.flags; k++) {
         console.log('this ran');
-        attemptPlaceBomb();
+        attemptPlaceBomb(level);
     }
     console.log(JSON.stringify(level));
 }
