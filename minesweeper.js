@@ -70,6 +70,14 @@ function prepareGame() {
     }
 }
 
+function assessArrayEquality(array1, array2) {
+    if (Array.isArray(array1) && Array.isArray(array2) && array1.length === array2.length && array1.every((val, index) => val === array2[index])) {
+        return true;
+    } else {
+        return false;
+    }      
+}
+
 function generateLevel(x, y, clickedX, clickedY) {
     
     // Empties grid of existing elements
@@ -110,7 +118,7 @@ function generateLevel(x, y, clickedX, clickedY) {
         console.log('this ran');
         let tryX = Math.floor((Math.random() * 7) + 0);
         let tryY = Math.floor((Math.random() * 7) + 0);
-        if (level[tryX][tryY] == [0,0]) {
+        if (assessArrayEquality(level[tryX][tryY], [0,0]) {
             console.log('the arrays matched');
             level[tryX][tryY] = [10, 0];
         }
