@@ -886,7 +886,7 @@ span.tag.selected {
   color: #fff;
   border-radius: 4px;
   display: inline-block;
-  transition: all 0.2s linear;
+  transition: all 0.15s linear;
   margin-top: 0px;
   margin-bottom: 1em;
   min-height: 44px;
