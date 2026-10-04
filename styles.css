@@ -900,8 +900,9 @@ span.tag.selected {
 .button:after {
   
 }
-span.button:hover {
+.button:hover {
   background-color: #E84F4A;
+  color: #fff;
   text-decoration: none;
 }
 
