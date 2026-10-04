@@ -895,6 +895,7 @@ span.tag.selected {
   align-items: center;
   justify-content: center;
   width: fit-content;
+  text-decoration: none;
 }
 .button:after {
   
