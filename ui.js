@@ -1,14 +1,4 @@
-function fixDate() {
-    const listedYear = parseInt($('#copyright-year').text());
-    const currentYear = new Date().getFullYear();
-    if (currentYear > listedYear) {
-        $('#copyright-year').text(currentYear);
-    }
-}
-
 $(document).ready(function () {
-    fixDate();
-    /* Calling functions on load & setting some global variables */
 
     /* Set Global Variables */
     // Retrieves height of viewport
@@ -234,6 +224,7 @@ $(document).ready(function () {
             }, 400);
         }
     });
+    fixDate();
 });
 
 /* Checks URL for search parameters */
@@ -359,6 +350,14 @@ function parallax() {
             }
         });
     });
+}
+
+function fixDate() {
+    const listedYear = parseInt($('#copyright-year').text());
+    const currentYear = new Date().getFullYear();
+    if (currentYear > listedYear) {
+        $('#copyright-year').text(currentYear);
+    }
 }
 
 //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
