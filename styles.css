@@ -1028,6 +1028,7 @@ label {
   color: #666666;
 }
 input[type=submit] {
+   border: none;
   font-family: 'Nunito', helvetica, arial, sans-serif;
   font-size: 1em;
   font-weight: 700;
