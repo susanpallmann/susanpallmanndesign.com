@@ -54,23 +54,7 @@
           }
         );
         $("footer").load("/footer.html");
-        
       });
-
-      function fixDate() {
-          const listedYear = parseInt($('#copyright-year').text());
-          console.log(listedYear);
-          const currentYear = new Date().getFullYear();
-          console.log(currentYear);
-          if (currentYear > listedYear) {
-              $('#copyright-year').text(currentYear);
-          }
-      }
-      
-      $(document).ready(function () {
-        fixDate();
-      });
-      
     </script>
     <script type="text/javascript" src="/ui.js"></script>
   </head>
