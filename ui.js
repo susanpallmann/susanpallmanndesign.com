@@ -1,4 +1,13 @@
+function fixDate() {
+    const listedYear = parseInt($('#copyright-year').text());
+    const currentYear = new Date().getFullYear();
+    if (currentYear > listedYear) {
+        $('#copyright-year').text(currentYear);
+    }
+}
+
 $(document).ready(function () {
+    fixDate();
     /* Calling functions on load & setting some global variables */
 
     /* Set Global Variables */
