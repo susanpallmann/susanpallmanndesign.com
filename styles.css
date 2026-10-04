@@ -1298,6 +1298,7 @@ main .portfolio.column {
   background-image: url("");
   background-size: cover;
   background-position: center;
+  border-radius: 12px;
 }
 .column.hybrid-row .column.project .column.imgParallax {
   background-position-y: -10px;
