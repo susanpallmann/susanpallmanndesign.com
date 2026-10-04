@@ -58,7 +58,9 @@
       });
       function fixDate() {
           const listedYear = parseInt($('#copyright-year').text());
+          console.log(listedYear);
           const currentYear = new Date().getFullYear();
+          console.log(currentYear);
           if (currentYear > listedYear) {
               $('#copyright-year').text(currentYear);
           }
