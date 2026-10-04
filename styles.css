@@ -79,6 +79,18 @@
   opacity: 0.1;
 }
 
+/* Find Care */
+.column.hybrid-row .column.project .column.find-care {
+  background-color: #4AA54A;
+  background-image: url("/images/find-care/thumbnail.png");
+}
+.find-care#hero {
+  background-color: #4AA54A;
+}
+.find-care#hero #dramatic-headline {
+  color: #409e40;
+}
+
 /* See the Bigger Picture */
 .bigger-picture#hero {
   background-color: #6B9287;
