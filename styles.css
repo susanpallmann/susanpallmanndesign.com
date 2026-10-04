@@ -905,7 +905,7 @@ span.tag.selected {
   text-decoration: none;
 }
 
-a:hover button {
+a:hover .button {
   text-decoration: none;
 }
 .link-button {
