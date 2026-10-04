@@ -731,7 +731,7 @@ body {
 }
 h1 {
   font-family: 'Host Grotesk', helvetica, arial, sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   margin: 0;
   font-size: 2.5em;
   line-height: 1.1em;
@@ -747,14 +747,13 @@ h3 {
   font-family: 'Host Grotesk', helvetica, arial, sans-serif;
   font-weight: 600;
   font-size: 1.8em;
-  letter-spacing: 0.03em;
   color: #483C46;
   margin: 0;
   margin-bottom: 1em;
 }
 h4 {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.15em;
   color: #FF5C5C;
   margin: 0 0 1em 0;
