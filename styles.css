@@ -900,12 +900,12 @@ span.tag.selected {
 .button:after {
   
 }
-.button:hover {
+span.button:hover {
   background-color: #E84F4A;
   text-decoration: none;
 }
 
-a:hover .button {
+a span.button:hover {
   text-decoration: none;
 }
 .link-button {
