@@ -681,8 +681,9 @@ nav#horizontal li:after {
 }
 #hero #dramatic-headline {
   color: #ddd;
+  font-family: 'Host Grotesk', helvetica, arial, sans-serif;
   font-size: 20em;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
   line-height: 0;
   top: 50%;
