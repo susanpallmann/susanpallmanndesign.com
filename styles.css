@@ -890,6 +890,10 @@ span.tag.selected {
   margin-top: 0px;
   margin-bottom: 1em;
   min-height: 44px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button:after {
   
