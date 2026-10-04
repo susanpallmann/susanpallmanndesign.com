@@ -81,14 +81,14 @@
 
 /* Find Care */
 .column.hybrid-row .column.project .column.find-care {
-  background-color: #4AA54A;
+  background-color: #598E18;
   background-image: url("/images/find-care/thumbnail.png");
 }
 .find-care#hero {
-  background-color: #4AA54A;
+  background-color: #598E18;
 }
 .find-care#hero #dramatic-headline {
-  color: #409e40;
+  color: #568716;
 }
 
 /* See the Bigger Picture */
