@@ -902,6 +902,7 @@ span.tag.selected {
 }
 .button:hover {
   background-color: #E84F4A;
+  text-decoration: none;
 }
 .link-button {
   font-weight: 700;
