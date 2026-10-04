@@ -904,6 +904,10 @@ span.tag.selected {
   background-color: #E84F4A;
   text-decoration: none;
 }
+
+a:hover button {
+  text-decoration: none;
+}
 .link-button {
   font-weight: 700;
   text-transform: uppercase;
