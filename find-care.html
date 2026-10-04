@@ -102,6 +102,7 @@
               <li>
                 <p>2023-2026</p>
               </li>
+              <br>
               <li><h2>My role</h2></li>
               <li>
                 <p>Lead product design</p>
@@ -119,11 +120,6 @@
           </div>
         </div>
         <div class="row">
-          <div class="column span12 animate-fade-in">
-            <div class="image-padding">
-              <img src="/images/everyday/everyday-mobile-1.png" alt="mobile mockups of Everyday's intro user flow">
-            </div>
-          </div>
           <div class="column span12 animate-fade-in">
             <h3>A better welcome mat</h3>
             <p>
@@ -147,21 +143,38 @@
                 and users were largely left to guess what those were. Searching for "cardiology" would return no results because the API only recognized "cardiolog<em>ist</em>,"
                 for example, but this was never communicated to users.
             </p>
+            <p>
+                The new search experience needed to avoid making a finicky API the user's problem, and this was achieved by working around some of the strictness and anticipating
+                the most common search needs.
+            </p>
           </div>
-          <div class="column span8 md animate-fade-in">
+          <div class="column span12 md animate-fade-in">
             <div class="image-padding">
-              <img src="/images/everyday/everyday-atoms-1.png" alt="some of Everyday's design atoms that make up the larger system">
+              <img src="/images/find-care/find-care-search.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
             </div>
           </div>
-          <div class="column span4 md animate-fade-in">
-            <br>
-            <br>
-            <br>
-            <h3>Atomic Design</h3>
+          <div class="row">
+            <div class="column span5 animate-fade-in">
+              <div class="image-padding">
+                <img src="/images/find-care/find-care-search-cardiology.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+              <div class="image-padding">
+                <img src="/images/find-care/find-care-search-cardiology.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+          </div>
+          <div class="column span7 animate-fade-in">
+            <h4>Keywords and flexible matching</h4>
             <p>
-              Although this app is not currently being developed, it was designed with a future web application in mind. Smaller elements 
-              that were repeated across the whole design were created to be consistent and easy to code with CSS later on.
+                The API's dependency on particular specialties couldn't be changed in the redesign, but the lack of <em>workarounds</em> could.
             </p>
+            <p>
+                We added hundreds of keywords and specialty groupings to allow for more flexible matching.
+            </p>
+            <p>
+                Now the system not only recognizes "cardiology," but also "heart doctor." These flexible search terms still map to the specialties
+                the API expects behind the scenes, but no clinical knowledge is required of the user.
+            </p>
+          </div>
           </div>
         </div>
       </div>
