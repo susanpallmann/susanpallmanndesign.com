@@ -1179,7 +1179,10 @@ footer .button {
   background-image: none;
   margin-top: 0px;
   margin-bottom: 1em;
-  color: #fff
+  color: #fff;
+}
+footer a.button {
+  color: #fff;
 }
 .footer-list.signature-container {
   text-align: center;
