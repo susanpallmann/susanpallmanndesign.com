@@ -1299,6 +1299,7 @@ main .portfolio.column {
   background-size: cover;
   background-position: center;
   border-radius: 12px;
+  overflow: hidden;
 }
 .column.hybrid-row .column.project .column.imgParallax {
   background-position-y: -10px;
