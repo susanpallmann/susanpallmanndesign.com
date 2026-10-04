@@ -55,7 +55,15 @@
           }
         );
         $("footer").load("/footer.html");
+        fixDate();
       });
+      function fixDate() {
+          const listedYear = parseInt($('#copyright-year').text());
+          const currentYear = new Date().getFullYear();
+          if (currentYear > listedYear) {
+              $('#copyright-year').text(currentYear);
+          }
+      }
     </script>
     <script type="text/javascript" src="/ui.js"></script>
   </head>
