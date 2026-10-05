@@ -117,7 +117,8 @@ const websiteState = (function() {
 })();
 
 $('header').find('.menu-button').on('load', () => {
-    initializeHeader();
+    const UI = getUI();
+    UI.menu = new Menu();
 }
 
 $(document).ready(function () {
@@ -126,7 +127,7 @@ $(document).ready(function () {
     const UI = getUI();
     UI.menu = new Menu();
     UI.animationController = new AnimationController();
-    //initializeHeader();
+    initializeHeader();
     
     /* Set Global Variables */
     // Retrieves height of viewport
