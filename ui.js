@@ -520,4 +520,3 @@ $(window).scroll(function () {
         }
     });
 });
-// end
