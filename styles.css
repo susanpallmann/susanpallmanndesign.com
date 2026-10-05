@@ -2227,6 +2227,9 @@ nav .menu-button:hover:before {
     color: #6e1306;
 }
 
+#new-header .column.span-6 {
+    width: 50%;
+}
 
 /* Animations */
 @keyframes wave {
