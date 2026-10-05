@@ -1994,3 +1994,11 @@ body.new-hero #hero-redesign.hero {
 body.new-hero #about-intro {
   display: block !important;
 }
+
+#about-intro h2 {
+  font-family: 'Host Grotesk', helvetica, arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #483c46;
+  margin-bottom: 1rem;
+}
