@@ -1996,7 +1996,7 @@ body.new-hero #about-intro {
 }
 
 /* New theme: about displays */
-body.new-hero .color-block {
+body.new-hero .colorblock {
   display: block !important;
 }
 
