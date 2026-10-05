@@ -1898,7 +1898,7 @@ body.new-hero .colorblock {
 
 #about-intro h2 {
   font-family: 'Host Grotesk', helvetica, arial, sans-serif;
-  font-size: calc(2.4rem * var(--header-multiplier));
+  font-size: calc(2.4 * var(--body-size);
   font-weight: 600;
   color: #7c6464;
   margin-bottom: 1rem;
