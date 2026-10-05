@@ -95,6 +95,15 @@ class AnimationController {
     }
 }
 
+function initializeHeader() {
+    $('#header-logo').on('mouseleave', () => {
+        const patternElement = $('header').find('.pattern-gif');
+        const patternUrl = patternElement.attr('xlink:href');
+        const patternNumber = parseInt(patternUrl.substring(patternUrl.length - 4, patternUrl.length - 5));
+        patternElement.attr('xlink:href', patternUrl.substring(0, patternUrl.length - 5) + (patternNumber + 1 > 3 ? 1 : patternNumber + 1) + '.gif');
+    });
+}
+
 // Control/track website states globally
 const websiteState = (function() {
     const UI = {
@@ -113,7 +122,7 @@ $(document).ready(function () {
     const UI = getUI();
     UI.menu = new Menu();
     UI.animationController = new AnimationController();
-    
+    initializeHeader();
     
     /* Set Global Variables */
     // Retrieves height of viewport
