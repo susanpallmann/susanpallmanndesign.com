@@ -1995,6 +1995,11 @@ body.new-hero #about-intro {
   display: block !important;
 }
 
+/* New theme: about displays */
+body.new-hero .color-block {
+  display: block !important;
+}
+
 #about-intro h2 {
   font-family: 'Host Grotesk', helvetica, arial, sans-serif;
   font-size: 2rem;
