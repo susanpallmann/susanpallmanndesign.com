@@ -1908,7 +1908,7 @@ body.no-animation #hero-redesign.hero .hero-background {
         display: block;
     }
 
-    #hero-redesign .hero {
+    #hero-redesign.hero {
         height: 650px;
     }
 
@@ -1932,7 +1932,7 @@ body.no-animation #hero-redesign.hero .hero-background {
     }
   
     #hero-redesign.hero {
-        height: 700px;
+        height: 650px;
     }
 
     #hero-redesign #hero-text-container {
@@ -1954,7 +1954,7 @@ body.no-animation #hero-redesign.hero .hero-background {
     }
 
     #hero-redesign.hero {
-        height: 600px;
+        height: 675px;
     }
 }
 
