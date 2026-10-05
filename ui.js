@@ -5,6 +5,7 @@ class Menu {
         this.menu = $('#mobile-menu');
         this.state = 'closed';
         this.bindClicks();
+        console.log('header was made');
     }
 
     open() {
@@ -59,6 +60,7 @@ class Menu {
 
     bindClicks() {
         this.button.on('click', () => {
+            console.log('click happened');
             if (this.state === 'open') {
                 this.close();
             } else if (this.state === 'closed') {
