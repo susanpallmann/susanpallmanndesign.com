@@ -527,7 +527,6 @@ nav#horizontal li a {
 nav li:after {
   display:block;
   content: '';
-  border-bottom: solid 3px #FF5C5C;  
   transform: scaleX(0);
   transform-origin:  0% 50%;
 }
