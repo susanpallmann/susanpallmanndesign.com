@@ -116,13 +116,17 @@ const websiteState = (function() {
     };
 })();
 
+$('header').find('.menu-button').on('load', () => {
+    initializeHeader();
+}
+
 $(document).ready(function () {
     /* Initializing global UI state elements */
     /* This *should* do nothing for now since the elements aren't present, but we'll test and ensure we're not getting errors */
     const UI = getUI();
     UI.menu = new Menu();
     UI.animationController = new AnimationController();
-    initializeHeader();
+    //initializeHeader();
     
     /* Set Global Variables */
     // Retrieves height of viewport
