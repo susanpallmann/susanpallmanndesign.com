@@ -50,7 +50,9 @@
         $("header").load("/header.html", 
           function() {
             $("#horiz-portfolio").addClass("selected");
-            $("#vert-portfolio").addClass("selected")
+            $("#vert-portfolio").addClass("selected");
+            const UI = getUI();
+            UI.menu = new Menu();
           }
         );
         $("footer").load("/footer.html",
