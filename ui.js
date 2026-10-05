@@ -137,13 +137,13 @@ $(document).ready(function () {
     // Retrieves full height of page, including what's not visible
     globalPageHeight = getPageHeight();
     // Tracks the current pattern under the ligature
-    pattern = 1;
+    // pattern = 1;
     // Retrieves screen width (there's no horizontal scrolling so this is both viewport and window width)
     screenWidth = screen.width;
 
     /* Calling functions */
     //     Checks URL for sort instructions, acts accordingly
-    sortPortfolio();
+    // sortPortfolio();
     //     Start parallax for hero headers
     heroParallax();
     //     Start parallax on images (on the homepage)
@@ -255,7 +255,7 @@ $(document).ready(function () {
 
     
     /* Ligature Hover Function */
-    $('body').on('mouseleave', 'header .sp-icon', function() {
+    /*$('body').on('mouseleave', 'header .sp-icon', function() {
         // Resets the pattern if the maximum is reached
         if (pattern < 3) {
             pattern++;
@@ -276,7 +276,7 @@ $(document).ready(function () {
             default:
                 $('header').find('.pattern-gif').attr('xlink:href', '/images/Pattern 1.gif');
         }
-    });
+    });*/
 
     /* Ligature Hover Function (Footer Version) */
     $('body').on('mouseleave', 'footer .sp-icon', function() {
@@ -325,7 +325,7 @@ $(document).ready(function () {
     });
 
     /* Hamburger Menu Animation */
-    $('body').on('click', '#top_hamburger', function() {
+    /*$('body').on('click', '#top_hamburger', function() {
         // If the animation is complete
         if ($(this).hasClass("animcomplete")) {
             // Set to incomplete
@@ -354,7 +354,7 @@ $(document).ready(function () {
                 $("#top_hamburger").addClass("animcomplete");
             }, 400);
         }
-    });
+    });*/
     fixDate();
 });
 
@@ -493,7 +493,7 @@ function fixDate() {
 
 //Listen for when the user scrolls and then finishes scrolling (that is, stopped scrolling for 250 milliseconds)
 $(window).scroll(function () {
-    if ($("#false-after").length) {
+    /*if ($("#false-after").length) {
         clearTimeout($.data(this, 'scrollTimer'));
         $.data(this, 'scrollTimer', setTimeout(function () {
             var scrollPosition = getScrollPosition();
@@ -511,7 +511,7 @@ $(window).scroll(function () {
             //Scroll timer value
         }, 100));
     } else {
-    }
+    }*/
     /* Get locations of page bottom and an arbitrary height of each element */
     $('.animate-fade-in').each(function (i) {
         var fadeLocation = $(this).offset().top + 0.25 * ($(window).height());
