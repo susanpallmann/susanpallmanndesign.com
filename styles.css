@@ -1909,7 +1909,7 @@ body.new-hero .colorblock {
 }
   
 /* Header */
-header#new-header {
+header {
     position: sticky;
     overflow: hidden;
     box-sizing: border-box;
@@ -1918,11 +1918,11 @@ header#new-header {
     transition: background-color 0.45s;
 }
 
-header#new-header:hover{
+header:hover{
     background-color: rgba(248, 171, 171, 0.25);
 }
 
-header#new-header:before {
+header:before {
     content: "";
     background-color: var(--pale-pink);
     opacity: 0.8;
@@ -1933,7 +1933,7 @@ header#new-header:before {
     blur: 20px;
 }
 
-header#new-header .header-container {
+header .header-container {
     display: flex;
     position: relative;
     flex-direction: row;
@@ -1942,28 +1942,28 @@ header#new-header .header-container {
     z-index: 2;
 }
 
-header#new-header .header-container .column {
+header .header-container .column {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-header#new-header .header-container .column:nth-child(2) {
+header .header-container .column:nth-child(2) {
     justify-content: right;
 }
 
-header#new-header #header-logo {
+header #header-logo {
     cursor: pointer;
 }
 
-header#new-header nav {
+header nav {
     display: flex;
     flex-direction: row;
     gap: 24px;
     align-items: center;
 }
 
-header#new-header #desktop-menu ul {
+header #desktop-menu ul {
     list-style: none;
     display: none;
     flex-direction: row;
@@ -1972,7 +1972,7 @@ header#new-header #desktop-menu ul {
     height: 44px;
 }
 
-header#new-header nav ul li {
+header nav ul li {
     height: 44px;
     font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -1987,11 +1987,11 @@ header#new-header nav ul li {
     transition: color 0.25s ease-in-out;
 }
 
-header#new-header nav ul li:hover {
+header nav ul li:hover {
     color: #6e1306;
 }
 
-header#new-header nav ul li {
+header nav ul li {
     border-radius: 100px;
     position: relative;
     overflow: hidden;
@@ -2000,7 +2000,7 @@ header#new-header nav ul li {
     justify-content: center;
 }
 
-header#new-header nav ul li:before {
+header nav ul li:before {
     height: 0px;
     width: 0px;
     border-radius: 150px;
@@ -2010,20 +2010,20 @@ header#new-header nav ul li:before {
     transition: all 0.4s ease-in-out;
 }
 
-header#new-header nav ul li:hover:before {
+header nav ul li:hover:before {
     height: 150px;
     width: 150px;
     background-color: rgba(255, 117, 117, 0.1);
 }
 
-body.no-animation header#new-header nav ul li:before {
+body.no-animation header nav ul li:before {
     height: 150px;
     width: 150px;
     background-color: rgba(255, 117, 117, 0);
     transition: all 0.2s ease-in-out;
 }
 
-body.no-animation header#new-header nav ul li:hover:before {
+body.no-animation header nav ul li:hover:before {
     height: 150px;
     width: 150px;
     background-color: rgba(255, 117, 117, 0.1);
@@ -2227,7 +2227,7 @@ nav .menu-button:hover:before {
     color: #6e1306;
 }
 
-#new-header .column.span-6 {
+header .column.span-6 {
     width: 50%;
 }
 
@@ -2305,7 +2305,7 @@ nav .menu-button:hover:before {
         display: none;
     }
 
-    header#new-header #desktop-menu ul {
+    header #desktop-menu ul {
         display: flex;
     }
   
