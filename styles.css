@@ -2209,6 +2209,10 @@ nav .menu-button:hover:before {
     gap: 8px;
 }
 
+.menu.navigation nav a {
+  text-decoration: none;
+}
+
 .menu.navigation nav ul li {
     height: 44px;
     font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
