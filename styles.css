@@ -1965,18 +1965,32 @@ body.no-animation #hero-redesign.hero .hero-background {
     }
 }
 
+/* Old theme: legacy hero displays */
+body #hero {
+  display: block;
+}
+
+/* Old theme: new hero does not display */
 body #hero-redesign.hero {
   display: none !important;
 }
 
-body.new-hero #hero {
-  display: block;
+/* Old theme: about does not display */
+body #about-intro {
+  display: none !important;
 }
 
+/* New theme: legacy hero does not display */
+body.new-hero #hero {
+  display: none;
+}
+
+/* New theme: new hero displays */
 body.new-hero #hero-redesign.hero {
   display: block !important;
 }
 
-body.new-hero #hero {
-  display: none;
+/* New theme: about displays */
+body.new-hero #about-intro {
+  display: block !important;
 }
