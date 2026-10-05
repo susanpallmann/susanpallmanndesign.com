@@ -2189,16 +2189,17 @@ nav .menu-button:hover:before {
 }
 
 .menu.navigation {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    backdrop-filter: blur(40px);
-    z-index: 5;
-    display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  backdrop-filter: blur(40px);
+  z-index: 5;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .menu.navigation nav ul {
@@ -2229,7 +2230,8 @@ nav .menu-button:hover:before {
 }
 
 header .column.span-6 {
-    width: 50%;
+  width: 50%;
+  padding: 0;
 }
 
 header a {
