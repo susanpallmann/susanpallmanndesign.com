@@ -757,6 +757,7 @@ main p {
   margin: 0;
   margin-bottom: 1em;
   display: inline;
+  font-size: var(--body-size);
 }
 .align-right {
   text-align: right;
