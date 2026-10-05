@@ -47,13 +47,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
       $(function(){
-        $("header").load("/header.html");
-        $("footer").load("/footer.html");
+        $("header").load("/header.html", 
+          function() {
+            const UI = getUI();
+            UI.menu = new Menu();
+          }
+        );
+        $("footer").load("/footer.html",
+          function() {
+            const listedYear = parseInt($('#copyright-year').text());
+            const currentYear = new Date().getFullYear();
+            if (currentYear > listedYear) {
+                $('#copyright-year').text(currentYear);
+            }
+          }
+        );
       });
     </script>
     <script type="text/javascript" src="/ui.js"></script>
   </head>
   <body>
+    <div class="menu navigation" id="mobile-menu">
+      <nav>
+        <ul>
+          <a href="/index#portfolio"><li>Work</li></a>
+          <a href="/about"><li>About</li></a>
+          <a href="/contact"><li>Contact</li></a>
+        </ul>
+        <button class="menu-button">
+          <div class="fluid-icon">
+            <div class="fluid-shape"></div>
+            <div class="fluid-shape"></div>
+            <div class="fluid-shape"></div>
+          </div>
+        </button>
+      </nav>
+    </div>
     <header>
       <!-- Our header is over in header.html! -->
     </header>
