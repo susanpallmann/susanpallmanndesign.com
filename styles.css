@@ -1954,7 +1954,7 @@ body.no-animation #hero-redesign.hero .hero-background {
     }
 
     #hero-redesign.hero {
-        height: 700px;
+        height: 600px;
     }
 }
 
@@ -1963,4 +1963,20 @@ body.no-animation #hero-redesign.hero .hero-background {
     #hero-redesign.hero {
         height: 800px;
     }
+}
+
+body #hero-redesign.hero {
+  display: none !important;
+}
+
+body.new-hero #hero {
+  display: block;
+}
+
+body.new-hero #hero-redesign.hero {
+  display: block !important;
+}
+
+body.new-hero #hero {
+  display: none;
 }
