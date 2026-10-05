@@ -119,7 +119,7 @@ const websiteState = (function() {
 $('header').find('.menu-button').on('load', () => {
     const UI = getUI();
     UI.menu = new Menu();
-}
+});
 
 $(document).ready(function () {
     /* Initializing global UI state elements */
