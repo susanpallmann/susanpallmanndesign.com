@@ -135,7 +135,7 @@ $(document).ready(function () {
     // Retrieves full height of page, including what's not visible
     globalPageHeight = getPageHeight();
     // Tracks the current pattern under the ligature
-    // pattern = 1;
+    pattern = 1;
     // Retrieves screen width (there's no horizontal scrolling so this is both viewport and window width)
     screenWidth = screen.width;
 
