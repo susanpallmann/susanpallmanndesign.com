@@ -1997,7 +1997,11 @@ body.new-hero #about-intro {
 
 /* New theme: about displays */
 body.new-hero .colorblock {
-  display: block !important;
+  display: inline-block !important;
+}
+
+#intro-colorblock.colorblock {
+  background-color: #FDF5F5;
 }
 
 #about-intro h2 {
