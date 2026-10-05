@@ -6,7 +6,7 @@
   
   /* Fonts */
   font-size: 16px;
-  --body-size: 16px;
+  --body-size: 18px;
   --header-multiplier: 0.45;
   
   /* Spacing */
@@ -2261,7 +2261,7 @@ header a {
 @media screen and (min-width: 329px) {
     :root {
         font-size: 16px;
-        --body-size: 16px;
+        --body-size: 18px;
         --header-multiplier: 0.6;
         --base-padding: 16px;
         --blob-unit: calc(100vw / 6);
