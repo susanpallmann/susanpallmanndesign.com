@@ -1878,7 +1878,7 @@ body.new-hero #hero {
 
 /* New theme: new hero displays */
 body.new-hero #hero-redesign.hero {
-  display: block !important;
+  display: flex !important;
 }
 
 /* New theme: about displays */
