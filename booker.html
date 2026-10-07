@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Booker | Susan Pallmann's Design Portfolio</title>
+    <!--
+       oooooooo8   oooooooooo  
+      888           888    888 
+       888oooooo    888oooo88  
+              888   888        
+      o88oooo888   o888o       
+     
+      Thanks for taking a peek! If you're really interested in my website, check out the whole project on GitHub:
+      https://github.com/susanpallmann/susanpallmanndesign.com
+    -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130944552-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130944552-4');
+    </script>
+    <meta property="og:title" content="Booker | Susan Pallmann's Design Portfolio">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="/discount-bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/images/favicon.png" >  
+    <meta name="robots" content="index">      
+    <meta name="description" content="Nomad is an app where retirees can plan long-term travel via RV or camper. Our team was directed to conduct a three-week design sprint to design and test a prototype that envisions how conversational AI might help users of the app with complex planning tasks.">
+    <meta property="og:description" content="Nomad is an app where retirees can plan long-term travel via RV or camper. Our team was directed to conduct a three-week design sprint to design and test a prototype that envisions how conversational AI might help users of the app with complex planning tasks.">
+    <meta name="twitter:description" content="Nomad is an app where retirees can plan long-term travel via RV or camper. Our team was directed to conduct a three-week design sprint to design and test a prototype that envisions how conversational AI might help users of the app with complex planning tasks.">    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.susanpallmanndesign.com/booker.html">  
+    <meta property="og:image" content="https://www.susanpallmanndesign.com/images/booker/thumbnail.png">
+    <meta property="og:image:width" content="4800">
+    <meta property="og:image:height" content="2024">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.susanpallmanndesign.com/images/booker/thumbnail.png" />
+    <meta name="twitter:site" content="https://www.susanpallmanndesign.com/"/>
+    <meta property="og:site_name" content="Susan Pallmann's Design Portfolio">
+    <meta name="twitter:title" content="Susan Pallmann's Design Portfolio"/>   
+    <noscript><link rel="stylesheet" type="text/css" href="/no-script.css"></noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("header").load("/header.html", 
+          function() {
+            const UI = getUI();
+            UI.menu = new Menu();
+          }
+        );
+        $("footer").load("/footer.html",
+          function() {
+            const listedYear = parseInt($('#copyright-year').text());
+            const currentYear = new Date().getFullYear();
+            if (currentYear > listedYear) {
+                $('#copyright-year').text(currentYear);
+            }
+          }
+        );
+      });
+    </script>
+    <script type="text/javascript" src="/ui.js"></script>
+  </head>
+  <body>
+    <div class="menu navigation" id="mobile-menu">
+      <nav>
+        <ul>
+          <a href="/index#portfolio"><li>Work</li></a>
+          <a href="/about"><li>About</li></a>
+          <a href="/contact"><li>Contact</li></a>
+        </ul>
+        <button class="menu-button">
+          <div class="fluid-icon">
+            <div class="fluid-shape"></div>
+            <div class="fluid-shape"></div>
+            <div class="fluid-shape"></div>
+          </div>
+        </button>
+      </nav>
+    </div>
+    <header>
+      <!-- Our header is over in header.html! -->
+    </header>
+    <main>
+      <div id="hero" class="booker">
+        <div class="headline-container-container">
+          <div class="headline-container">
+            <p id="dramatic-headline" class="parallax">booker</p>
+          </div>
+          <div class="image-container">
+            <div class="image-max">
+              <div class="image-centered">
+                <img class="parallax" src="/images/booker/hero.png" alt="mobile mockup of the Nomad app">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="column span12">
+            <h2>UI/UX Design</h2>
+            <h1>Booker</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column span9 md animate-fade-in">
+            <h3>Reimagining Humana’s doctor search experience</h3>
+            <p>
+                Millions of people with Humana health insurance visit the website each year to search for covered medical care. In 2022,
+                that experience was tedious and unintuitive, and many users were unable to reach search results at all.
+            </p>
+            <br>
+            <br>
+            <p>
+                My team redesigned and rebuilt the doctor search tool from the ground up with usability the first priority. The new search experience
+                improved user satisfaction scores and reduced calls to the customer service call center but most importantly:
+            </p>
+            <br>
+            <br>
+            <p>
+                It ensured more people are able to find covered care in their time of need.
+            </p>
+          </div>
+          <div class="column span3 md animate-fade-in" id="project-meta">
+               <li><h2>Website</h2></li>
+                 <li><p><a href="https://findcare.humana.com" target="_blank"  rel="noreferrer">findcare.humana.com</a></p></li>
+              <br>
+            <li><h2>Date</h2></li>
+              <li>
+                <p>2023-2026</p>
+              </li>
+              <br>
+              <li><h2>My role</h2></li>
+              <li>
+                <p>Lead product design</p>
+              </li>
+              <li>
+                <p>UX strategy</p>
+              </li>
+              <li>
+                <p>Research</p>
+              </li>
+              <li>
+                <p>Design system</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column span12 animate-fade-in">
+            <h3>A better welcome mat</h3>
+            <p>
+                Before people can search for in-network doctors, they need to provide a location to search in and which insurance plan they have. In the legacy search tool
+                this step was so difficult some users never even got to begin their search.
+            </p>
+            <br>
+            <br>
+            <p>
+                The new experience breaks the collection of this information into smaller, approachable steps. Options for filling in this information is surfaced in the moments
+                where it matters most. Today nearly all users make it to the search page, and though the number of steps is unchanged, the percieved effort is lower.
+            </p>
+          </div>
+          <div class="column span12 animate-fade-in">
+            <div class="image-padding">
+              <img src="/images/find-care/find-care-guest-flow.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
+            </div>
+          </div>
+          <div class="column span12 animate-fade-in">
+            <h3>Search, for humans</h3>
+            <p>
+                The search tool previously struggled to support the search terms people actually use. The search API required specific, clinical specialty names,
+                and users were largely left to guess what those were. Searching for "cardiology" would return no results because the API only recognized "cardiolog<em>ist</em>,"
+                for example, but this was never communicated to users.
+            </p>
+            <br>
+            <br>
+            <p>
+                The new search experience needed to avoid making a finicky API the user's problem, and this was achieved by working around some of the strictness and anticipating
+                the most common search needs.
+            </p>
+          </div>
+          <div class="column span12 md animate-fade-in">
+            <div class="image-padding">
+              <img src="/images/find-care/find-care-search.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
+            </div>
+          </div>
+          <div class="row  reverse-order">
+            <div class="column span5 animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-400" src="/images/find-care/find-care-search-cardiology.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+              <div class="image-padding">
+                <img class="max-width-400" src="/images/find-care/find-care-search-heart.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+            </div>
+            <div class="column span7 animate-fade-in">
+              <h4>Keywords and flexible matching</h4>
+              <p>
+                  The API's dependency on particular specialties couldn't be changed in the redesign, but the lack of <em>workarounds</em> could.
+              </p>
+              <br>
+            <br>
+              <p>
+                  We added hundreds of keywords and specialty groupings to allow for more flexible matching.
+              </p>
+              <br>
+            <br>
+              <p>
+                  Now the system not only recognizes "cardiology," but also "heart doctor." These flexible search terms still map to the specialties
+                  the API expects behind the scenes, but no clinical knowledge is required of the user.
+              </p>
+            </div>
+          </div>
+           <div class="row">
+              <div class="column span6 animate-fade-in">
+              <h4>Common searches</h4>
+              <p>
+                  If figuring out a search term still feels daunting, now the search offers one-click ways to fill in the most common search terms before a single letter is typed.
+              </p>
+            </div>
+            <div class="column span6 animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-400" src="/images/find-care/find-care-common-searches.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+            </div>
+          </div>
+          <div class="row reverse-order">
+            <div class="column span6 animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-400" src="/images/find-care/find-care-quick-searches.png" alt="user flow diagram, divided by new, starting, and experienced users">
+              </div>
+            </div>
+              <div class="column span6 animate-fade-in">
+              <h4>Quick searches</h4>
+              <p>
+                    "Quick search" buttons beneath the search bar now make up 30-40% of all searches performed today.
+                </p>
+                <br>
+            <br>
+                <p>
+                    Searches performed using these buttons are significantly more likely to get results compared to free-text searches.
+                </p>
+                <br>
+            <br>
+                <p>
+                    This means not only are people getting through the search step quickly, but they're also getting better results.
+                </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column span12 animate-fade-in">
+              <h3>Focused results</h3>
+              <p>
+                Once someone reached results, the legacy experience posed still another challenge: each doctor listed displayed with an overwhelming amount of information, much
+                of which drowned out the details needed to make a choice.
+              </p>
+              <br>
+              <br>
+              <p>
+                The redesign focused on helping people make confident decisions when choosing a doctor. Results needed to be appropriate, relevant, and easy to compare.
+              </p>
+              <br>
+              <br>
+                <p>
+                  Research showed that location and distance were one of the most important factors to users, so the redesigned results page honored this need with a
+                  side by side view of results and a map, accomodated by a horizontal filters layout. People can now see exactly how far away an office is, or what
+                  implications the location might have for transportation.
+                </p>
+            </div>
+            <div class="column span12 animate-fade-in">
+              <div class="image-padding">
+                <img src="/images/find-care/find-care-results.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column span6 animate-fade-in">
+              <h4>Result cards</h4>
+              <p>
+                The top decision-making information identified in research were given appropriate hierarchy on the doctor result cards, and the secondary information was relegated
+                to the doctor's additional details page.
+              </p>
+            </div>
+            <div class="column span6 animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-600" src="/images/find-care/find-care-result-card.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
+              </div>
+            </div>
+          </div>
+          <div class="row reverse-order">
+            <div class="column span6 animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-450" src="/images/find-care/find-care-filter.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
+              </div>
+            </div>
+            <div class="column span6 animate-fade-in">
+              <h4>Filters</h4>
+              <p>
+                Filters were also reworked to prioritize what users told us was most valuable to them. High-priority filters were set up to be sticky so that they are
+                accessible at any point in the browsing process.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column span12 animate-fade-in">
+              <h3>Outcomes</h3>
+              <p>
+                The redesigned doctor search outperformed the legacy experience on the user feedback survey, with participants reporting higher satisfaction and more frequent success
+                finding doctors on average.
+              </p>
+              <br>
+              <br>
+              <p>
+                Calls into Humana's call center after using the search tool reduced, suggesting that people were better able to self-service using the tool and needed assistance
+                less often.
+              </p>
+              <br>
+              <br>
+              <p>
+                In the first year, the number of repeat visits has increased, and the number of searches per visit has decreased. People are finding what they're
+                searching for on their first try, and they're coming back again the next time they have a need.
+              </p>
+            </div>
+          </div>
+        <div class="row">
+          <div class="column span12">
+            <a href="/index" target="_self"><span class="button">‹ Portfolio</span></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- Our footer is over in footer.html! -->
+    </footer>
+  </body>
+</html>
