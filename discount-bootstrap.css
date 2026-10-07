@@ -19,6 +19,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.row.reverse-order {
+  flex-direction: column-reverse;
+}
 .column.hybrid-row {
   display: flex;
   flex-wrap: wrap;
@@ -190,6 +193,9 @@
   }
   .column.span6 {
     width: 50%;
+  }
+  .row.reverse-order {
+  flex-direction: column;
   }
   .column.span7 {
     width: 58.34%;
