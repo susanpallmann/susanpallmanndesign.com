@@ -57,10 +57,10 @@
   background-color: #D34B22;
   background-image: url("/images/booker/thumbnail.png");
 }
-.find-care#hero {
+.booker#hero {
   background-color: #D34B22;
 }
-.find-care#hero #dramatic-headline {
+.booker#hero #dramatic-headline {
   color: #CD451C;
 }
 
