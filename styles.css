@@ -2242,6 +2242,16 @@ header a {
   text-decoration: none;
 }
 
+img.max-width-350 {
+  max-width: 350px;
+  height: auto;
+}
+
+img.max-width-400 {
+  max-width: 400px;
+  height: auto;
+}
+
 /* Animations */
 @keyframes wave {
     0%   { transform: translateY(15.2%) }
