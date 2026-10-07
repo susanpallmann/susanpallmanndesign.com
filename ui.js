@@ -96,6 +96,7 @@ class AnimationController {
 }
 
 function initializeHeader() {
+    console.log('this ran');
     $('#header-logo').on('mouseleave', () => {
         const patternElement = $('header').find('.pattern-gif');
         const patternUrl = patternElement.attr('xlink:href');
