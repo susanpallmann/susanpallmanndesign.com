@@ -2335,6 +2335,13 @@ header a {
 
 img.max-height-200 {
   max-height: 200px;
+  width: auto;
+}
+
+
+img.max-height-250 {
+  max-height: 250px;
+  width: auto;
 }
 
 /* Large screens */
