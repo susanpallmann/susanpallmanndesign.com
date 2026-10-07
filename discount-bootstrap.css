@@ -195,7 +195,7 @@
     width: 50%;
   }
   .row.reverse-order {
-  flex-direction: column;
+  flex-direction: row;
   }
   .column.span7 {
     width: 58.34%;
