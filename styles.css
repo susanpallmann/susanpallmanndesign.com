@@ -2254,6 +2254,11 @@ img.max-width-400 {
   height: auto;
 }
 
+img.max-width-450 {
+  max-width: 450px;
+  height: auto;
+}
+
 /* Animations */
 @keyframes wave {
     0%   { transform: translateY(15.2%) }
