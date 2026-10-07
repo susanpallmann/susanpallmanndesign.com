@@ -7,6 +7,7 @@
   /* Fonts */
   font-size: 16px;
   --body-size: 16px;
+  --header-size: 14px;
   --header-multiplier: 0.45;
   
   /* Spacing */
@@ -1898,7 +1899,7 @@ body.new-hero .colorblock {
 
 #about-intro h2 {
   font-family: 'Host Grotesk', helvetica, arial, sans-serif;
-  font-size: calc(2.4 * var(--body-size));
+  font-size: calc(2.4 * var(--header-size));
   font-weight: 600;
   color: #7c6464;
   margin-bottom: 1rem;
@@ -2273,6 +2274,7 @@ img.max-width-400 {
     :root {
         font-size: 16px;
         --body-size: 18px;
+        --header-size: 16px;
         --header-multiplier: 0.6;
         --base-padding: 16px;
         --blob-unit: calc(100vw / 6);
@@ -2353,6 +2355,7 @@ img.max-width-400 {
 
 @media screen and (min-width: 1100px) {
     :root {
+        --header-size: 18px;
         --header-multiplier: 1;
         --blob-unit: calc(100vw / 19.2);
     }
