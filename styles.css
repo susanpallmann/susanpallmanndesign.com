@@ -1034,6 +1034,7 @@ img {
 }
 .image-padding {
   box-sizing: border-box;
+  text-align: center;
 }
 img.sketch {
   background-color: rgba(255, 92, 92, 0.15);
