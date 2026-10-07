@@ -17,6 +17,10 @@
   --blob-unit: calc(100vw / 6);
 }
 
+body.off-white {
+  background-color: #FBF8F2;
+}
+
 /* Project-Specific Styles */
 /* Hero header gradient */
 .gradient#hero {
