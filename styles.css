@@ -2333,6 +2333,10 @@ header a {
     }
 }
 
+img.max-height-200 {
+  max-height: 200px;
+}
+
 /* Large screens */
 @media screen and (min-width: 865px) {
     #hero-redesign #hero-text-container {
