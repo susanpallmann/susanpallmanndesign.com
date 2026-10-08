@@ -250,14 +250,19 @@
               <br>
               <br>
               <p>
-                We explored having Booker support this type of search since users are not required to enter much new information (as this would be burdensome in a conversational experience) and the search API could be connected to an LLM via
-                "skills." To avoid hallucinations around things like pricing, the design was for Booker to interpret the user's search intent and turn that into an API request. From there a list of result cards as a contained "widget" would be loaded inline
-                to the experience to display the information returned.
+                We explored this use case within "Booker." To avoid hallucinations around things like pricing, the design was for Booker to interpret the user's search intent and turn that into an API request. From there a list of result cards as a 
+                contained "widget" would be loaded inline to the experience to display the information returned.
               </p>
               <br>
               <br>
+              <div class="pull-quote">
+                <p class="quote">"Oh! Thank you, Booker"</p>
+                <p class="quote-attribution">Participant</p>
+              </div>
+              <br>
+              <br>
               <p>
-                Follow up requests are supported using the search API's native filters, and to see more detail the user can click on any of the suggested stays to get the conventional search result bottom sheet.
+                Filtering is as simple as a follow up question, and to see more detail the user can click on any of the suggested stays to read more.
               </p>
             </div>
           </div>
@@ -277,114 +282,54 @@
                 <img class="max-width-450" src="/images/booker/booker-scenario-2-bottom-sheet.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
               </div>
             </div>
-           <div class="row">
-              <div class="column span6 animate-fade-in">
-              <h4>Common searches</h4>
-              <p>
-                  If figuring out a search term still feels daunting, now the search offers one-click ways to fill in the most common search terms before a single letter is typed.
-              </p>
-            </div>
-            <div class="column span6 animate-fade-in">
-              <div class="image-padding">
-                <img class="max-width-400" src="/images/find-care/find-care-common-searches.png" alt="user flow diagram, divided by new, starting, and experienced users">
-              </div>
-            </div>
-          </div>
-          <div class="row reverse-order">
-            <div class="column span6 animate-fade-in">
-              <div class="image-padding">
-                <img class="max-width-400" src="/images/find-care/find-care-quick-searches.png" alt="user flow diagram, divided by new, starting, and experienced users">
-              </div>
-            </div>
-              <div class="column span6 animate-fade-in">
-              <h4>Quick searches</h4>
-              <p>
-                    "Quick search" buttons beneath the search bar now make up 30-40% of all searches performed today.
-                </p>
-                <br>
-            <br>
-                <p>
-                    Searches performed using these buttons are significantly more likely to get results compared to free-text searches.
-                </p>
-                <br>
-            <br>
-                <p>
-                    This means not only are people getting through the search step quickly, but they're also getting better results.
-                </p>
-            </div>
           </div>
           <div class="row">
             <div class="column span12 animate-fade-in">
-              <h3>Focused results</h3>
+              <h3>Putting the pieces together</h3>
               <p>
-                Once someone reached results, the legacy experience posed still another challenge: each doctor listed displayed with an overwhelming amount of information, much
-                of which drowned out the details needed to make a choice.
+                Our analytics showed that users would often bounce back and forth between Stays and Budget in the app, wanting to see how their choice of campsite impacted their trip budget.
               </p>
               <br>
               <br>
               <p>
-                The redesign focused on helping people make confident decisions when choosing a doctor. Results needed to be appropriate, relevant, and easy to compare.
+                For this sprint we wondered if a conversational experience might reduce the need for navigating between the pages and help narrow the information to the specific decision being made in the moment.
               </p>
               <br>
               <br>
-                <p>
-                  Research showed that location and distance were one of the most important factors to users, so the redesigned results page honored this need with a
-                  side by side view of results and a map, accomodated by a horizontal filters layout. People can now see exactly how far away an office is, or what
-                  implications the location might have for transportation.
-                </p>
+              <p>
+                Like the search experience, we envisioned this using embedded widgets where accuracy was essential or visual elements helped explain things better.
+              </p>
             </div>
+          </div>
+        <div class="row">
+            <div class="column span4 md animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-450" src="/images/booker/booker-scenario-3.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
+              </div>
+            </div>
+            <div class="column span4 md animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-450" src="/images/booker/booker-scenario-3-bottom-sheet.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
+              </div>
+            </div>
+            <div class="column span4 md animate-fade-in">
+              <div class="image-padding">
+                <img class="max-width-450" src="/images/booker/booker-scenario-4.png" alt="Find care's search page, featuring one-click 'quick searches' to help users who struggle to figure out a search term.">
+              </div>
+            </div>
+          </div>
+        <div class="row">
             <div class="column span12 animate-fade-in">
-              <div class="image-padding">
-                <img src="/images/find-care/find-care-results.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="column span6 animate-fade-in">
-              <h4>Result cards</h4>
+              <h3>Results & reflection</h3>
               <p>
-                The top decision-making information identified in research were given appropriate hierarchy on the doctor result cards, and the secondary information was relegated
-                to the doctor's additional details page.
-              </p>
-            </div>
-            <div class="column span6 animate-fade-in">
-              <div class="image-padding">
-                <img class="max-width-600" src="/images/find-care/find-care-result-card.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
-              </div>
-            </div>
-          </div>
-          <div class="row reverse-order">
-            <div class="column span6 animate-fade-in">
-              <div class="image-padding">
-                <img class="max-width-450" src="/images/find-care/find-care-filter.png" alt="mobile mockups of Find Care's guest flow, where users enter their location, type of care, and plan network">
-              </div>
-            </div>
-            <div class="column span6 animate-fade-in">
-              <h4>Filters</h4>
-              <p>
-                Filters were also reworked to prioritize what users told us was most valuable to them. High-priority filters were set up to be sticky so that they are
-                accessible at any point in the browsing process.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="column span12 animate-fade-in">
-              <h3>Outcomes</h3>
-              <p>
-                The redesigned doctor search outperformed the legacy experience on the user feedback survey, with participants reporting higher satisfaction and more frequent success
-                finding doctors on average.
+                Overall, we were surprised by the openness to LLM features from our target audience, seniors. However, considering the familiarity of most users with texting and the appreciation for having their search terms "just work,"
+                it is now easy to see why.
               </p>
               <br>
               <br>
               <p>
-                Calls into Humana's call center after using the search tool reduced, suggesting that people were better able to self-service using the tool and needed assistance
-                less often.
-              </p>
-              <br>
-              <br>
-              <p>
-                In the first year, the number of repeat visits has increased, and the number of searches per visit has decreased. People are finding what they're
-                searching for on their first try, and they're coming back again the next time they have a need.
+                Although we did focus our efforts on use cases where AI's strengths would be utilized, it is possible that non-AI solutions to some of these applications would work just as well, or even better. Given more time and exploration, I would
+                have liked to dig deeper into what the best solution for the users' needs truly is, and not just how best to use AI. The problem should always dictate the solution; not the other way around.
               </p>
             </div>
           </div>
