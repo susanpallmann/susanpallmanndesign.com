@@ -17,6 +17,29 @@
   --blob-unit: calc(100vw / 6);
 }
 
+.pull-quote {
+    padding: 16px 0;
+    margin: 16px 32px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pull-quote .quote {
+    color: #FF5C5C
+    font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.case-page .pull-quote .attribution {
+    color: #918279;
+    font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0.25em;
+}
+
 body.off-white {
   background-color: #FBF8F2;
 }
