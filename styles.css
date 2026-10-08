@@ -31,15 +31,17 @@
     font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
+    margin: 0;
 }
 
-.pull-quote .attribution {
+.pull-quote .quote-attribution {
     color: #918279;
     font-family: "Host Grotesk", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     font-style: italic;
     margin-top: 0.25em;
+    margin: 0;
 }
 
 body.off-white {
