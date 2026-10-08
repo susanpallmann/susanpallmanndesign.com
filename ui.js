@@ -97,6 +97,7 @@ class AnimationController {
 
 function initializeHeader() {
     $('#header-logo').on('mouseleave', () => {
+        console.log('mouse leave detected');
         const patternElement = $('header').find('.pattern-gif');
         const patternUrl = patternElement.attr('xlink:href');
         const patternNumber = parseInt(patternUrl.substring(patternUrl.length - 4, patternUrl.length - 5));
