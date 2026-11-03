@@ -17,6 +17,10 @@
   --blob-unit: calc(100vw / 6);
 }
 
+.column.align-center {
+  align-content: center;
+}
+
 .pull-quote {
     padding: 16px 0;
     margin: 16px 32px;
